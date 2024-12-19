@@ -2,7 +2,7 @@
   "name": "MAP_SHARED_ADVANCED_CONTROL",
   "description": null,
   "isConstant": true,
-  "type": "mapflag",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapFlag(8192*8)",
   "isNullable": false,

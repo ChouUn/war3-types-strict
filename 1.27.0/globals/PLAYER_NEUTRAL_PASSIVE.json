@@ -2,7 +2,7 @@
   "name": "PLAYER_NEUTRAL_PASSIVE",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "GetPlayerNeutralPassive()",
   "isNullable": false,

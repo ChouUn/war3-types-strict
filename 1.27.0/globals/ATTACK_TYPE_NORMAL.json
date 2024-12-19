@@ -2,7 +2,7 @@
   "name": "ATTACK_TYPE_NORMAL",
   "description": null,
   "isConstant": true,
-  "type": "attacktype",
+  "type": null,
   "isArray": false,
   "value": "ConvertAttackType(0)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "CAMERA_FIELD_TARGET_DISTANCE",
   "description": null,
   "isConstant": true,
-  "type": "camerafield",
+  "type": null,
   "isArray": false,
   "value": "ConvertCameraField(0)",
   "isNullable": false,

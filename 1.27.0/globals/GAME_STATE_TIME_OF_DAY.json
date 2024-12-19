@@ -2,7 +2,7 @@
   "name": "GAME_STATE_TIME_OF_DAY",
   "description": null,
   "isConstant": true,
-  "type": "fgamestate",
+  "type": null,
   "isArray": false,
   "value": "ConvertFGameState(2)",
   "isNullable": false,

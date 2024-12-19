@@ -2,7 +2,7 @@
   "name": "WEAPON_TYPE_WHOKNOWS",
   "description": null,
   "isConstant": true,
-  "type": "weapontype",
+  "type": null,
   "isArray": false,
   "value": "ConvertWeaponType(0)",
   "isNullable": false,

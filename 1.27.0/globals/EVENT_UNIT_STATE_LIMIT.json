@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_STATE_LIMIT",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(59)",
   "isNullable": false,

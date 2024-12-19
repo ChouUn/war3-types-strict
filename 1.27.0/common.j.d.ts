@@ -3,6 +3,8 @@
 // ====================
 // ==== BASE TYPES ====
 // ====================
+type Option<T> = T | undefined;
+
 declare type real = number & { readonly __real: never; }
 declare type integer = number & { readonly __integer: never; }
 declare type handle = number & { readonly __handle: never; }
@@ -538,7 +540,7 @@ declare const WEAPON_TYPE_WOOD_MEDIUM_STAB: weapontype;
 // =================
 declare function AbilityId(abilityIdString: string): number;
 
-declare function AbilityId2String(abilityId: integer): string | undefined;
+declare function AbilityId2String(abilityId: integer): Option<string>;
 
 declare function Acos(x: real): number;
 
@@ -550,31 +552,31 @@ declare function AddItemToAllStock(itemId: integer, currentStock: integer, stock
 
 declare function AddItemToStock(whichUnit: unit, itemId: integer, currentStock: integer, stockMax: integer): void;
 
-declare function AddLightning(codeName: string, checkVisibility: boolean, x1: real, y1: real, x2: real, y2: real): lightning | undefined;
+declare function AddLightning(codeName: string, checkVisibility: boolean, x1: real, y1: real, x2: real, y2: real): Option<lightning>;
 
-declare function AddLightningEx(codeName: string, checkVisibility: boolean, x1: real, y1: real, z1: real, x2: real, y2: real, z2: real): lightning | undefined;
+declare function AddLightningEx(codeName: string, checkVisibility: boolean, x1: real, y1: real, z1: real, x2: real, y2: real, z2: real): Option<lightning>;
 
 declare function AddPlayerTechResearched(whichPlayer: player, techid: integer, levels: integer): void;
 
 declare function AddResourceAmount(whichUnit: unit, amount: integer): void;
 
-declare function AddSpecialEffect(modelName: string, x: real, y: real): effect | undefined;
+declare function AddSpecialEffect(modelName: string, x: real, y: real): Option<effect>;
 
-declare function AddSpecialEffectLoc(modelName: string, where: location): effect | undefined;
+declare function AddSpecialEffectLoc(modelName: string, where: location): Option<effect>;
 
-declare function AddSpecialEffectTarget(modelName: string, targetWidget: widget, attachPointName: string): effect | undefined;
+declare function AddSpecialEffectTarget(modelName: string, targetWidget: widget, attachPointName: string): Option<effect>;
 
-declare function AddSpellEffect(abilityString: string, t: effecttype, x: real, y: real): effect | undefined;
+declare function AddSpellEffect(abilityString: string, t: effecttype, x: real, y: real): Option<effect>;
 
-declare function AddSpellEffectById(abilityId: integer, t: effecttype, x: real, y: real): effect | undefined;
+declare function AddSpellEffectById(abilityId: integer, t: effecttype, x: real, y: real): Option<effect>;
 
-declare function AddSpellEffectByIdLoc(abilityId: integer, t: effecttype, where: location): effect | undefined;
+declare function AddSpellEffectByIdLoc(abilityId: integer, t: effecttype, where: location): Option<effect>;
 
-declare function AddSpellEffectLoc(abilityString: string, t: effecttype, where: location): effect | undefined;
+declare function AddSpellEffectLoc(abilityString: string, t: effecttype, where: location): Option<effect>;
 
-declare function AddSpellEffectTarget(modelName: string, t: effecttype, targetWidget: widget, attachPoint: string): effect | undefined;
+declare function AddSpellEffectTarget(modelName: string, t: effecttype, targetWidget: widget, attachPoint: string): Option<effect>;
 
-declare function AddSpellEffectTargetById(abilityId: integer, t: effecttype, targetWidget: widget, attachPoint: string): effect | undefined;
+declare function AddSpellEffectTargetById(abilityId: integer, t: effecttype, targetWidget: widget, attachPoint: string): Option<effect>;
 
 declare function AddUnitAnimationProperties(whichUnit: unit, animProperties: string, add: boolean): void;
 
@@ -582,7 +584,7 @@ declare function AddUnitToAllStock(unitId: integer, currentStock: integer, stock
 
 declare function AddUnitToStock(whichUnit: unit, unitId: integer, currentStock: integer, stockMax: integer): void;
 
-declare function AddWeatherEffect(where: rect, effectID: integer): weathereffect | undefined;
+declare function AddWeatherEffect(where: rect, effectID: integer): Option<weathereffect>;
 
 declare function AdjustCameraField(whichField: camerafield, offset: real, duration: real): void;
 
@@ -650,167 +652,167 @@ declare function CommandAI(num: player, command: integer, data: integer): void;
 
 declare function Condition(func: code): conditionfunc;
 
-declare function ConvertAIDifficulty(i: integer): aidifficulty | undefined;
+declare function ConvertAIDifficulty(i: integer): Option<aidifficulty>;
 
-declare function ConvertAllianceType(i: integer): alliancetype | undefined;
+declare function ConvertAllianceType(i: integer): Option<alliancetype>;
 
-declare function ConvertAttackType(i: integer): attacktype | undefined;
+declare function ConvertAttackType(i: integer): Option<attacktype>;
 
-declare function ConvertBlendMode(i: integer): blendmode | undefined;
+declare function ConvertBlendMode(i: integer): Option<blendmode>;
 
-declare function ConvertCameraField(i: integer): camerafield | undefined;
+declare function ConvertCameraField(i: integer): Option<camerafield>;
 
-declare function ConvertDamageType(i: integer): damagetype | undefined;
+declare function ConvertDamageType(i: integer): Option<damagetype>;
 
-declare function ConvertDialogEvent(i: integer): dialogevent | undefined;
+declare function ConvertDialogEvent(i: integer): Option<dialogevent>;
 
-declare function ConvertEffectType(i: integer): effecttype | undefined;
+declare function ConvertEffectType(i: integer): Option<effecttype>;
 
-declare function ConvertFGameState(i: integer): fgamestate | undefined;
+declare function ConvertFGameState(i: integer): Option<fgamestate>;
 
-declare function ConvertFogState(i: integer): fogstate | undefined;
+declare function ConvertFogState(i: integer): Option<fogstate>;
 
-declare function ConvertGameDifficulty(i: integer): gamedifficulty | undefined;
+declare function ConvertGameDifficulty(i: integer): Option<gamedifficulty>;
 
-declare function ConvertGameEvent(i: integer): gameevent | undefined;
+declare function ConvertGameEvent(i: integer): Option<gameevent>;
 
-declare function ConvertGameSpeed(i: integer): gamespeed | undefined;
+declare function ConvertGameSpeed(i: integer): Option<gamespeed>;
 
-declare function ConvertGameType(i: integer): gametype | undefined;
+declare function ConvertGameType(i: integer): Option<gametype>;
 
-declare function ConvertIGameState(i: integer): igamestate | undefined;
+declare function ConvertIGameState(i: integer): Option<igamestate>;
 
-declare function ConvertItemType(i: integer): itemtype | undefined;
+declare function ConvertItemType(i: integer): Option<itemtype>;
 
-declare function ConvertLimitOp(i: integer): limitop | undefined;
+declare function ConvertLimitOp(i: integer): Option<limitop>;
 
-declare function ConvertMapControl(i: integer): mapcontrol | undefined;
+declare function ConvertMapControl(i: integer): Option<mapcontrol>;
 
-declare function ConvertMapDensity(i: integer): mapdensity | undefined;
+declare function ConvertMapDensity(i: integer): Option<mapdensity>;
 
-declare function ConvertMapFlag(i: integer): mapflag | undefined;
+declare function ConvertMapFlag(i: integer): Option<mapflag>;
 
-declare function ConvertMapSetting(i: integer): mapsetting | undefined;
+declare function ConvertMapSetting(i: integer): Option<mapsetting>;
 
-declare function ConvertMapVisibility(i: integer): mapvisibility | undefined;
+declare function ConvertMapVisibility(i: integer): Option<mapvisibility>;
 
-declare function ConvertPathingType(i: integer): pathingtype | undefined;
+declare function ConvertPathingType(i: integer): Option<pathingtype>;
 
-declare function ConvertPlacement(i: integer): placement | undefined;
+declare function ConvertPlacement(i: integer): Option<placement>;
 
-declare function ConvertPlayerColor(i: integer): playercolor | undefined;
+declare function ConvertPlayerColor(i: integer): Option<playercolor>;
 
-declare function ConvertPlayerEvent(i: integer): playerevent | undefined;
+declare function ConvertPlayerEvent(i: integer): Option<playerevent>;
 
-declare function ConvertPlayerGameResult(i: integer): playergameresult | undefined;
+declare function ConvertPlayerGameResult(i: integer): Option<playergameresult>;
 
-declare function ConvertPlayerScore(i: integer): playerscore | undefined;
+declare function ConvertPlayerScore(i: integer): Option<playerscore>;
 
-declare function ConvertPlayerSlotState(i: integer): playerslotstate | undefined;
+declare function ConvertPlayerSlotState(i: integer): Option<playerslotstate>;
 
-declare function ConvertPlayerState(i: integer): playerstate | undefined;
+declare function ConvertPlayerState(i: integer): Option<playerstate>;
 
-declare function ConvertPlayerUnitEvent(i: integer): playerunitevent | undefined;
+declare function ConvertPlayerUnitEvent(i: integer): Option<playerunitevent>;
 
-declare function ConvertRace(i: integer): race | undefined;
+declare function ConvertRace(i: integer): Option<race>;
 
-declare function ConvertRacePref(i: integer): racepreference | undefined;
+declare function ConvertRacePref(i: integer): Option<racepreference>;
 
-declare function ConvertRarityControl(i: integer): raritycontrol | undefined;
+declare function ConvertRarityControl(i: integer): Option<raritycontrol>;
 
-declare function ConvertSoundType(i: integer): soundtype | undefined;
+declare function ConvertSoundType(i: integer): Option<soundtype>;
 
-declare function ConvertStartLocPrio(i: integer): startlocprio | undefined;
+declare function ConvertStartLocPrio(i: integer): Option<startlocprio>;
 
-declare function ConvertTexMapFlags(i: integer): texmapflags | undefined;
+declare function ConvertTexMapFlags(i: integer): Option<texmapflags>;
 
-declare function ConvertUnitEvent(i: integer): unitevent | undefined;
+declare function ConvertUnitEvent(i: integer): Option<unitevent>;
 
-declare function ConvertUnitState(i: integer): unitstate | undefined;
+declare function ConvertUnitState(i: integer): Option<unitstate>;
 
-declare function ConvertUnitType(i: integer): unittype | undefined;
+declare function ConvertUnitType(i: integer): Option<unittype>;
 
-declare function ConvertVersion(i: integer): version | undefined;
+declare function ConvertVersion(i: integer): Option<version>;
 
-declare function ConvertVolumeGroup(i: integer): volumegroup | undefined;
+declare function ConvertVolumeGroup(i: integer): Option<volumegroup>;
 
-declare function ConvertWeaponType(i: integer): weapontype | undefined;
+declare function ConvertWeaponType(i: integer): Option<weapontype>;
 
-declare function ConvertWidgetEvent(i: integer): widgetevent | undefined;
+declare function ConvertWidgetEvent(i: integer): Option<widgetevent>;
 
 declare function CopySaveGame(sourceSaveName: string, destSaveName: string): boolean;
 
 declare function Cos(radians: real): number;
 
-declare function CreateBlightedGoldmine(id: player, x: real, y: real, face: real): unit | undefined;
+declare function CreateBlightedGoldmine(id: player, x: real, y: real, face: real): Option<unit>;
 
 declare function CreateCameraSetup(): camerasetup;
 
-declare function CreateCorpse(whichPlayer: player, unitid: integer, x: real, y: real, face: real): unit | undefined;
+declare function CreateCorpse(whichPlayer: player, unitid: integer, x: real, y: real, face: real): Option<unit>;
 
-declare function CreateDeadDestructable(objectid: integer, x: real, y: real, face: real, scale: real, variation: integer): destructable | undefined;
+declare function CreateDeadDestructable(objectid: integer, x: real, y: real, face: real, scale: real, variation: integer): Option<destructable>;
 
-declare function CreateDeadDestructableZ(objectid: integer, x: real, y: real, z: real, face: real, scale: real, variation: integer): destructable | undefined;
+declare function CreateDeadDestructableZ(objectid: integer, x: real, y: real, z: real, face: real, scale: real, variation: integer): Option<destructable>;
 
-declare function CreateDefeatCondition(): defeatcondition | undefined;
+declare function CreateDefeatCondition(): Option<defeatcondition>;
 
-declare function CreateDestructable(objectid: integer, x: real, y: real, face: real, scale: real, variation: integer): destructable | undefined;
+declare function CreateDestructable(objectid: integer, x: real, y: real, face: real, scale: real, variation: integer): Option<destructable>;
 
-declare function CreateDestructableZ(objectid: integer, x: real, y: real, z: real, face: real, scale: real, variation: integer): destructable | undefined;
+declare function CreateDestructableZ(objectid: integer, x: real, y: real, z: real, face: real, scale: real, variation: integer): Option<destructable>;
 
-declare function CreateFogModifierRadius(forWhichPlayer: player, whichState: fogstate, centerx: real, centerY: real, radius: real, useSharedVision: boolean, afterUnits: boolean): fogmodifier | undefined;
+declare function CreateFogModifierRadius(forWhichPlayer: player, whichState: fogstate, centerx: real, centerY: real, radius: real, useSharedVision: boolean, afterUnits: boolean): Option<fogmodifier>;
 
-declare function CreateFogModifierRadiusLoc(forWhichPlayer: player, whichState: fogstate, center: location, radius: real, useSharedVision: boolean, afterUnits: boolean): fogmodifier | undefined;
+declare function CreateFogModifierRadiusLoc(forWhichPlayer: player, whichState: fogstate, center: location, radius: real, useSharedVision: boolean, afterUnits: boolean): Option<fogmodifier>;
 
-declare function CreateFogModifierRect(forWhichPlayer: player, whichState: fogstate, where: rect, useSharedVision: boolean, afterUnits: boolean): fogmodifier | undefined;
+declare function CreateFogModifierRect(forWhichPlayer: player, whichState: fogstate, where: rect, useSharedVision: boolean, afterUnits: boolean): Option<fogmodifier>;
 
-declare function CreateForce(): force | undefined;
+declare function CreateForce(): Option<force>;
 
-declare function CreateGroup(): group | undefined;
+declare function CreateGroup(): Option<group>;
 
-declare function CreateImage(file: string, sizeX: real, sizeY: real, sizeZ: real, posX: real, posY: real, posZ: real, originX: real, originY: real, originZ: real, imageType: integer): image | undefined;
+declare function CreateImage(file: string, sizeX: real, sizeY: real, sizeZ: real, posX: real, posY: real, posZ: real, originX: real, originY: real, originZ: real, imageType: integer): Option<image>;
 
-declare function CreateItem(itemid: integer, x: real, y: real): item | undefined;
+declare function CreateItem(itemid: integer, x: real, y: real): Option<item>;
 
-declare function CreateItemPool(): itempool | undefined;
+declare function CreateItemPool(): Option<itempool>;
 
-declare function CreateLeaderboard(): leaderboard | undefined;
+declare function CreateLeaderboard(): Option<leaderboard>;
 
-declare function CreateMIDISound(soundLabel: string, fadeInRate: integer, fadeOutRate: integer): sound | undefined;
+declare function CreateMIDISound(soundLabel: string, fadeInRate: integer, fadeOutRate: integer): Option<sound>;
 
-declare function CreateMultiboard(): multiboard | undefined;
+declare function CreateMultiboard(): Option<multiboard>;
 
-declare function CreateQuest(): quest | undefined;
+declare function CreateQuest(): Option<quest>;
 
 declare function CreateRegion(): region;
 
-declare function CreateSound(fileName: string, looping: boolean, is3D: boolean, stopwhenoutofrange: boolean, fadeInRate: integer, fadeOutRate: integer, eaxSetting: string): sound | undefined;
+declare function CreateSound(fileName: string, looping: boolean, is3D: boolean, stopwhenoutofrange: boolean, fadeInRate: integer, fadeOutRate: integer, eaxSetting: string): Option<sound>;
 
-declare function CreateSoundFilenameWithLabel(fileName: string, looping: boolean, is3D: boolean, stopwhenoutofrange: boolean, fadeInRate: integer, fadeOutRate: integer, SLKEntryName: string): sound | undefined;
+declare function CreateSoundFilenameWithLabel(fileName: string, looping: boolean, is3D: boolean, stopwhenoutofrange: boolean, fadeInRate: integer, fadeOutRate: integer, SLKEntryName: string): Option<sound>;
 
-declare function CreateSoundFromLabel(soundLabel: string, looping: boolean, is3D: boolean, stopwhenoutofrange: boolean, fadeInRate: integer, fadeOutRate: integer): sound | undefined;
+declare function CreateSoundFromLabel(soundLabel: string, looping: boolean, is3D: boolean, stopwhenoutofrange: boolean, fadeInRate: integer, fadeOutRate: integer): Option<sound>;
 
-declare function CreateTextTag(): texttag | undefined;
+declare function CreateTextTag(): Option<texttag>;
 
 declare function CreateTimer(): timer;
 
-declare function CreateTimerDialog(t: timer): timerdialog | undefined;
+declare function CreateTimerDialog(t: timer): Option<timerdialog>;
 
-declare function CreateTrackable(trackableModelPath: string, x: real, y: real, facing: real): trackable | undefined;
+declare function CreateTrackable(trackableModelPath: string, x: real, y: real, facing: real): Option<trackable>;
 
 declare function CreateTrigger(): trigger;
 
-declare function CreateUbersplat(x: real, y: real, name: string, red: integer, green: integer, blue: integer, alpha: integer, forcePaused: boolean, noBirthTime: boolean): ubersplat | undefined;
+declare function CreateUbersplat(x: real, y: real, name: string, red: integer, green: integer, blue: integer, alpha: integer, forcePaused: boolean, noBirthTime: boolean): Option<ubersplat>;
 
-declare function CreateUnit(id: player, unitid: integer, x: real, y: real, face: real): unit | undefined;
+declare function CreateUnit(id: player, unitid: integer, x: real, y: real, face: real): Option<unit>;
 
-declare function CreateUnitAtLoc(id: player, unitid: integer, whichLocation: location, face: real): unit | undefined;
+declare function CreateUnitAtLoc(id: player, unitid: integer, whichLocation: location, face: real): Option<unit>;
 
-declare function CreateUnitAtLocByName(id: player, unitname: string, whichLocation: location, face: real): unit | undefined;
+declare function CreateUnitAtLocByName(id: player, unitname: string, whichLocation: location, face: real): Option<unit>;
 
-declare function CreateUnitByName(whichPlayer: player, unitname: string, x: real, y: real, face: real): unit | undefined;
+declare function CreateUnitByName(whichPlayer: player, unitname: string, x: real, y: real, face: real): Option<unit>;
 
-declare function CreateUnitPool(): unitpool | undefined;
+declare function CreateUnitPool(): Option<unitpool>;
 
 declare function CripplePlayer(whichPlayer: player, toWhichPlayers: force, flag: boolean): void;
 
@@ -866,13 +868,13 @@ declare function DestroyUnitPool(whichPool: unitpool): void;
 
 declare function DestructableRestoreLife(d: destructable, life: real, birth: boolean): void;
 
-declare function DialogAddButton(whichDialog: dialog, buttonText: string, hotkey: integer): button | undefined;
+declare function DialogAddButton(whichDialog: dialog, buttonText: string, hotkey: integer): Option<button>;
 
-declare function DialogAddQuitButton(whichDialog: dialog, doScoreScreen: boolean, buttonText: string, hotkey: integer): button | undefined;
+declare function DialogAddQuitButton(whichDialog: dialog, doScoreScreen: boolean, buttonText: string, hotkey: integer): Option<button>;
 
 declare function DialogClear(whichDialog: dialog): void;
 
-declare function DialogCreate(): dialog | undefined;
+declare function DialogCreate(): Option<dialog>;
 
 declare function DialogDestroy(whichDialog: dialog): void;
 
@@ -922,9 +924,9 @@ declare function EndGame(doScoreScreen: boolean): void;
 
 declare function EndThematicMusic(): void;
 
-declare function EnumDestructablesInRect(r: rect, filter: boolexpr | undefined, actionFunc: code): void;
+declare function EnumDestructablesInRect(r: rect, filter: Option<boolexpr>, actionFunc: code): void;
 
-declare function EnumItemsInRect(r: rect, filter: boolexpr | undefined, actionFunc: code): void;
+declare function EnumItemsInRect(r: rect, filter: Option<boolexpr>, actionFunc: code): void;
 
 declare function ExecuteFunc(funcName: string): void;
 
@@ -932,7 +934,7 @@ declare function Filter(func: code): filterfunc;
 
 declare function FinishUbersplat(whichSplat: ubersplat): void;
 
-declare function FirstOfGroup(whichGroup: group): unit | undefined;
+declare function FirstOfGroup(whichGroup: group): Option<unit>;
 
 declare function FlashQuestDialogButton(): void;
 
@@ -976,7 +978,7 @@ declare function ForceEnumEnemies(whichForce: force, whichPlayer: player, filter
 
 declare function ForceEnumPlayers(whichForce: force, filter?: boolexpr): void;
 
-declare function ForceEnumPlayersCounted(whichForce: force, filter: boolexpr | undefined, countLimit: integer): void;
+declare function ForceEnumPlayersCounted(whichForce: force, filter: Option<boolexpr>, countLimit: integer): void;
 
 declare function ForcePlayerStartLocation(whichPlayer: player, startLocIndex: integer): void;
 
@@ -992,21 +994,21 @@ declare function ForForce(whichForce: force, callback: code): void;
 
 declare function ForGroup(whichGroup: group, callback: code): void;
 
-declare function GetAbilityEffect(abilityString: string, t: effecttype, index: integer): string | undefined;
+declare function GetAbilityEffect(abilityString: string, t: effecttype, index: integer): Option<string>;
 
-declare function GetAbilityEffectById(abilityId: integer, t: effecttype, index: integer): string | undefined;
+declare function GetAbilityEffectById(abilityId: integer, t: effecttype, index: integer): Option<string>;
 
-declare function GetAbilitySound(abilityString: string, t: soundtype): string | undefined;
+declare function GetAbilitySound(abilityString: string, t: soundtype): Option<string>;
 
-declare function GetAbilitySoundById(abilityId: integer, t: soundtype): string | undefined;
+declare function GetAbilitySoundById(abilityId: integer, t: soundtype): Option<string>;
 
-declare function GetAIDifficulty(num: player): aidifficulty | undefined;
+declare function GetAIDifficulty(num: player): Option<aidifficulty>;
 
 declare function GetAllyColorFilterState(): number;
 
-declare function GetAttacker(): unit | undefined;
+declare function GetAttacker(): Option<unit>;
 
-declare function GetBuyingUnit(): unit | undefined;
+declare function GetBuyingUnit(): Option<unit>;
 
 declare function GetCameraBoundMaxX(): number;
 
@@ -1016,7 +1018,7 @@ declare function GetCameraBoundMinX(): number;
 
 declare function GetCameraBoundMinY(): number;
 
-declare function GetCameraEyePositionLoc(): location | undefined;
+declare function GetCameraEyePositionLoc(): Option<location>;
 
 declare function GetCameraEyePositionX(): number;
 
@@ -1028,7 +1030,7 @@ declare function GetCameraField(whichField: camerafield): number;
 
 declare function GetCameraMargin(whichMargin: integer): number;
 
-declare function GetCameraTargetPositionLoc(): location | undefined;
+declare function GetCameraTargetPositionLoc(): Option<location>;
 
 declare function GetCameraTargetPositionX(): number;
 
@@ -1036,35 +1038,35 @@ declare function GetCameraTargetPositionY(): number;
 
 declare function GetCameraTargetPositionZ(): number;
 
-declare function GetCancelledStructure(): unit | undefined;
+declare function GetCancelledStructure(): Option<unit>;
 
-declare function GetChangingUnit(): unit | undefined;
+declare function GetChangingUnit(): Option<unit>;
 
-declare function GetChangingUnitPrevOwner(): player | undefined;
+declare function GetChangingUnitPrevOwner(): Option<player>;
 
-declare function GetClickedButton(): button | undefined;
+declare function GetClickedButton(): Option<button>;
 
-declare function GetClickedDialog(): dialog | undefined;
+declare function GetClickedDialog(): Option<dialog>;
 
-declare function GetConstructedStructure(): unit | undefined;
+declare function GetConstructedStructure(): Option<unit>;
 
-declare function GetConstructingStructure(): unit | undefined;
+declare function GetConstructingStructure(): Option<unit>;
 
-declare function GetCreatureDensity(): mapdensity | undefined;
+declare function GetCreatureDensity(): Option<mapdensity>;
 
 declare function GetCreepCampFilterState(): boolean;
 
 declare function GetCustomCampaignButtonVisible(whichButton: integer): boolean;
 
-declare function GetDecayingUnit(): unit | undefined;
+declare function GetDecayingUnit(): Option<unit>;
 
-declare function GetDefaultDifficulty(): gamedifficulty | undefined;
+declare function GetDefaultDifficulty(): Option<gamedifficulty>;
 
 declare function GetDestructableLife(d: destructable): number;
 
 declare function GetDestructableMaxLife(d: destructable): number;
 
-declare function GetDestructableName(d: destructable): string | undefined;
+declare function GetDestructableName(d: destructable): Option<string>;
 
 declare function GetDestructableOccluderHeight(d: destructable): number;
 
@@ -1074,47 +1076,47 @@ declare function GetDestructableX(d: destructable): number;
 
 declare function GetDestructableY(d: destructable): number;
 
-declare function GetDetectedUnit(): unit | undefined;
+declare function GetDetectedUnit(): Option<unit>;
 
-declare function GetDyingUnit(): unit | undefined;
+declare function GetDyingUnit(): Option<unit>;
 
-declare function GetEnteringUnit(): unit | undefined;
+declare function GetEnteringUnit(): Option<unit>;
 
-declare function GetEnumDestructable(): destructable | undefined;
+declare function GetEnumDestructable(): Option<destructable>;
 
-declare function GetEnumItem(): item | undefined;
+declare function GetEnumItem(): Option<item>;
 
-declare function GetEnumPlayer(): player | undefined;
+declare function GetEnumPlayer(): Option<player>;
 
-declare function GetEnumUnit(): unit | undefined;
+declare function GetEnumUnit(): Option<unit>;
 
 declare function GetEventDamage(): number;
 
-declare function GetEventDamageSource(): unit | undefined;
+declare function GetEventDamageSource(): Option<unit>;
 
-declare function GetEventDetectingPlayer(): player | undefined;
+declare function GetEventDetectingPlayer(): Option<player>;
 
-declare function GetEventGameState(): gamestate | undefined;
+declare function GetEventGameState(): Option<gamestate>;
 
-declare function GetEventPlayerChatString(): string | undefined;
+declare function GetEventPlayerChatString(): Option<string>;
 
-declare function GetEventPlayerChatStringMatched(): string | undefined;
+declare function GetEventPlayerChatStringMatched(): Option<string>;
 
-declare function GetEventPlayerState(): playerstate | undefined;
+declare function GetEventPlayerState(): Option<playerstate>;
 
-declare function GetEventTargetUnit(): unit | undefined;
+declare function GetEventTargetUnit(): Option<unit>;
 
-declare function GetEventUnitState(): unitstate | undefined;
+declare function GetEventUnitState(): Option<unitstate>;
 
-declare function GetExpiredTimer(): timer | undefined;
+declare function GetExpiredTimer(): Option<timer>;
 
-declare function GetFilterDestructable(): destructable | undefined;
+declare function GetFilterDestructable(): Option<destructable>;
 
-declare function GetFilterItem(): item | undefined;
+declare function GetFilterItem(): Option<item>;
 
-declare function GetFilterPlayer(): player | undefined;
+declare function GetFilterPlayer(): Option<player>;
 
-declare function GetFilterUnit(): unit | undefined;
+declare function GetFilterUnit(): Option<unit>;
 
 declare function GetFloatGameState(whichFloatGameState: fgamestate): number;
 
@@ -1122,13 +1124,13 @@ declare function GetFoodMade(unitId: integer): number;
 
 declare function GetFoodUsed(unitId: integer): number;
 
-declare function GetGameDifficulty(): gamedifficulty | undefined;
+declare function GetGameDifficulty(): Option<gamedifficulty>;
 
-declare function GetGamePlacement(): placement | undefined;
+declare function GetGamePlacement(): Option<placement>;
 
-declare function GetGameSpeed(): gamespeed | undefined;
+declare function GetGameSpeed(): Option<gamespeed>;
 
-declare function GetGameTypeSelected(): gametype | undefined;
+declare function GetGameTypeSelected(): Option<gametype>;
 
 declare function GetHandleId(h: handle): number;
 
@@ -1138,7 +1140,7 @@ declare function GetHeroInt(whichHero: unit, includeBonuses: boolean): number;
 
 declare function GetHeroLevel(whichHero: unit): number;
 
-declare function GetHeroProperName(whichHero: unit): string | undefined;
+declare function GetHeroProperName(whichHero: unit): Option<string>;
 
 declare function GetHeroSkillPoints(whichHero: unit): number;
 
@@ -1154,11 +1156,11 @@ declare function GetItemCharges(whichItem: item): number;
 
 declare function GetItemLevel(whichItem: item): number;
 
-declare function GetItemName(whichItem: item): string | undefined;
+declare function GetItemName(whichItem: item): Option<string>;
 
-declare function GetItemPlayer(whichItem: item): player | undefined;
+declare function GetItemPlayer(whichItem: item): Option<player>;
 
-declare function GetItemType(whichItem: item): itemtype | undefined;
+declare function GetItemType(whichItem: item): Option<itemtype>;
 
 declare function GetItemTypeId(i: item): number;
 
@@ -1168,17 +1170,17 @@ declare function GetItemX(i: item): number;
 
 declare function GetItemY(i: item): number;
 
-declare function GetKillingUnit(): unit | undefined;
+declare function GetKillingUnit(): Option<unit>;
 
 declare function GetLearnedSkill(): number;
 
 declare function GetLearnedSkillLevel(): number;
 
-declare function GetLearningUnit(): unit | undefined;
+declare function GetLearningUnit(): Option<unit>;
 
-declare function GetLeavingUnit(): unit | undefined;
+declare function GetLeavingUnit(): Option<unit>;
 
-declare function GetLevelingUnit(): unit | undefined;
+declare function GetLevelingUnit(): Option<unit>;
 
 declare function GetLightningColorA(whichBolt: lightning): number;
 
@@ -1188,11 +1190,11 @@ declare function GetLightningColorG(whichBolt: lightning): number;
 
 declare function GetLightningColorR(whichBolt: lightning): number;
 
-declare function GetLoadedUnit(): unit | undefined;
+declare function GetLoadedUnit(): Option<unit>;
 
 declare function GetLocalizedHotkey(source: string): number;
 
-declare function GetLocalizedString(source: string): string | undefined;
+declare function GetLocalizedString(source: string): Option<string>;
 
 declare function GetLocalPlayer(): player;
 
@@ -1202,27 +1204,27 @@ declare function GetLocationY(whichLocation: location): number;
 
 declare function GetLocationZ(whichLocation: location): number;
 
-declare function GetManipulatedItem(): item | undefined;
+declare function GetManipulatedItem(): Option<item>;
 
-declare function GetManipulatingUnit(): unit | undefined;
+declare function GetManipulatingUnit(): Option<unit>;
 
-declare function GetObjectName(objectId: integer): string | undefined;
+declare function GetObjectName(objectId: integer): Option<string>;
 
-declare function GetOrderedUnit(): unit | undefined;
+declare function GetOrderedUnit(): Option<unit>;
 
-declare function GetOrderPointLoc(): location | undefined;
+declare function GetOrderPointLoc(): Option<location>;
 
 declare function GetOrderPointX(): number;
 
 declare function GetOrderPointY(): number;
 
-declare function GetOrderTarget(): widget | undefined;
+declare function GetOrderTarget(): Option<widget>;
 
-declare function GetOrderTargetDestructable(): destructable | undefined;
+declare function GetOrderTargetDestructable(): Option<destructable>;
 
-declare function GetOrderTargetItem(): item | undefined;
+declare function GetOrderTargetItem(): Option<item>;
 
-declare function GetOrderTargetUnit(): unit | undefined;
+declare function GetOrderTargetUnit(): Option<unit>;
 
 declare function GetOwningPlayer(whichUnit: unit): player;
 
@@ -1238,9 +1240,9 @@ declare function GetPlayerHandicapXP(whichPlayer: player): number;
 
 declare function GetPlayerId(whichPlayer: player): number;
 
-declare function GetPlayerName(whichPlayer: player): string | undefined;
+declare function GetPlayerName(whichPlayer: player): Option<string>;
 
-declare function GetPlayerRace(whichPlayer: player): race | undefined;
+declare function GetPlayerRace(whichPlayer: player): Option<race>;
 
 declare function GetPlayers(): number;
 
@@ -1286,27 +1288,27 @@ declare function GetRectMinX(whichRect: rect): number;
 
 declare function GetRectMinY(whichRect: rect): number;
 
-declare function GetRescuer(): unit | undefined;
+declare function GetRescuer(): Option<unit>;
 
 declare function GetResearched(): number;
 
-declare function GetResearchingUnit(): unit | undefined;
+declare function GetResearchingUnit(): Option<unit>;
 
 declare function GetResourceAmount(whichUnit: unit): number;
 
-declare function GetResourceDensity(): mapdensity | undefined;
+declare function GetResourceDensity(): Option<mapdensity>;
 
-declare function GetRevivableUnit(): unit | undefined;
+declare function GetRevivableUnit(): Option<unit>;
 
-declare function GetRevivingUnit(): unit | undefined;
+declare function GetRevivingUnit(): Option<unit>;
 
-declare function GetSaveBasicFilename(): string | undefined;
+declare function GetSaveBasicFilename(): Option<string>;
 
-declare function GetSellingUnit(): unit | undefined;
+declare function GetSellingUnit(): Option<unit>;
 
-declare function GetSoldItem(): item | undefined;
+declare function GetSoldItem(): Option<item>;
 
-declare function GetSoldUnit(): unit | undefined;
+declare function GetSoldUnit(): Option<unit>;
 
 declare function GetSoundDuration(soundHandle: sound): number;
 
@@ -1316,31 +1318,31 @@ declare function GetSoundIsLoading(soundHandle: sound): boolean;
 
 declare function GetSoundIsPlaying(soundHandle: sound): boolean;
 
-declare function GetSpellAbility(): ability | undefined;
+declare function GetSpellAbility(): Option<ability>;
 
 declare function GetSpellAbilityId(): number;
 
-declare function GetSpellAbilityUnit(): unit | undefined;
+declare function GetSpellAbilityUnit(): Option<unit>;
 
-declare function GetSpellTargetDestructable(): destructable | undefined;
+declare function GetSpellTargetDestructable(): Option<destructable>;
 
-declare function GetSpellTargetItem(): item | undefined;
+declare function GetSpellTargetItem(): Option<item>;
 
-declare function GetSpellTargetLoc(): location | undefined;
+declare function GetSpellTargetLoc(): Option<location>;
 
-declare function GetSpellTargetUnit(): unit | undefined;
+declare function GetSpellTargetUnit(): Option<unit>;
 
 declare function GetSpellTargetX(): number;
 
 declare function GetSpellTargetY(): number;
 
-declare function GetStartLocationLoc(whichStartLocation: integer): location | undefined;
+declare function GetStartLocationLoc(whichStartLocation: integer): Option<location>;
 
 declare function GetStartLocationX(whichStartLocation: integer): number;
 
 declare function GetStartLocationY(whichStartLocation: integer): number;
 
-declare function GetStartLocPrio(whichStartLoc: integer, prioSlotIndex: integer): startlocprio | undefined;
+declare function GetStartLocPrio(whichStartLoc: integer, prioSlotIndex: integer): Option<startlocprio>;
 
 declare function GetStartLocPrioSlot(whichStartLoc: integer, prioSlotIndex: integer): number;
 
@@ -1350,11 +1352,11 @@ declare function GetStoredInteger(cache: gamecache, missionKey: string, key: str
 
 declare function GetStoredReal(cache: gamecache, missionKey: string, key: string): number;
 
-declare function GetStoredString(cache: gamecache, missionKey: string, key: string): string | undefined;
+declare function GetStoredString(cache: gamecache, missionKey: string, key: string): Option<string>;
 
-declare function GetSummonedUnit(): unit | undefined;
+declare function GetSummonedUnit(): Option<unit>;
 
-declare function GetSummoningUnit(): unit | undefined;
+declare function GetSummoningUnit(): Option<unit>;
 
 declare function GetTeams(): number;
 
@@ -1366,7 +1368,7 @@ declare function GetTerrainVariance(x: real, y: real): number;
 
 declare function GetTimeOfDayScale(): number;
 
-declare function GetTournamentFinishNowPlayer(): player | undefined;
+declare function GetTournamentFinishNowPlayer(): Option<player>;
 
 declare function GetTournamentFinishNowRule(): number;
 
@@ -1374,31 +1376,31 @@ declare function GetTournamentFinishSoonTimeRemaining(): number;
 
 declare function GetTournamentScore(whichPlayer: player): number;
 
-declare function GetTrainedUnit(): unit | undefined;
+declare function GetTrainedUnit(): Option<unit>;
 
 declare function GetTrainedUnitType(): number;
 
-declare function GetTransportUnit(): unit | undefined;
+declare function GetTransportUnit(): Option<unit>;
 
-declare function GetTriggerDestructable(): destructable | undefined;
+declare function GetTriggerDestructable(): Option<destructable>;
 
 declare function GetTriggerEvalCount(whichTrigger: trigger): number;
 
-declare function GetTriggerEventId(): eventid | undefined;
+declare function GetTriggerEventId(): Option<eventid>;
 
 declare function GetTriggerExecCount(whichTrigger: trigger): number;
 
-declare function GetTriggeringRegion(): region | undefined;
+declare function GetTriggeringRegion(): Option<region>;
 
-declare function GetTriggeringTrackable(): trackable | undefined;
+declare function GetTriggeringTrackable(): Option<trackable>;
 
-declare function GetTriggeringTrigger(): trigger | undefined;
+declare function GetTriggeringTrigger(): Option<trigger>;
 
-declare function GetTriggerPlayer(): player | undefined;
+declare function GetTriggerPlayer(): Option<player>;
 
-declare function GetTriggerUnit(): unit | undefined;
+declare function GetTriggerUnit(): Option<unit>;
 
-declare function GetTriggerWidget(): widget | undefined;
+declare function GetTriggerWidget(): Option<widget>;
 
 declare function GetUnitAbilityLevel(whichUnit: unit, abilcode: integer): number;
 
@@ -1430,7 +1432,7 @@ declare function GetUnitLoc(whichUnit: unit): location;
 
 declare function GetUnitMoveSpeed(whichUnit: unit): number;
 
-declare function GetUnitName(whichUnit: unit): string | undefined;
+declare function GetUnitName(whichUnit: unit): Option<string>;
 
 declare function GetUnitPointValue(whichUnit: unit): number;
 
@@ -1440,11 +1442,11 @@ declare function GetUnitPropWindow(whichUnit: unit): number;
 
 declare function GetUnitRace(whichUnit: unit): race;
 
-declare function GetUnitRallyDestructable(whichUnit: unit): destructable | undefined;
+declare function GetUnitRallyDestructable(whichUnit: unit): Option<destructable>;
 
-declare function GetUnitRallyPoint(whichUnit: unit): location | undefined;
+declare function GetUnitRallyPoint(whichUnit: unit): Option<location>;
 
-declare function GetUnitRallyUnit(whichUnit: unit): unit | undefined;
+declare function GetUnitRallyUnit(whichUnit: unit): Option<unit>;
 
 declare function GetUnitState(whichUnit: unit, whichUnitState: unitstate): number;
 
@@ -1464,9 +1466,9 @@ declare function GetWidgetX(whichWidget: widget): number;
 
 declare function GetWidgetY(whichWidget: widget): number;
 
-declare function GetWinningPlayer(): player | undefined;
+declare function GetWinningPlayer(): Option<player>;
 
-declare function GetWorldBounds(): rect | undefined;
+declare function GetWorldBounds(): Option<rect>;
 
 declare function GroupAddUnit(whichGroup: group, whichUnit: unit): void;
 
@@ -1474,21 +1476,21 @@ declare function GroupClear(whichGroup: group): void;
 
 declare function GroupEnumUnitsInRange(whichGroup: group, x: real, y: real, radius: real, filter?: boolexpr): void;
 
-declare function GroupEnumUnitsInRangeCounted(whichGroup: group, x: real, y: real, radius: real, filter: boolexpr | undefined, countLimit: integer): void;
+declare function GroupEnumUnitsInRangeCounted(whichGroup: group, x: real, y: real, radius: real, filter: Option<boolexpr>, countLimit: integer): void;
 
 declare function GroupEnumUnitsInRangeOfLoc(whichGroup: group, whichLocation: location, radius: real, filter?: boolexpr): void;
 
-declare function GroupEnumUnitsInRangeOfLocCounted(whichGroup: group, whichLocation: location, radius: real, filter: boolexpr | undefined, countLimit: integer): void;
+declare function GroupEnumUnitsInRangeOfLocCounted(whichGroup: group, whichLocation: location, radius: real, filter: Option<boolexpr>, countLimit: integer): void;
 
 declare function GroupEnumUnitsInRect(whichGroup: group, r: rect, filter?: boolexpr): void;
 
-declare function GroupEnumUnitsInRectCounted(whichGroup: group, r: rect, filter: boolexpr | undefined, countLimit: integer): void;
+declare function GroupEnumUnitsInRectCounted(whichGroup: group, r: rect, filter: Option<boolexpr>, countLimit: integer): void;
 
 declare function GroupEnumUnitsOfPlayer(whichGroup: group, whichPlayer: player, filter?: boolexpr): void;
 
 declare function GroupEnumUnitsOfType(whichGroup: group, unitname: string, filter?: boolexpr): void;
 
-declare function GroupEnumUnitsOfTypeCounted(whichGroup: group, unitname: string, filter: boolexpr | undefined, countLimit: integer): void;
+declare function GroupEnumUnitsOfTypeCounted(whichGroup: group, unitname: string, filter: Option<boolexpr>, countLimit: integer): void;
 
 declare function GroupEnumUnitsSelected(whichGroup: group, whichPlayer: player, filter?: boolexpr): void;
 
@@ -1532,13 +1534,13 @@ declare function HaveStoredUnit(cache: gamecache, missionKey: string, key: strin
 
 declare function I2R(i: integer): number;
 
-declare function I2S(i: integer): string | undefined;
+declare function I2S(i: integer): Option<string>;
 
 declare function IncUnitAbilityLevel(whichUnit: unit, abilcode: integer): number;
 
-declare function InitGameCache(campaignFile: string): gamecache | undefined;
+declare function InitGameCache(campaignFile: string): Option<gamecache>;
 
-declare function InitHashtable(): hashtable | undefined;
+declare function InitHashtable(): Option<hashtable>;
 
 declare function IsCineFilterDisplayed(): boolean;
 
@@ -1738,7 +1740,7 @@ declare function LeaderboardDisplay(lb: leaderboard, show: boolean): void;
 
 declare function LeaderboardGetItemCount(lb: leaderboard): number;
 
-declare function LeaderboardGetLabelText(lb: leaderboard): string | undefined;
+declare function LeaderboardGetLabelText(lb: leaderboard): Option<string>;
 
 declare function LeaderboardGetPlayerIndex(lb: leaderboard, p: player): number;
 
@@ -1774,91 +1776,91 @@ declare function LeaderboardSortItemsByPlayer(lb: leaderboard, ascending: boolea
 
 declare function LeaderboardSortItemsByValue(lb: leaderboard, ascending: boolean): void;
 
-declare function LoadAbilityHandle(table: hashtable, parentKey: integer, childKey: integer): ability | undefined;
+declare function LoadAbilityHandle(table: hashtable, parentKey: integer, childKey: integer): Option<ability>;
 
 declare function LoadBoolean(table: hashtable, parentKey: integer, childKey: integer): boolean;
 
-declare function LoadBooleanExprHandle(table: hashtable, parentKey: integer, childKey: integer): boolexpr | undefined;
+declare function LoadBooleanExprHandle(table: hashtable, parentKey: integer, childKey: integer): Option<boolexpr>;
 
-declare function LoadButtonHandle(table: hashtable, parentKey: integer, childKey: integer): button | undefined;
+declare function LoadButtonHandle(table: hashtable, parentKey: integer, childKey: integer): Option<button>;
 
-declare function LoadDefeatConditionHandle(table: hashtable, parentKey: integer, childKey: integer): defeatcondition | undefined;
+declare function LoadDefeatConditionHandle(table: hashtable, parentKey: integer, childKey: integer): Option<defeatcondition>;
 
-declare function LoadDestructableHandle(table: hashtable, parentKey: integer, childKey: integer): destructable | undefined;
+declare function LoadDestructableHandle(table: hashtable, parentKey: integer, childKey: integer): Option<destructable>;
 
-declare function LoadDialogHandle(table: hashtable, parentKey: integer, childKey: integer): dialog | undefined;
+declare function LoadDialogHandle(table: hashtable, parentKey: integer, childKey: integer): Option<dialog>;
 
-declare function LoadEffectHandle(table: hashtable, parentKey: integer, childKey: integer): effect | undefined;
+declare function LoadEffectHandle(table: hashtable, parentKey: integer, childKey: integer): Option<effect>;
 
-declare function LoadFogModifierHandle(table: hashtable, parentKey: integer, childKey: integer): fogmodifier | undefined;
+declare function LoadFogModifierHandle(table: hashtable, parentKey: integer, childKey: integer): Option<fogmodifier>;
 
-declare function LoadFogStateHandle(table: hashtable, parentKey: integer, childKey: integer): fogstate | undefined;
+declare function LoadFogStateHandle(table: hashtable, parentKey: integer, childKey: integer): Option<fogstate>;
 
-declare function LoadForceHandle(table: hashtable, parentKey: integer, childKey: integer): force | undefined;
+declare function LoadForceHandle(table: hashtable, parentKey: integer, childKey: integer): Option<force>;
 
 declare function LoadGame(saveFileName: string, doScoreScreen: boolean): void;
 
-declare function LoadGroupHandle(table: hashtable, parentKey: integer, childKey: integer): group | undefined;
+declare function LoadGroupHandle(table: hashtable, parentKey: integer, childKey: integer): Option<group>;
 
-declare function LoadHashtableHandle(table: hashtable, parentKey: integer, childKey: integer): hashtable | undefined;
+declare function LoadHashtableHandle(table: hashtable, parentKey: integer, childKey: integer): Option<hashtable>;
 
-declare function LoadImageHandle(table: hashtable, parentKey: integer, childKey: integer): image | undefined;
+declare function LoadImageHandle(table: hashtable, parentKey: integer, childKey: integer): Option<image>;
 
 declare function LoadInteger(table: hashtable, parentKey: integer, childKey: integer): number;
 
-declare function LoadItemHandle(table: hashtable, parentKey: integer, childKey: integer): item | undefined;
+declare function LoadItemHandle(table: hashtable, parentKey: integer, childKey: integer): Option<item>;
 
-declare function LoadItemPoolHandle(table: hashtable, parentKey: integer, childKey: integer): itempool | undefined;
+declare function LoadItemPoolHandle(table: hashtable, parentKey: integer, childKey: integer): Option<itempool>;
 
-declare function LoadLeaderboardHandle(table: hashtable, parentKey: integer, childKey: integer): leaderboard | undefined;
+declare function LoadLeaderboardHandle(table: hashtable, parentKey: integer, childKey: integer): Option<leaderboard>;
 
-declare function LoadLightningHandle(table: hashtable, parentKey: integer, childKey: integer): lightning | undefined;
+declare function LoadLightningHandle(table: hashtable, parentKey: integer, childKey: integer): Option<lightning>;
 
-declare function LoadLocationHandle(table: hashtable, parentKey: integer, childKey: integer): location | undefined;
+declare function LoadLocationHandle(table: hashtable, parentKey: integer, childKey: integer): Option<location>;
 
-declare function LoadMultiboardHandle(table: hashtable, parentKey: integer, childKey: integer): multiboard | undefined;
+declare function LoadMultiboardHandle(table: hashtable, parentKey: integer, childKey: integer): Option<multiboard>;
 
-declare function LoadMultiboardItemHandle(table: hashtable, parentKey: integer, childKey: integer): multiboarditem | undefined;
+declare function LoadMultiboardItemHandle(table: hashtable, parentKey: integer, childKey: integer): Option<multiboarditem>;
 
-declare function LoadPlayerHandle(table: hashtable, parentKey: integer, childKey: integer): player | undefined;
+declare function LoadPlayerHandle(table: hashtable, parentKey: integer, childKey: integer): Option<player>;
 
-declare function LoadQuestHandle(table: hashtable, parentKey: integer, childKey: integer): quest | undefined;
+declare function LoadQuestHandle(table: hashtable, parentKey: integer, childKey: integer): Option<quest>;
 
-declare function LoadQuestItemHandle(table: hashtable, parentKey: integer, childKey: integer): questitem | undefined;
+declare function LoadQuestItemHandle(table: hashtable, parentKey: integer, childKey: integer): Option<questitem>;
 
 declare function LoadReal(table: hashtable, parentKey: integer, childKey: integer): number;
 
-declare function LoadRectHandle(table: hashtable, parentKey: integer, childKey: integer): rect | undefined;
+declare function LoadRectHandle(table: hashtable, parentKey: integer, childKey: integer): Option<rect>;
 
-declare function LoadRegionHandle(table: hashtable, parentKey: integer, childKey: integer): region | undefined;
+declare function LoadRegionHandle(table: hashtable, parentKey: integer, childKey: integer): Option<region>;
 
-declare function LoadSoundHandle(table: hashtable, parentKey: integer, childKey: integer): sound | undefined;
+declare function LoadSoundHandle(table: hashtable, parentKey: integer, childKey: integer): Option<sound>;
 
-declare function LoadStr(table: hashtable, parentKey: integer, childKey: integer): string | undefined;
+declare function LoadStr(table: hashtable, parentKey: integer, childKey: integer): Option<string>;
 
-declare function LoadTextTagHandle(table: hashtable, parentKey: integer, childKey: integer): texttag | undefined;
+declare function LoadTextTagHandle(table: hashtable, parentKey: integer, childKey: integer): Option<texttag>;
 
-declare function LoadTimerDialogHandle(table: hashtable, parentKey: integer, childKey: integer): timerdialog | undefined;
+declare function LoadTimerDialogHandle(table: hashtable, parentKey: integer, childKey: integer): Option<timerdialog>;
 
-declare function LoadTimerHandle(table: hashtable, parentKey: integer, childKey: integer): timer | undefined;
+declare function LoadTimerHandle(table: hashtable, parentKey: integer, childKey: integer): Option<timer>;
 
-declare function LoadTrackableHandle(table: hashtable, parentKey: integer, childKey: integer): trackable | undefined;
+declare function LoadTrackableHandle(table: hashtable, parentKey: integer, childKey: integer): Option<trackable>;
 
-declare function LoadTriggerActionHandle(table: hashtable, parentKey: integer, childKey: integer): triggeraction | undefined;
+declare function LoadTriggerActionHandle(table: hashtable, parentKey: integer, childKey: integer): Option<triggeraction>;
 
-declare function LoadTriggerConditionHandle(table: hashtable, parentKey: integer, childKey: integer): triggercondition | undefined;
+declare function LoadTriggerConditionHandle(table: hashtable, parentKey: integer, childKey: integer): Option<triggercondition>;
 
-declare function LoadTriggerEventHandle(table: hashtable, parentKey: integer, childKey: integer): event | undefined;
+declare function LoadTriggerEventHandle(table: hashtable, parentKey: integer, childKey: integer): Option<event>;
 
-declare function LoadTriggerHandle(table: hashtable, parentKey: integer, childKey: integer): trigger | undefined;
+declare function LoadTriggerHandle(table: hashtable, parentKey: integer, childKey: integer): Option<trigger>;
 
-declare function LoadUbersplatHandle(table: hashtable, parentKey: integer, childKey: integer): ubersplat | undefined;
+declare function LoadUbersplatHandle(table: hashtable, parentKey: integer, childKey: integer): Option<ubersplat>;
 
-declare function LoadUnitHandle(table: hashtable, parentKey: integer, childKey: integer): unit | undefined;
+declare function LoadUnitHandle(table: hashtable, parentKey: integer, childKey: integer): Option<unit>;
 
-declare function LoadUnitPoolHandle(table: hashtable, parentKey: integer, childKey: integer): unitpool | undefined;
+declare function LoadUnitPoolHandle(table: hashtable, parentKey: integer, childKey: integer): Option<unitpool>;
 
-declare function LoadWidgetHandle(table: hashtable, parentKey: integer, childKey: integer): widget | undefined;
+declare function LoadWidgetHandle(table: hashtable, parentKey: integer, childKey: integer): Option<widget>;
 
 declare function Location(x: real, y: real): location;
 
@@ -1878,11 +1880,11 @@ declare function MultiboardDisplay(lb: multiboard, show: boolean): void;
 
 declare function MultiboardGetColumnCount(lb: multiboard): number;
 
-declare function MultiboardGetItem(lb: multiboard, row: integer, column: integer): multiboarditem | undefined;
+declare function MultiboardGetItem(lb: multiboard, row: integer, column: integer): Option<multiboarditem>;
 
 declare function MultiboardGetRowCount(lb: multiboard): number;
 
-declare function MultiboardGetTitleText(lb: multiboard): string | undefined;
+declare function MultiboardGetTitleText(lb: multiboard): Option<string>;
 
 declare function MultiboardMinimize(lb: multiboard, minimize: boolean): void;
 
@@ -1926,7 +1928,7 @@ declare function Or(operandA: boolexpr, operandB: boolexpr): boolexpr;
 
 declare function OrderId(orderIdString: string): number;
 
-declare function OrderId2String(orderId: integer): string | undefined;
+declare function OrderId2String(orderId: integer): Option<string>;
 
 declare function PanCameraTo(x: real, y: real): void;
 
@@ -1948,15 +1950,15 @@ declare function PingMinimap(x: real, y: real, duration: real): void;
 
 declare function PingMinimapEx(x: real, y: real, duration: real, red: integer, green: integer, blue: integer, extraEffects: boolean): void;
 
-declare function PlaceRandomItem(whichItemPool: itempool, x: real, y: real): item | undefined;
+declare function PlaceRandomItem(whichItemPool: itempool, x: real, y: real): Option<item>;
 
-declare function PlaceRandomUnit(whichPool: unitpool, forWhichPlayer: player, x: real, y: real, facing: real): unit | undefined;
+declare function PlaceRandomUnit(whichPool: unitpool, forWhichPlayer: player, x: real, y: real, facing: real): Option<unit>;
 
 declare function PlayCinematic(movieName: string): void;
 
-declare function Player(number: integer): player | undefined;
+declare function Player(number: integer): Option<player>;
 
-declare function PlayerGetLeaderboard(toPlayer: player): leaderboard | undefined;
+declare function PlayerGetLeaderboard(toPlayer: player): Option<leaderboard>;
 
 declare function PlayerSetLeaderboard(toPlayer: player, lb: leaderboard): void;
 
@@ -1990,7 +1992,7 @@ declare function PreloadRefresh(): void;
 
 declare function PreloadStart(): void;
 
-declare function QuestCreateItem(whichQuest: quest): questitem | undefined;
+declare function QuestCreateItem(whichQuest: quest): Option<questitem>;
 
 declare function QuestItemSetCompleted(whichQuestItem: questitem, completed: boolean): void;
 
@@ -2018,15 +2020,15 @@ declare function QueueUnitAnimation(whichUnit: unit, whichAnimation: string): vo
 
 declare function R2I(r: real): number;
 
-declare function R2S(r: real): string | undefined;
+declare function R2S(r: real): Option<string>;
 
-declare function R2SW(r: real, width: integer, precision: integer): string | undefined;
+declare function R2SW(r: real, width: integer, precision: integer): Option<string>;
 
 declare function Rad2Deg(radians: real): number;
 
 declare function Rect(minx: real, miny: real, maxx: real, maxy: real): rect;
 
-declare function RectFromLoc(min: location, max: location): rect | undefined;
+declare function RectFromLoc(min: location, max: location): Option<rect>;
 
 declare function RecycleGuardPosition(hUnit: unit): void;
 
@@ -2102,7 +2104,7 @@ declare function ResetUnitLookAt(whichUnit: unit): void;
 
 declare function RestartGame(doScoreScreen: boolean): void;
 
-declare function RestoreUnit(cache: gamecache, missionKey: string, key: string, forWhichPlayer: player, x: real, y: real, facing: real): unit | undefined;
+declare function RestoreUnit(cache: gamecache, missionKey: string, key: string, forWhichPlayer: player, x: real, y: real, facing: real): Option<unit>;
 
 declare function ResumeMusic(): void;
 
@@ -2610,13 +2612,13 @@ declare function StoreString(cache: gamecache, missionKey: string, key: string, 
 
 declare function StoreUnit(cache: gamecache, missionKey: string, key: string, whichUnit: unit): boolean;
 
-declare function StringCase(source: string, upper: boolean): string | undefined;
+declare function StringCase(source: string, upper: boolean): Option<string>;
 
 declare function StringHash(s: string): number;
 
 declare function StringLength(s: string): number;
 
-declare function SubString(source: string, start: integer, end: integer): string | undefined;
+declare function SubString(source: string, start: integer, end: integer): Option<string>;
 
 declare function SuspendHeroXP(whichHero: unit, flag: boolean): void;
 
@@ -2636,17 +2638,17 @@ declare function SyncStoredUnit(cache: gamecache, missionKey: string, key: strin
 
 declare function Tan(radians: real): number;
 
-declare function TerrainDeformCrater(x: real, y: real, radius: real, depth: real, duration: integer, permanent: boolean): terraindeformation | undefined;
+declare function TerrainDeformCrater(x: real, y: real, radius: real, depth: real, duration: integer, permanent: boolean): Option<terraindeformation>;
 
-declare function TerrainDeformRandom(x: real, y: real, radius: real, minDelta: real, maxDelta: real, duration: integer, updateInterval: integer): terraindeformation | undefined;
+declare function TerrainDeformRandom(x: real, y: real, radius: real, minDelta: real, maxDelta: real, duration: integer, updateInterval: integer): Option<terraindeformation>;
 
-declare function TerrainDeformRipple(x: real, y: real, radius: real, depth: real, duration: integer, count: integer, spaceWaves: real, timeWaves: real, radiusStartPct: real, limitNeg: boolean): terraindeformation | undefined;
+declare function TerrainDeformRipple(x: real, y: real, radius: real, depth: real, duration: integer, count: integer, spaceWaves: real, timeWaves: real, radiusStartPct: real, limitNeg: boolean): Option<terraindeformation>;
 
 declare function TerrainDeformStop(deformation: terraindeformation, duration: integer): void;
 
 declare function TerrainDeformStopAll(): void;
 
-declare function TerrainDeformWave(x: real, y: real, dirX: real, dirY: real, distance: real, speed: real, radius: real, depth: real, trailTime: integer, count: integer): terraindeformation | undefined;
+declare function TerrainDeformWave(x: real, y: real, dirX: real, dirY: real, distance: real, speed: real, radius: real, depth: real, trailTime: integer, count: integer): Option<terraindeformation>;
 
 declare function TimerDialogDisplay(whichDialog: timerdialog, display: boolean): void;
 
@@ -2670,7 +2672,7 @@ declare function TimerStart(whichTimer: timer, timeout: real, periodic: boolean,
 
 declare function TriggerAddAction(whichTrigger: trigger, actionFunc: code): triggeraction;
 
-declare function TriggerAddCondition(whichTrigger: trigger, condition: boolexpr): triggercondition | undefined;
+declare function TriggerAddCondition(whichTrigger: trigger, condition: boolexpr): Option<triggercondition>;
 
 declare function TriggerClearActions(whichTrigger: trigger): void;
 
@@ -2682,47 +2684,47 @@ declare function TriggerExecute(whichTrigger: trigger): void;
 
 declare function TriggerExecuteWait(whichTrigger: trigger): void;
 
-declare function TriggerRegisterDeathEvent(whichTrigger: trigger, whichWidget: widget): event | undefined;
+declare function TriggerRegisterDeathEvent(whichTrigger: trigger, whichWidget: widget): Option<event>;
 
-declare function TriggerRegisterDialogButtonEvent(whichTrigger: trigger, whichButton: button): event | undefined;
+declare function TriggerRegisterDialogButtonEvent(whichTrigger: trigger, whichButton: button): Option<event>;
 
-declare function TriggerRegisterDialogEvent(whichTrigger: trigger, whichDialog: dialog): event | undefined;
+declare function TriggerRegisterDialogEvent(whichTrigger: trigger, whichDialog: dialog): Option<event>;
 
-declare function TriggerRegisterEnterRegion(whichTrigger: trigger, whichRegion: region, filter?: boolexpr): event | undefined;
+declare function TriggerRegisterEnterRegion(whichTrigger: trigger, whichRegion: region, filter?: boolexpr): Option<event>;
 
-declare function TriggerRegisterFilterUnitEvent(whichTrigger: trigger, whichUnit: unit, whichEvent: unitevent, filter?: boolexpr): event | undefined;
+declare function TriggerRegisterFilterUnitEvent(whichTrigger: trigger, whichUnit: unit, whichEvent: unitevent, filter?: boolexpr): Option<event>;
 
-declare function TriggerRegisterGameEvent(whichTrigger: trigger, whichGameEvent: gameevent): event | undefined;
+declare function TriggerRegisterGameEvent(whichTrigger: trigger, whichGameEvent: gameevent): Option<event>;
 
-declare function TriggerRegisterGameStateEvent(whichTrigger: trigger, whichState: gamestate, opcode: limitop, limitval: real): event | undefined;
+declare function TriggerRegisterGameStateEvent(whichTrigger: trigger, whichState: gamestate, opcode: limitop, limitval: real): Option<event>;
 
-declare function TriggerRegisterLeaveRegion(whichTrigger: trigger, whichRegion: region, filter?: boolexpr): event | undefined;
+declare function TriggerRegisterLeaveRegion(whichTrigger: trigger, whichRegion: region, filter?: boolexpr): Option<event>;
 
-declare function TriggerRegisterPlayerAllianceChange(whichTrigger: trigger, whichPlayer: player, whichAlliance: alliancetype): event | undefined;
+declare function TriggerRegisterPlayerAllianceChange(whichTrigger: trigger, whichPlayer: player, whichAlliance: alliancetype): Option<event>;
 
-declare function TriggerRegisterPlayerChatEvent(whichTrigger: trigger, whichPlayer: player, chatMessageToDetect: string, exactMatchOnly: boolean): event | undefined;
+declare function TriggerRegisterPlayerChatEvent(whichTrigger: trigger, whichPlayer: player, chatMessageToDetect: string, exactMatchOnly: boolean): Option<event>;
 
-declare function TriggerRegisterPlayerEvent(whichTrigger: trigger, whichPlayer: player, whichPlayerEvent: playerevent): event | undefined;
+declare function TriggerRegisterPlayerEvent(whichTrigger: trigger, whichPlayer: player, whichPlayerEvent: playerevent): Option<event>;
 
-declare function TriggerRegisterPlayerStateEvent(whichTrigger: trigger, whichPlayer: player, whichState: playerstate, opcode: limitop, limitval: real): event | undefined;
+declare function TriggerRegisterPlayerStateEvent(whichTrigger: trigger, whichPlayer: player, whichState: playerstate, opcode: limitop, limitval: real): Option<event>;
 
-declare function TriggerRegisterPlayerUnitEvent(whichTrigger: trigger, whichPlayer: player, whichPlayerUnitEvent: playerunitevent, filter?: boolexpr): event | undefined;
+declare function TriggerRegisterPlayerUnitEvent(whichTrigger: trigger, whichPlayer: player, whichPlayerUnitEvent: playerunitevent, filter?: boolexpr): Option<event>;
 
-declare function TriggerRegisterTimerEvent(whichTrigger: trigger, timeout: real, periodic: boolean): event | undefined;
+declare function TriggerRegisterTimerEvent(whichTrigger: trigger, timeout: real, periodic: boolean): Option<event>;
 
-declare function TriggerRegisterTimerExpireEvent(whichTrigger: trigger, t: timer): event | undefined;
+declare function TriggerRegisterTimerExpireEvent(whichTrigger: trigger, t: timer): Option<event>;
 
-declare function TriggerRegisterTrackableHitEvent(whichTrigger: trigger, t: trackable): event | undefined;
+declare function TriggerRegisterTrackableHitEvent(whichTrigger: trigger, t: trackable): Option<event>;
 
-declare function TriggerRegisterTrackableTrackEvent(whichTrigger: trigger, t: trackable): event | undefined;
+declare function TriggerRegisterTrackableTrackEvent(whichTrigger: trigger, t: trackable): Option<event>;
 
-declare function TriggerRegisterUnitEvent(whichTrigger: trigger, whichUnit: unit, whichEvent: unitevent): event | undefined;
+declare function TriggerRegisterUnitEvent(whichTrigger: trigger, whichUnit: unit, whichEvent: unitevent): Option<event>;
 
-declare function TriggerRegisterUnitInRange(whichTrigger: trigger, whichUnit: unit, range: real, filter?: boolexpr): event | undefined;
+declare function TriggerRegisterUnitInRange(whichTrigger: trigger, whichUnit: unit, range: real, filter?: boolexpr): Option<event>;
 
-declare function TriggerRegisterUnitStateEvent(whichTrigger: trigger, whichUnit: unit, whichState: unitstate, opcode: limitop, limitval: real): event | undefined;
+declare function TriggerRegisterUnitStateEvent(whichTrigger: trigger, whichUnit: unit, whichState: unitstate, opcode: limitop, limitval: real): Option<event>;
 
-declare function TriggerRegisterVariableEvent(whichTrigger: trigger, varName: string, opcode: limitop, limitval: real): event | undefined;
+declare function TriggerRegisterVariableEvent(whichTrigger: trigger, varName: string, opcode: limitop, limitval: real): Option<event>;
 
 declare function TriggerRemoveAction(whichTrigger: trigger, whichAction: triggeraction): void;
 
@@ -2744,7 +2746,7 @@ declare function UnitAddIndicator(whichUnit: unit, red: integer, green: integer,
 
 declare function UnitAddItem(whichUnit: unit, whichItem: item): boolean;
 
-declare function UnitAddItemById(whichUnit: unit, itemId: integer): item | undefined;
+declare function UnitAddItemById(whichUnit: unit, itemId: integer): Option<item>;
 
 declare function UnitAddItemToSlotById(whichUnit: unit, itemId: integer, itemSlot: integer): boolean;
 
@@ -2778,7 +2780,7 @@ declare function UnitHasItem(whichUnit: unit, whichItem: item): boolean;
 
 declare function UnitId(unitIdString: string): number;
 
-declare function UnitId2String(unitId: integer): string | undefined;
+declare function UnitId2String(unitId: integer): Option<string>;
 
 declare function UnitIgnoreAlarm(whichUnit: unit, flag: boolean): boolean;
 
@@ -2788,7 +2790,7 @@ declare function UnitInventorySize(whichUnit: unit): number;
 
 declare function UnitIsSleeping(whichUnit: unit): boolean;
 
-declare function UnitItemInSlot(whichUnit: unit, itemSlot: integer): item | undefined;
+declare function UnitItemInSlot(whichUnit: unit, itemSlot: integer): Option<item>;
 
 declare function UnitMakeAbilityPermanent(whichUnit: unit, permanent: boolean, abilityId: integer): boolean;
 
@@ -2808,7 +2810,7 @@ declare function UnitRemoveBuffsEx(whichUnit: unit, removePositive: boolean, rem
 
 declare function UnitRemoveItem(whichUnit: unit, whichItem: item): void;
 
-declare function UnitRemoveItemFromSlot(whichUnit: unit, itemSlot: integer): item | undefined;
+declare function UnitRemoveItemFromSlot(whichUnit: unit, itemSlot: integer): Option<item>;
 
 declare function UnitRemoveType(whichUnit: unit, whichUnitType: unittype): boolean;
 
@@ -2838,7 +2840,7 @@ declare function UnregisterStackedSound(soundHandle: sound, byPosition: boolean,
 
 declare function VersionCompatible(whichVersion: version): boolean;
 
-declare function VersionGet(): version | undefined;
+declare function VersionGet(): Option<version>;
 
 declare function VersionSupported(whichVersion: version): boolean;
 

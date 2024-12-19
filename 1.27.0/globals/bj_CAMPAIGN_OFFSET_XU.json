@@ -2,7 +2,7 @@
   "name": "bj_CAMPAIGN_OFFSET_XU",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "7",
   "isNullable": false,

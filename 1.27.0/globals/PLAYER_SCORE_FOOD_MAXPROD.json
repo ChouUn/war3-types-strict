@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_FOOD_MAXPROD",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(5)",
   "isNullable": false,

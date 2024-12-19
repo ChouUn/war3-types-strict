@@ -5,7 +5,7 @@
     {
       "description": null,
       "name": "itemId",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
@@ -17,13 +17,13 @@
     {
       "description": null,
       "name": "currentStock",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "stockMax",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

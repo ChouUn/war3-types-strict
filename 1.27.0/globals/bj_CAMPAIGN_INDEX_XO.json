@@ -2,7 +2,7 @@
   "name": "bj_CAMPAIGN_INDEX_XO",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "8",
   "isNullable": false,

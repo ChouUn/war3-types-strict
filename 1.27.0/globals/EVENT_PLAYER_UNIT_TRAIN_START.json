@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_TRAIN_START",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(32)",
   "isNullable": false,

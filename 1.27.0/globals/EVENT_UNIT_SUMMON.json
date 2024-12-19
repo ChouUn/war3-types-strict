@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_SUMMON",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(84)",
   "isNullable": false,

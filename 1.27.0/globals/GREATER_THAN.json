@@ -2,7 +2,7 @@
   "name": "GREATER_THAN",
   "description": null,
   "isConstant": true,
-  "type": "limitop",
+  "type": null,
   "isArray": false,
   "value": "ConvertLimitOp(4)",
   "isNullable": false,

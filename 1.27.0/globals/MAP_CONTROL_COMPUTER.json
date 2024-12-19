@@ -2,7 +2,7 @@
   "name": "MAP_CONTROL_COMPUTER",
   "description": null,
   "isConstant": true,
-  "type": "mapcontrol",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapControl(1)",
   "isNullable": false,

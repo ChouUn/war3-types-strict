@@ -17,7 +17,7 @@
     {
       "description": null,
       "name": "unitId",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
@@ -47,13 +47,13 @@
     {
       "description": null,
       "name": "timeType",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "timeVal",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {

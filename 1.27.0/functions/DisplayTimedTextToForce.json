@@ -11,7 +11,7 @@
     {
       "description": null,
       "name": "duration",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {

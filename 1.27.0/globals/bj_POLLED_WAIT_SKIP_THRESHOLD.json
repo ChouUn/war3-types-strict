@@ -2,7 +2,7 @@
   "name": "bj_POLLED_WAIT_SKIP_THRESHOLD",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "2.00",
   "isNullable": false,

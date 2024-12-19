@@ -2,7 +2,7 @@
   "name": "BLEND_MODE_KEYALPHA",
   "description": null,
   "isConstant": true,
-  "type": "blendmode",
+  "type": null,
   "isArray": false,
   "value": "ConvertBlendMode(1)",
   "isNullable": false,

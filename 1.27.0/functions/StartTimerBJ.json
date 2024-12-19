@@ -17,7 +17,7 @@
     {
       "description": null,
       "name": "timeout",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

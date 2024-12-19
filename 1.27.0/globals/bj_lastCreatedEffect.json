@@ -2,7 +2,7 @@
   "name": "bj_lastCreatedEffect",
   "description": null,
   "isConstant": false,
-  "type": "effect",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

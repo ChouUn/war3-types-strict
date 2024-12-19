@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_DEATH",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(53)",
   "isNullable": false,

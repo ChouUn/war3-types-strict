@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_CHANGE_OWNER",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(287)",
   "isNullable": false,

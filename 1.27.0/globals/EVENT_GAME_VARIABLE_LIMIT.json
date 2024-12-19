@@ -2,7 +2,7 @@
   "name": "EVENT_GAME_VARIABLE_LIMIT",
   "description": null,
   "isConstant": true,
-  "type": "gameevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameEvent(2)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_LUMBER_GIVEN",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(19)",
   "isNullable": false,

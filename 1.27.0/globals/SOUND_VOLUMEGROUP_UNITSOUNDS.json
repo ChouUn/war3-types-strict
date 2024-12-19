@@ -2,7 +2,7 @@
   "name": "SOUND_VOLUMEGROUP_UNITSOUNDS",
   "description": null,
   "isConstant": true,
-  "type": "volumegroup",
+  "type": null,
   "isArray": false,
   "value": "ConvertVolumeGroup(1)",
   "isNullable": false,

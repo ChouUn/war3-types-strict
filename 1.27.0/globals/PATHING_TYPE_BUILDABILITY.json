@@ -2,7 +2,7 @@
   "name": "PATHING_TYPE_BUILDABILITY",
   "description": null,
   "isConstant": true,
-  "type": "pathingtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertPathingType(3)",
   "isNullable": false,

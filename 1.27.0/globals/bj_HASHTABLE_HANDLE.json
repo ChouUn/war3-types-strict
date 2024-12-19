@@ -2,7 +2,7 @@
   "name": "bj_HASHTABLE_HANDLE",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "4",
   "isNullable": false,

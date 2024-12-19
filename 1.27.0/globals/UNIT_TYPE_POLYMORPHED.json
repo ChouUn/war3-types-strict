@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_POLYMORPHED",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(22)",
   "isNullable": false,

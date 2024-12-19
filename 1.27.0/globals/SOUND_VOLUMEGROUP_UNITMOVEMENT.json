@@ -2,7 +2,7 @@
   "name": "SOUND_VOLUMEGROUP_UNITMOVEMENT",
   "description": null,
   "isConstant": true,
-  "type": "volumegroup",
+  "type": null,
   "isArray": false,
   "value": "ConvertVolumeGroup(0)",
   "isNullable": false,

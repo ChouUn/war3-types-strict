@@ -2,7 +2,7 @@
   "name": "RACE_DEMON",
   "description": null,
   "isConstant": true,
-  "type": "race",
+  "type": null,
   "isArray": false,
   "value": "ConvertRace(5)",
   "isNullable": false,

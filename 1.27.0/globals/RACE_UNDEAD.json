@@ -2,7 +2,7 @@
   "name": "RACE_UNDEAD",
   "description": null,
   "isConstant": true,
-  "type": "race",
+  "type": null,
   "isArray": false,
   "value": "ConvertRace(3)",
   "isNullable": false,

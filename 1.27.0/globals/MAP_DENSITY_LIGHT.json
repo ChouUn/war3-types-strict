@@ -2,7 +2,7 @@
   "name": "MAP_DENSITY_LIGHT",
   "description": null,
   "isConstant": true,
-  "type": "mapdensity",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapDensity(1)",
   "isNullable": false,

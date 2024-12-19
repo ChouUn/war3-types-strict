@@ -2,7 +2,7 @@
   "name": "bj_finishSoonTimerDialog",
   "description": null,
   "isConstant": false,
-  "type": "timerdialog",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

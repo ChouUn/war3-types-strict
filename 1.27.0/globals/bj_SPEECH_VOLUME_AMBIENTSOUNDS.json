@@ -2,7 +2,7 @@
   "name": "bj_SPEECH_VOLUME_AMBIENTSOUNDS",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "1.00",
   "isNullable": false,

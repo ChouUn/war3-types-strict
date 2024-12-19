@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_ATTACKS_GROUND",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(6)",
   "isNullable": false,

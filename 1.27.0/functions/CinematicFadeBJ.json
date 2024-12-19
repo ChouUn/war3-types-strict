@@ -5,13 +5,13 @@
     {
       "description": null,
       "name": "fadetype",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "duration",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
@@ -23,25 +23,25 @@
     {
       "description": null,
       "name": "red",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "green",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "blue",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "trans",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_PEON",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(16)",
   "isNullable": false,

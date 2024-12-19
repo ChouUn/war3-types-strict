@@ -2,7 +2,7 @@
   "name": "RARITY_RARE",
   "description": null,
   "isConstant": true,
-  "type": "raritycontrol",
+  "type": null,
   "isArray": false,
   "value": "ConvertRarityControl(1)",
   "isNullable": false,

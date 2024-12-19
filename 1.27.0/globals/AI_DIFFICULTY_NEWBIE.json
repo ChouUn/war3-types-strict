@@ -2,7 +2,7 @@
   "name": "AI_DIFFICULTY_NEWBIE",
   "description": null,
   "isConstant": true,
-  "type": "aidifficulty",
+  "type": null,
   "isArray": false,
   "value": "ConvertAIDifficulty(0)",
   "isNullable": false,

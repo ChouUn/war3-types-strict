@@ -2,7 +2,7 @@
   "name": "ITEM_TYPE_ARTIFACT",
   "description": null,
   "isConstant": true,
-  "type": "itemtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertItemType(3)",
   "isNullable": false,

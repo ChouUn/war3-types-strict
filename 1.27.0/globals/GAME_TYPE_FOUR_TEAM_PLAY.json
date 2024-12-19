@@ -2,7 +2,7 @@
   "name": "GAME_TYPE_FOUR_TEAM_PLAY",
   "description": null,
   "isConstant": true,
-  "type": "gametype",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameType(128)",
   "isNullable": false,

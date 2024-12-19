@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_TRAIN_FINISH",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(71)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_MELEE_ATTACKER",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(7)",
   "isNullable": false,

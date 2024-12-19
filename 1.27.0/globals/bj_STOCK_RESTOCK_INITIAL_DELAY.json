@@ -2,7 +2,7 @@
   "name": "bj_STOCK_RESTOCK_INITIAL_DELAY",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "120",
   "isNullable": false,

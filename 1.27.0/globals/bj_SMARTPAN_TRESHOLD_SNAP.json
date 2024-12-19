@@ -2,7 +2,7 @@
   "name": "bj_SMARTPAN_TRESHOLD_SNAP",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "3500",
   "isNullable": false,

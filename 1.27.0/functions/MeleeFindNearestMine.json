@@ -11,7 +11,7 @@
     {
       "description": null,
       "name": "range",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

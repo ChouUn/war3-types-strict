@@ -2,7 +2,7 @@
   "name": "MAP_DENSITY_MEDIUM",
   "description": null,
   "isConstant": true,
-  "type": "mapdensity",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapDensity(2)",
   "isNullable": false,

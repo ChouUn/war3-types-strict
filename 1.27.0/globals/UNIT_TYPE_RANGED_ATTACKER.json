@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_RANGED_ATTACKER",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(8)",
   "isNullable": false,

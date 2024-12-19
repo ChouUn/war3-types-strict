@@ -2,7 +2,7 @@
   "name": "ALLIANCE_HELP_RESPONSE",
   "description": null,
   "isConstant": true,
-  "type": "alliancetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertAllianceType(2)",
   "isNullable": false,

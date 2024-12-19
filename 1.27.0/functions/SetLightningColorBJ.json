@@ -11,25 +11,25 @@
     {
       "description": null,
       "name": "r",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "g",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "b",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "a",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

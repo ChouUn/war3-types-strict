@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_ISSUED_POINT_ORDER",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(76)",
   "isNullable": false,

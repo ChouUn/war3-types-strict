@@ -2,7 +2,7 @@
   "name": "MAP_SPEED_SLOW",
   "description": null,
   "isConstant": true,
-  "type": "gamespeed",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameSpeed(1)",
   "isNullable": false,

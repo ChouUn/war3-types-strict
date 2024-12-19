@@ -2,7 +2,7 @@
   "name": "ALLIANCE_PASSIVE",
   "description": null,
   "isConstant": true,
-  "type": "alliancetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertAllianceType(0)",
   "isNullable": false,

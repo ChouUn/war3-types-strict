@@ -2,7 +2,7 @@
   "name": "RARITY_FREQUENT",
   "description": null,
   "isConstant": true,
-  "type": "raritycontrol",
+  "type": null,
   "isArray": false,
   "value": "ConvertRarityControl(0)",
   "isNullable": false,

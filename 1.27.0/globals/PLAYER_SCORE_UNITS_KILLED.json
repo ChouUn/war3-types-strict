@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_UNITS_KILLED",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(1)",
   "isNullable": false,

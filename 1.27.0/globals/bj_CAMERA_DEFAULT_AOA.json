@@ -2,7 +2,7 @@
   "name": "bj_CAMERA_DEFAULT_AOA",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "304",
   "isNullable": false,

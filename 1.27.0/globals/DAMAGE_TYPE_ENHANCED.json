@@ -2,7 +2,7 @@
   "name": "DAMAGE_TYPE_ENHANCED",
   "description": null,
   "isConstant": true,
-  "type": "damagetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertDamageType(5)",
   "isNullable": false,

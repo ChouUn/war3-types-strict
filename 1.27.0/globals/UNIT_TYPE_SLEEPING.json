@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_SLEEPING",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(23)",
   "isNullable": false,

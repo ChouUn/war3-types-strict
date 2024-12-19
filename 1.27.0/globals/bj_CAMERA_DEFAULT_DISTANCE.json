@@ -2,7 +2,7 @@
   "name": "bj_CAMERA_DEFAULT_DISTANCE",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "1650",
   "isNullable": false,

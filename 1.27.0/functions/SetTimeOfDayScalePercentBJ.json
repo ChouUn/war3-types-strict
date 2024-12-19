@@ -5,7 +5,7 @@
     {
       "description": null,
       "name": "scalePercent",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

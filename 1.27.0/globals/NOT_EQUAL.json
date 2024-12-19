@@ -2,7 +2,7 @@
   "name": "NOT_EQUAL",
   "description": null,
   "isConstant": true,
-  "type": "limitop",
+  "type": null,
   "isArray": false,
   "value": "ConvertLimitOp(5)",
   "isNullable": false,

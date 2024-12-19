@@ -2,7 +2,7 @@
   "name": "EVENT_GAME_LOADED",
   "description": null,
   "isConstant": true,
-  "type": "gameevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameEvent(256)",
   "isNullable": false,

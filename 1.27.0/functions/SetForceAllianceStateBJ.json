@@ -17,7 +17,7 @@
     {
       "description": null,
       "name": "allianceState",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

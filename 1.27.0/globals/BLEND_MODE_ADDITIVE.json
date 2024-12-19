@@ -2,7 +2,7 @@
   "name": "BLEND_MODE_ADDITIVE",
   "description": null,
   "isConstant": true,
-  "type": "blendmode",
+  "type": null,
   "isArray": false,
   "value": "ConvertBlendMode(3)",
   "isNullable": false,

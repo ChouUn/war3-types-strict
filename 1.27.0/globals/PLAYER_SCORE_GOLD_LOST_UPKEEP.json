@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_GOLD_LOST_UPKEEP",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(12)",
   "isNullable": false,

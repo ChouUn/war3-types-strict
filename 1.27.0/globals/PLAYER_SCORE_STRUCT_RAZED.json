@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_STRUCT_RAZED",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(3)",
   "isNullable": false,

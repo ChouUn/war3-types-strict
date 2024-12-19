@@ -2,11 +2,13 @@ import re
 from pathlib import Path
 
 globals = set()
+types = set()
 natives = set()
 functions = set()
-types = set()
 
-for path in [Path("common.j"), Path("blizzard.j")]:
+scripts = Path("scripts")
+
+for path in [scripts / "common.j", scripts / "blizzard.j"]:
     with path.open(encoding="utf-8") as f:
         text = f.read()
 
@@ -32,11 +34,11 @@ for path in [Path("common.j"), Path("blizzard.j")]:
             functions.add(match.group(1))
 
 
-with Path("globals.txt").open("w", encoding="utf-8") as f:
+with (scripts / "globals.txt").open("w", encoding="utf-8") as f:
     f.write("\n".join(sorted(globals)))
-with Path("natives.txt").open("w", encoding="utf-8") as f:
-    f.write("\n".join(sorted(natives)))
-with Path("functions.txt").open("w", encoding="utf-8") as f:
-    f.write("\n".join(sorted(functions)))
-with Path("types.txt").open("w", encoding="utf-8") as f:
+with (scripts / "types.txt").open("w", encoding="utf-8") as f:
     f.write("\n".join(sorted(types)))
+with (scripts / "natives.txt").open("w", encoding="utf-8") as f:
+    f.write("\n".join(sorted(natives)))
+with (scripts / "functions.txt").open("w", encoding="utf-8") as f:
+    f.write("\n".join(sorted(functions)))

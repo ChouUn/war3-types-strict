@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_PAWN_ITEM",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(294)",
   "isNullable": false,

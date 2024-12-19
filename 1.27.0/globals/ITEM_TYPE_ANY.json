@@ -2,7 +2,7 @@
   "name": "ITEM_TYPE_ANY",
   "description": null,
   "isConstant": true,
-  "type": "itemtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertItemType(8)",
   "isNullable": false,

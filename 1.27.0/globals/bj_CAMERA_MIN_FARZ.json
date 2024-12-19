@@ -2,7 +2,7 @@
   "name": "bj_CAMERA_MIN_FARZ",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "100",
   "isNullable": false,

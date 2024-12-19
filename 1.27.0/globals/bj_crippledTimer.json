@@ -2,7 +2,7 @@
   "name": "bj_crippledTimer",
   "description": null,
   "isConstant": false,
-  "type": "timer",
+  "type": null,
   "isArray": true,
   "value": "",
   "isNullable": true,

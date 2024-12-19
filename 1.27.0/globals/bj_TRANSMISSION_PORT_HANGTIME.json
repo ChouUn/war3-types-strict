@@ -2,7 +2,7 @@
   "name": "bj_TRANSMISSION_PORT_HANGTIME",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "1.50",
   "isNullable": false,

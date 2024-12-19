@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_DROP_ITEM",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(48)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "bj_suspendDecayFleshGroup",
   "description": null,
   "isConstant": false,
-  "type": "group",
+  "type": null,
   "isArray": false,
   "value": "CreateGroup()",
   "isNullable": true,

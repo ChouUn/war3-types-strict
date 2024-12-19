@@ -2,7 +2,7 @@
   "name": "bj_itemRandomCurrentPick",
   "description": null,
   "isConstant": false,
-  "type": "item",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

@@ -2,7 +2,7 @@
   "name": "PATHING_TYPE_WALKABILITY",
   "description": null,
   "isConstant": true,
-  "type": "pathingtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertPathingType(1)",
   "isNullable": false,

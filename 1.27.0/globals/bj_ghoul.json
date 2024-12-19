@@ -2,7 +2,7 @@
   "name": "bj_ghoul",
   "description": null,
   "isConstant": false,
-  "type": "unit",
+  "type": null,
   "isArray": true,
   "value": "",
   "isNullable": true,

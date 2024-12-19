@@ -2,7 +2,7 @@
   "name": "MAP_DENSITY_HEAVY",
   "description": null,
   "isConstant": true,
-  "type": "mapdensity",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapDensity(3)",
   "isNullable": false,

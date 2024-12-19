@@ -2,7 +2,7 @@
   "name": "bj_TRANSMISSION_IND_RED",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "255",
   "isNullable": false,

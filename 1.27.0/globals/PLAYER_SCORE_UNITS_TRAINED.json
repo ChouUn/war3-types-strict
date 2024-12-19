@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_UNITS_TRAINED",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(0)",
   "isNullable": false,

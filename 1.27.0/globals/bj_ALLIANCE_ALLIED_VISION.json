@@ -2,7 +2,7 @@
   "name": "bj_ALLIANCE_ALLIED_VISION",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "3",
   "isNullable": false,

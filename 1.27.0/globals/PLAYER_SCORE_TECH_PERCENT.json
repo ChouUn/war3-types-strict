@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_TECH_PERCENT",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(4)",
   "isNullable": false,

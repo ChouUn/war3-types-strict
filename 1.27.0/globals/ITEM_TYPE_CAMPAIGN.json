@@ -2,7 +2,7 @@
   "name": "ITEM_TYPE_CAMPAIGN",
   "description": null,
   "isConstant": true,
-  "type": "itemtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertItemType(5)",
   "isNullable": false,

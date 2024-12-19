@@ -11,25 +11,25 @@
     {
       "description": null,
       "name": "id1",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "id2",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "id3",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "id4",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {

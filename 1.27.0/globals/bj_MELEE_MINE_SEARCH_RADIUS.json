@@ -2,7 +2,7 @@
   "name": "bj_MELEE_MINE_SEARCH_RADIUS",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "2000",
   "isNullable": false,

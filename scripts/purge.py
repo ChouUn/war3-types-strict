@@ -6,7 +6,10 @@ types = set()
 natives = set()
 functions = set()
 
-for path in [Path("common.j"), Path("blizzard.j")]:
+scripts = Path("scripts")
+jsons = Path("1.27.0")
+
+for path in [scripts / "common.j", scripts / "blizzard.j"]:
     with path.open(encoding="utf-8") as f:
         text = f.read()
 
@@ -32,22 +35,19 @@ for path in [Path("common.j"), Path("blizzard.j")]:
             functions.add(match.group(1))
 
 
-for path in Path("globals").glob("*.json"):
+for path in (jsons / "globals").glob("*.json"):
     if path.stem not in globals:
         path.unlink()
         print(f"Deleted {path.stem}")
-
-for path in Path("types").glob("*.json"):
+for path in (jsons / "types").glob("*.json"):
     if path.stem not in types:
         path.unlink()
         print(f"Deleted {path.stem}")
-
-for path in Path("natives").glob("*.json"):
+for path in (jsons / "natives").glob("*.json"):
     if path.stem not in natives:
         path.unlink()
         print(f"Deleted {path.stem}")
-
-for path in Path("functions").glob("*.json"):
+for path in (jsons / "functions").glob("*.json"):
     if path.stem not in functions:
         path.unlink()
         print(f"Deleted {path.stem}")

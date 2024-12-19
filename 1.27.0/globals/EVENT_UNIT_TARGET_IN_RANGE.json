@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_TARGET_IN_RANGE",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(61)",
   "isNullable": false,

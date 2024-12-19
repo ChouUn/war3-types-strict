@@ -2,7 +2,7 @@
   "name": "MAP_LOCK_RANDOM_SEED",
   "description": null,
   "isConstant": true,
-  "type": "mapflag",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapFlag(8192*4)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "PATHING_TYPE_BLIGHTPATHING",
   "description": null,
   "isConstant": true,
-  "type": "pathingtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertPathingType(5)",
   "isNullable": false,

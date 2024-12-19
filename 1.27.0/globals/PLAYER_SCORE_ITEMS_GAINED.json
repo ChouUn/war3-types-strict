@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_ITEMS_GAINED",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(8)",
   "isNullable": false,

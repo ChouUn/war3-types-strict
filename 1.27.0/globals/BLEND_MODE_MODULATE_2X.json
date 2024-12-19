@@ -2,7 +2,7 @@
   "name": "BLEND_MODE_MODULATE_2X",
   "description": null,
   "isConstant": true,
-  "type": "blendmode",
+  "type": null,
   "isArray": false,
   "value": "ConvertBlendMode(5)",
   "isNullable": false,

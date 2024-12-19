@@ -11,7 +11,7 @@
     {
       "description": null,
       "name": "newLevel",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {

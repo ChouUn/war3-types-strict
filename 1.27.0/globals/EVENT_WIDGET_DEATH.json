@@ -2,7 +2,7 @@
   "name": "EVENT_WIDGET_DEATH",
   "description": null,
   "isConstant": true,
-  "type": "widgetevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertWidgetEvent(89)",
   "isNullable": false,

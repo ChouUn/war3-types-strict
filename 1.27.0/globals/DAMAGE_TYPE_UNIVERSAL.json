@@ -2,7 +2,7 @@
   "name": "DAMAGE_TYPE_UNIVERSAL",
   "description": null,
   "isConstant": true,
-  "type": "damagetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertDamageType(26)",
   "isNullable": false,

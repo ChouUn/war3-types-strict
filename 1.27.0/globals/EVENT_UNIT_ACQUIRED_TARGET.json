@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_ACQUIRED_TARGET",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(60)",
   "isNullable": false,

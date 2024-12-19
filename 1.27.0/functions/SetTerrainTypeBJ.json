@@ -11,25 +11,25 @@
     {
       "description": null,
       "name": "terrainType",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "variation",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "area",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "shape",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

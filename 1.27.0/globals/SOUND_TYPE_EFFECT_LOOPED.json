@@ -2,7 +2,7 @@
   "name": "SOUND_TYPE_EFFECT_LOOPED",
   "description": null,
   "isConstant": true,
-  "type": "soundtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertSoundType(1)",
   "isNullable": false,

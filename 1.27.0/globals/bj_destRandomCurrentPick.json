@@ -2,7 +2,7 @@
   "name": "bj_destRandomCurrentPick",
   "description": null,
   "isConstant": false,
-  "type": "destructable",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

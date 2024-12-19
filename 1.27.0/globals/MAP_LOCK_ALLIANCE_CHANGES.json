@@ -2,7 +2,7 @@
   "name": "MAP_LOCK_ALLIANCE_CHANGES",
   "description": null,
   "isConstant": true,
-  "type": "mapflag",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapFlag(1024)",
   "isNullable": false,

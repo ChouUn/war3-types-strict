@@ -2,7 +2,7 @@
   "name": "UNIT_STATE_MANA",
   "description": null,
   "isConstant": true,
-  "type": "unitstate",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitState(2)",
   "isNullable": false,

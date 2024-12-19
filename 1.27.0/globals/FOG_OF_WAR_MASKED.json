@@ -2,7 +2,7 @@
   "name": "FOG_OF_WAR_MASKED",
   "description": null,
   "isConstant": true,
-  "type": "fogstate",
+  "type": null,
   "isArray": false,
   "value": "ConvertFogState(1)",
   "isNullable": false,

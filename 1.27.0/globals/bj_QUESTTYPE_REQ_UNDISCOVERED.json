@@ -2,7 +2,7 @@
   "name": "bj_QUESTTYPE_REQ_UNDISCOVERED",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "1",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_HERO_SKILL",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(79)",
   "isNullable": false,

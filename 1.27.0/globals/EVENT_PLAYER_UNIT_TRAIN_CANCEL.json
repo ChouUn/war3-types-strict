@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_TRAIN_CANCEL",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(33)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "RACE_ORC",
   "description": null,
   "isConstant": true,
-  "type": "race",
+  "type": null,
   "isArray": false,
   "value": "ConvertRace(2)",
   "isNullable": false,

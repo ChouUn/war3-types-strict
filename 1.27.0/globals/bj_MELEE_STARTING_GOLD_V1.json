@@ -2,7 +2,7 @@
   "name": "bj_MELEE_STARTING_GOLD_V1",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "500",
   "isNullable": false,

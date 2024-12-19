@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_HIDDEN",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(23)",
   "isNullable": false,

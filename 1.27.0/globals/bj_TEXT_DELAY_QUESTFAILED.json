@@ -2,7 +2,7 @@
   "name": "bj_TEXT_DELAY_QUESTFAILED",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "20.00",
   "isNullable": false,

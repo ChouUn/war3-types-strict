@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_MERCS_HIRED",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(9)",
   "isNullable": false,

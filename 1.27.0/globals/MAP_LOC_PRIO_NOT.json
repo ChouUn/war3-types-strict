@@ -2,7 +2,7 @@
   "name": "MAP_LOC_PRIO_NOT",
   "description": null,
   "isConstant": true,
-  "type": "startlocprio",
+  "type": null,
   "isArray": false,
   "value": "ConvertStartLocPrio(2)",
   "isNullable": false,

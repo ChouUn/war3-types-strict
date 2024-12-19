@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_SELL",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(269)",
   "isNullable": false,

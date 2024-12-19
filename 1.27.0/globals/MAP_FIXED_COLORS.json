@@ -2,7 +2,7 @@
   "name": "MAP_FIXED_COLORS",
   "description": null,
   "isConstant": true,
-  "type": "mapflag",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapFlag(128)",
   "isNullable": false,

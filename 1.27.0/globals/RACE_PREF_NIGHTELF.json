@@ -2,7 +2,7 @@
   "name": "RACE_PREF_NIGHTELF",
   "description": null,
   "isConstant": true,
-  "type": "racepreference",
+  "type": null,
   "isArray": false,
   "value": "ConvertRacePref(4)",
   "isNullable": false,

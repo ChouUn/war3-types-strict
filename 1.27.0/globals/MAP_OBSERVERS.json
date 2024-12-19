@@ -2,7 +2,7 @@
   "name": "MAP_OBSERVERS",
   "description": null,
   "isConstant": true,
-  "type": "mapflag",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapFlag(16)",
   "isNullable": false,

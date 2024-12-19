@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_HERO_REVIVE_CANCEL",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(82)",
   "isNullable": false,

@@ -11,7 +11,7 @@
     {
       "description": null,
       "name": "offset",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

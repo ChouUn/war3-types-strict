@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_FLYING",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(3)",
   "isNullable": false,

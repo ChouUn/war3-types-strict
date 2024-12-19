@@ -11,7 +11,7 @@
     {
       "description": null,
       "name": "magnitude",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

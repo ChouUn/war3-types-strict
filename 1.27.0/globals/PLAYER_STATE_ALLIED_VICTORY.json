@@ -2,7 +2,7 @@
   "name": "PLAYER_STATE_ALLIED_VICTORY",
   "description": null,
   "isConstant": true,
-  "type": "playerstate",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerState(8)",
   "isNullable": false,

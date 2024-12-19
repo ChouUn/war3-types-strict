@@ -2,7 +2,7 @@
   "name": "bj_volumeGroupsTimer",
   "description": null,
   "isConstant": false,
-  "type": "timer",
+  "type": null,
   "isArray": false,
   "value": "CreateTimer()",
   "isNullable": true,

@@ -2,7 +2,7 @@
   "name": "bj_NOTHING_SOUND_DURATION",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "5.00",
   "isNullable": false,

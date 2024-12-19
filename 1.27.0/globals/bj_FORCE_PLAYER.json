@@ -2,7 +2,7 @@
   "name": "bj_FORCE_PLAYER",
   "description": null,
   "isConstant": false,
-  "type": "force",
+  "type": null,
   "isArray": true,
   "value": "",
   "isNullable": true,

@@ -5,19 +5,19 @@
     {
       "description": null,
       "name": "key",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "valueType",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "missionKey",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {

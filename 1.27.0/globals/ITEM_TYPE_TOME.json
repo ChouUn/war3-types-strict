@@ -2,7 +2,7 @@
   "name": "ITEM_TYPE_TOME",
   "description": null,
   "isConstant": true,
-  "type": "itemtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertItemType(2)",
   "isNullable": false,

@@ -17,13 +17,13 @@
     {
       "description": null,
       "name": "keType",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "keKey",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

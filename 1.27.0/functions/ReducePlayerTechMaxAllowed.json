@@ -11,13 +11,13 @@
     {
       "description": null,
       "name": "techId",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "limit",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

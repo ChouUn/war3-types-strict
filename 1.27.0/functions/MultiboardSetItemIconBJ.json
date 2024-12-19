@@ -11,13 +11,13 @@
     {
       "description": null,
       "name": "col",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "row",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {

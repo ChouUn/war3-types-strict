@@ -2,7 +2,7 @@
   "name": "FALSE",
   "description": null,
   "isConstant": true,
-  "type": "boolean",
+  "type": null,
   "isArray": false,
   "value": "false",
   "isNullable": false,

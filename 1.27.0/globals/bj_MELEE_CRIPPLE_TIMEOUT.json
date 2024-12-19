@@ -2,7 +2,7 @@
   "name": "bj_MELEE_CRIPPLE_TIMEOUT",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "120.00",
   "isNullable": false,

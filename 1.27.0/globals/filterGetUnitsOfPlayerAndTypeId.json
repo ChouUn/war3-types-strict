@@ -2,7 +2,7 @@
   "name": "filterGetUnitsOfPlayerAndTypeId",
   "description": null,
   "isConstant": false,
-  "type": "boolexpr",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

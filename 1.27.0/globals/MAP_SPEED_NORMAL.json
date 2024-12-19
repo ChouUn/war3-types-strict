@@ -2,7 +2,7 @@
   "name": "MAP_SPEED_NORMAL",
   "description": null,
   "isConstant": true,
-  "type": "gamespeed",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameSpeed(2)",
   "isNullable": false,

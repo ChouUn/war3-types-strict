@@ -2,7 +2,7 @@
   "name": "MAP_ALLIANCE_CHANGES_HIDDEN",
   "description": null,
   "isConstant": true,
-  "type": "mapflag",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapFlag(2048)",
   "isNullable": false,

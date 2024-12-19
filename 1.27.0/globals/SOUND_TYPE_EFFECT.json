@@ -2,7 +2,7 @@
   "name": "SOUND_TYPE_EFFECT",
   "description": null,
   "isConstant": true,
-  "type": "soundtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertSoundType(0)",
   "isNullable": false,

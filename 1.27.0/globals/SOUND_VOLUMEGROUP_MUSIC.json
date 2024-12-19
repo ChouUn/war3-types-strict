@@ -2,7 +2,7 @@
   "name": "SOUND_VOLUMEGROUP_MUSIC",
   "description": null,
   "isConstant": true,
-  "type": "volumegroup",
+  "type": null,
   "isArray": false,
   "value": "ConvertVolumeGroup(5)",
   "isNullable": false,

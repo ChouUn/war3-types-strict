@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_SUMMONED",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(10)",
   "isNullable": false,

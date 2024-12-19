@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_RESEARCH_FINISH",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(37)",
   "isNullable": false,

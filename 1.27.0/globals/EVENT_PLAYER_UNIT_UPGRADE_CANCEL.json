@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_UPGRADE_CANCEL",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(30)",
   "isNullable": false,

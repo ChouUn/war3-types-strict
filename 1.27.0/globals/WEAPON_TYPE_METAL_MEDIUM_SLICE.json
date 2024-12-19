@@ -2,7 +2,7 @@
   "name": "WEAPON_TYPE_METAL_MEDIUM_SLICE",
   "description": null,
   "isConstant": true,
-  "type": "weapontype",
+  "type": null,
   "isArray": false,
   "value": "ConvertWeaponType(5)",
   "isNullable": false,

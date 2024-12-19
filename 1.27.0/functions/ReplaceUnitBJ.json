@@ -11,13 +11,13 @@
     {
       "description": null,
       "name": "newUnitId",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "unitStateMethod",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

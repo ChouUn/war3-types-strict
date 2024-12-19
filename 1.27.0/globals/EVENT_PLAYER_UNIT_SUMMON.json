@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_SUMMON",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(47)",
   "isNullable": false,

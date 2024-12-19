@@ -2,7 +2,7 @@
   "name": "RACE_PREF_USER_SELECTABLE",
   "description": null,
   "isConstant": true,
-  "type": "racepreference",
+  "type": null,
   "isArray": false,
   "value": "ConvertRacePref(64)",
   "isNullable": false,

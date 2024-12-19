@@ -11,7 +11,7 @@
     {
       "description": null,
       "name": "actionFunc",
-      "type": "() =\u003E void",
+      "type": "() => void",
       "isNullable": false
     }
   ],

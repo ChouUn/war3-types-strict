@@ -2,7 +2,7 @@
   "name": "MAP_CONTROL_RESCUABLE",
   "description": null,
   "isConstant": true,
-  "type": "mapcontrol",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapControl(2)",
   "isNullable": false,

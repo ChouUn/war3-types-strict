@@ -2,7 +2,7 @@
   "name": "DAMAGE_TYPE_DEATH",
   "description": null,
   "isConstant": true,
-  "type": "damagetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertDamageType(18)",
   "isNullable": false,

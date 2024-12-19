@@ -2,7 +2,7 @@
   "name": "bj_MAX_ITEM_LEVEL",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "10",
   "isNullable": false,

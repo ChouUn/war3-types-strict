@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_TAUREN",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(20)",
   "isNullable": false,

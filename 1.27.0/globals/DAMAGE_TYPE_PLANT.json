@@ -2,7 +2,7 @@
   "name": "DAMAGE_TYPE_PLANT",
   "description": null,
   "isConstant": true,
-  "type": "damagetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertDamageType(20)",
   "isNullable": false,

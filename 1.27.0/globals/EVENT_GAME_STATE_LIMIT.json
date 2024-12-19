@@ -2,7 +2,7 @@
   "name": "EVENT_GAME_STATE_LIMIT",
   "description": null,
   "isConstant": true,
-  "type": "gameevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameEvent(3)",
   "isNullable": false,

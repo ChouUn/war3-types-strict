@@ -2,7 +2,7 @@
   "name": "bj_ITEMCODE_STATUS_SELLABLE",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "1",
   "isNullable": false,

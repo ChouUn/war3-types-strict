@@ -2,7 +2,7 @@
   "name": "PLAYER_SLOT_STATE_EMPTY",
   "description": null,
   "isConstant": true,
-  "type": "playerslotstate",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerSlotState(0)",
   "isNullable": false,

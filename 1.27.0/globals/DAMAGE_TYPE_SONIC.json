@@ -2,7 +2,7 @@
   "name": "DAMAGE_TYPE_SONIC",
   "description": null,
   "isConstant": true,
-  "type": "damagetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertDamageType(15)",
   "isNullable": false,

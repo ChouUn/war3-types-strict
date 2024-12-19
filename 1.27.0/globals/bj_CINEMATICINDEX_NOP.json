@@ -2,7 +2,7 @@
   "name": "bj_CINEMATICINDEX_NOP",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "7",
   "isNullable": false,

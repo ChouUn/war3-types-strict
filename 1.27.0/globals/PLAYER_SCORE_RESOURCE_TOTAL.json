@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_RESOURCE_TOTAL",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(23)",
   "isNullable": false,

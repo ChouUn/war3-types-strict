@@ -2,7 +2,7 @@
   "name": "PATHING_TYPE_ANY",
   "description": null,
   "isConstant": true,
-  "type": "pathingtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertPathingType(0)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "SOUND_VOLUMEGROUP_COMBAT",
   "description": null,
   "isConstant": true,
-  "type": "volumegroup",
+  "type": null,
   "isArray": false,
   "value": "ConvertVolumeGroup(2)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "bj_CINEMATICINDEX_UOP",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "5",
   "isNullable": false,

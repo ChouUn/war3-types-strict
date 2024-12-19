@@ -17,13 +17,13 @@
     {
       "description": null,
       "name": "xoffset",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "yoffset",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {

@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_SPELL_CHANNEL",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(289)",
   "isNullable": false,

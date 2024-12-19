@@ -2,7 +2,7 @@
   "name": "bj_CAMERABOUNDS_ADJUST_ADD",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "0",
   "isNullable": false,

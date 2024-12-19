@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_MAGIC_IMMUNE",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(26)",
   "isNullable": false,

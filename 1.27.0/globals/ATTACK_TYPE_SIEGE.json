@@ -2,7 +2,7 @@
   "name": "ATTACK_TYPE_SIEGE",
   "description": null,
   "isConstant": true,
-  "type": "attacktype",
+  "type": null,
   "isArray": false,
   "value": "ConvertAttackType(3)",
   "isNullable": false,

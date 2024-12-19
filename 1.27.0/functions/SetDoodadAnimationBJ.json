@@ -11,13 +11,13 @@
     {
       "description": null,
       "name": "doodadID",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "radius",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {

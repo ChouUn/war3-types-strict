@@ -2,9 +2,9 @@
   "name": "bj_cineFadeContinueTex",
   "description": null,
   "isConstant": false,
-  "type": "string",
+  "type": null,
   "isArray": false,
-  "value": "\u0022\u0022",
+  "value": "\"\"",
   "isNullable": true,
   "source": "blizzard.j"
 }

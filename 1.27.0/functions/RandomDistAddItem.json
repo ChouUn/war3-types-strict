@@ -5,13 +5,13 @@
     {
       "description": null,
       "name": "inID",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "inChance",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

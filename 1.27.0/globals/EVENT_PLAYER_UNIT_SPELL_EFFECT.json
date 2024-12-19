@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_SPELL_EFFECT",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(274)",
   "isNullable": false,

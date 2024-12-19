@@ -11,7 +11,7 @@
     {
       "description": null,
       "name": "inItemID",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

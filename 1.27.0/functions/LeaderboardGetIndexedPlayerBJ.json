@@ -5,7 +5,7 @@
     {
       "description": null,
       "name": "position",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {

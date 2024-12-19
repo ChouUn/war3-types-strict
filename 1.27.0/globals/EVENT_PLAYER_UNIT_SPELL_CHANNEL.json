@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_UNIT_SPELL_CHANNEL",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(272)",
   "isNullable": false,

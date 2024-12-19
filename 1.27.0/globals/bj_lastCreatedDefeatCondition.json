@@ -2,7 +2,7 @@
   "name": "bj_lastCreatedDefeatCondition",
   "description": null,
   "isConstant": false,
-  "type": "defeatcondition",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

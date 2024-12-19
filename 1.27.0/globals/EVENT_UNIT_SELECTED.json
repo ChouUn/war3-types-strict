@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_SELECTED",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(57)",
   "isNullable": false,

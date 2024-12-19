@@ -2,7 +2,7 @@
   "name": "JASS_MAX_ARRAY_SIZE",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "32768",
   "isNullable": false,

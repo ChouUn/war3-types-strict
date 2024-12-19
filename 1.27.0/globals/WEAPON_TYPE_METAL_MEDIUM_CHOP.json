@@ -2,7 +2,7 @@
   "name": "WEAPON_TYPE_METAL_MEDIUM_CHOP",
   "description": null,
   "isConstant": true,
-  "type": "weapontype",
+  "type": null,
   "isArray": false,
   "value": "ConvertWeaponType(2)",
   "isNullable": false,

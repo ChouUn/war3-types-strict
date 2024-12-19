@@ -5,13 +5,13 @@
     {
       "description": null,
       "name": "dividend",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "divisor",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

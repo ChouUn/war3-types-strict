@@ -2,7 +2,7 @@
   "name": "PATHING_TYPE_PEONHARVESTPATHING",
   "description": null,
   "isConstant": true,
-  "type": "pathingtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertPathingType(4)",
   "isNullable": false,

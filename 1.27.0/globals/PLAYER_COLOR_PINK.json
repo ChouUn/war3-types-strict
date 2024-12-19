@@ -2,7 +2,7 @@
   "name": "PLAYER_COLOR_PINK",
   "description": null,
   "isConstant": true,
-  "type": "playercolor",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerColor(7)",
   "isNullable": false,

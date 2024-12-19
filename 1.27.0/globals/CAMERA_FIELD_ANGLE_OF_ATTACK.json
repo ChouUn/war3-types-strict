@@ -2,7 +2,7 @@
   "name": "CAMERA_FIELD_ANGLE_OF_ATTACK",
   "description": null,
   "isConstant": true,
-  "type": "camerafield",
+  "type": null,
   "isArray": false,
   "value": "ConvertCameraField(2)",
   "isNullable": false,

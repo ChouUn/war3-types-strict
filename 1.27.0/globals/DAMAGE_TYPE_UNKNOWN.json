@@ -2,7 +2,7 @@
   "name": "DAMAGE_TYPE_UNKNOWN",
   "description": null,
   "isConstant": true,
-  "type": "damagetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertDamageType(0)",
   "isNullable": false,

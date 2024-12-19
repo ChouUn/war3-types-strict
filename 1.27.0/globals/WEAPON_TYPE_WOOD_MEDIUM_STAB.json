@@ -2,7 +2,7 @@
   "name": "WEAPON_TYPE_WOOD_MEDIUM_STAB",
   "description": null,
   "isConstant": true,
-  "type": "weapontype",
+  "type": null,
   "isArray": false,
   "value": "ConvertWeaponType(18)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "MAP_CONTROL_NEUTRAL",
   "description": null,
   "isConstant": true,
-  "type": "mapcontrol",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapControl(3)",
   "isNullable": false,

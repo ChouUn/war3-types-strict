@@ -2,7 +2,7 @@
   "name": "WEAPON_TYPE_AXE_MEDIUM_CHOP",
   "description": null,
   "isConstant": true,
-  "type": "weapontype",
+  "type": null,
   "isArray": false,
   "value": "ConvertWeaponType(22)",
   "isNullable": false,

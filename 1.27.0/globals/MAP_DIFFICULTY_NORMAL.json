@@ -2,7 +2,7 @@
   "name": "MAP_DIFFICULTY_NORMAL",
   "description": null,
   "isConstant": true,
-  "type": "gamedifficulty",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameDifficulty(1)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "MAP_PLACEMENT_RANDOM",
   "description": null,
   "isConstant": true,
-  "type": "placement",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlacement(0) ",
   "isNullable": false,

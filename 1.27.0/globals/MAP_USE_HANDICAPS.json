@@ -2,7 +2,7 @@
   "name": "MAP_USE_HANDICAPS",
   "description": null,
   "isConstant": true,
-  "type": "mapflag",
+  "type": null,
   "isArray": false,
   "value": "ConvertMapFlag(8)",
   "isNullable": false,

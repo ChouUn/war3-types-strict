@@ -2,7 +2,7 @@
   "name": "EVENT_GAME_ENTER_REGION",
   "description": null,
   "isConstant": true,
-  "type": "gameevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameEvent(5)",
   "isNullable": false,

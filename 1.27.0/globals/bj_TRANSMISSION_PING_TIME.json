@@ -2,7 +2,7 @@
   "name": "bj_TRANSMISSION_PING_TIME",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "1.00",
   "isNullable": false,

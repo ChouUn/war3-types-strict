@@ -2,7 +2,7 @@
   "name": "SOUND_VOLUMEGROUP_AMBIENTSOUNDS",
   "description": null,
   "isConstant": true,
-  "type": "volumegroup",
+  "type": null,
   "isArray": false,
   "value": "ConvertVolumeGroup(6)",
   "isNullable": false,

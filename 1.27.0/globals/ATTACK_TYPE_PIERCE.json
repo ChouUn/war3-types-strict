@@ -2,7 +2,7 @@
   "name": "ATTACK_TYPE_PIERCE",
   "description": null,
   "isConstant": true,
-  "type": "attacktype",
+  "type": null,
   "isArray": false,
   "value": "ConvertAttackType(2)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_ATTACKED",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(62)",
   "isNullable": false,

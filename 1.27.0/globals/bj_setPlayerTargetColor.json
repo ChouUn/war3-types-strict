@@ -2,7 +2,7 @@
   "name": "bj_setPlayerTargetColor",
   "description": null,
   "isConstant": false,
-  "type": "playercolor",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

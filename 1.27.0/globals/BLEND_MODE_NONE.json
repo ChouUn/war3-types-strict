@@ -2,7 +2,7 @@
   "name": "BLEND_MODE_NONE",
   "description": null,
   "isConstant": true,
-  "type": "blendmode",
+  "type": null,
   "isArray": false,
   "value": "ConvertBlendMode(0)",
   "isNullable": false,

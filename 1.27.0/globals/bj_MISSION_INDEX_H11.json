@@ -2,9 +2,9 @@
   "name": "bj_MISSION_INDEX_H11",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
-  "value": "bj_CAMPAIGN_OFFSET_H * 1000 \u002B 11",
+  "value": "bj_CAMPAIGN_OFFSET_H * 1000 + 11",
   "isNullable": false,
   "source": "blizzard.j"
 }

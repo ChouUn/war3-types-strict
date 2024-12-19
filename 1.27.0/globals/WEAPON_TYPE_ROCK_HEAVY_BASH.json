@@ -2,7 +2,7 @@
   "name": "WEAPON_TYPE_ROCK_HEAVY_BASH",
   "description": null,
   "isConstant": true,
-  "type": "weapontype",
+  "type": null,
   "isArray": false,
   "value": "ConvertWeaponType(23)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "EVENT_GAME_BUILD_SUBMENU",
   "description": null,
   "isConstant": true,
-  "type": "gameevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameEvent(10)",
   "isNullable": false,

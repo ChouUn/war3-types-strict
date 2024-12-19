@@ -2,7 +2,7 @@
   "name": "bj_STOCK_MAX_ITERATIONS",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "20",
   "isNullable": false,

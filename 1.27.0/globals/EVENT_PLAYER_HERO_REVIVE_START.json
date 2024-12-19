@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_HERO_REVIVE_START",
   "description": null,
   "isConstant": true,
-  "type": "playerunitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerUnitEvent(44)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "bj_CINEMODE_GAMESPEED",
   "description": null,
   "isConstant": true,
-  "type": "gamespeed",
+  "type": null,
   "isArray": false,
   "value": "MAP_SPEED_NORMAL",
   "isNullable": false,

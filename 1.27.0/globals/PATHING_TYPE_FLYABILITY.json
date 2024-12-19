@@ -2,7 +2,7 @@
   "name": "PATHING_TYPE_FLYABILITY",
   "description": null,
   "isConstant": true,
-  "type": "pathingtype",
+  "type": null,
   "isArray": false,
   "value": "ConvertPathingType(2)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_GIANT",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(9)",
   "isNullable": false,

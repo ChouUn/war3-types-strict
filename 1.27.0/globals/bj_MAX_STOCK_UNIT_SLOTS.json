@@ -2,7 +2,7 @@
   "name": "bj_MAX_STOCK_UNIT_SLOTS",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "11",
   "isNullable": false,

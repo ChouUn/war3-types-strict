@@ -2,7 +2,7 @@
   "name": "EVENT_UNIT_UPGRADE_CANCEL",
   "description": null,
   "isConstant": true,
-  "type": "unitevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitEvent(67)",
   "isNullable": false,

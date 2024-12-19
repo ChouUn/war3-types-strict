@@ -2,7 +2,7 @@
   "name": "WEAPON_TYPE_WOOD_HEAVY_BASH",
   "description": null,
   "isConstant": true,
-  "type": "weapontype",
+  "type": null,
   "isArray": false,
   "value": "ConvertWeaponType(16)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "ALLIANCE_SHARED_XP",
   "description": null,
   "isConstant": true,
-  "type": "alliancetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertAllianceType(3)",
   "isNullable": false,

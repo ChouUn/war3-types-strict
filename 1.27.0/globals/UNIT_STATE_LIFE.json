@@ -2,7 +2,7 @@
   "name": "UNIT_STATE_LIFE",
   "description": null,
   "isConstant": true,
-  "type": "unitstate",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitState(0)",
   "isNullable": false,

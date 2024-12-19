@@ -11,13 +11,13 @@
     {
       "description": null,
       "name": "valueA",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "valueB",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

@@ -2,7 +2,7 @@
   "name": "PLAYER_GAME_RESULT_VICTORY",
   "description": null,
   "isConstant": true,
-  "type": "playergameresult",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerGameResult(0)",
   "isNullable": false,

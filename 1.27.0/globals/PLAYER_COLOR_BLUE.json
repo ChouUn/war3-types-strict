@@ -2,7 +2,7 @@
   "name": "PLAYER_COLOR_BLUE",
   "description": null,
   "isConstant": true,
-  "type": "playercolor",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerColor(1)",
   "isNullable": false,

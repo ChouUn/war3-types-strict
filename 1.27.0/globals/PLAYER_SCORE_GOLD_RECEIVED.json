@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_GOLD_RECEIVED",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(15)",
   "isNullable": false,

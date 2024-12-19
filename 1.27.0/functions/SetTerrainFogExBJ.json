@@ -5,43 +5,43 @@
     {
       "description": null,
       "name": "style",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {
       "description": null,
       "name": "zstart",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "zend",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "density",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "red",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "green",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "blue",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

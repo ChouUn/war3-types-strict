@@ -2,7 +2,7 @@
   "name": "bj_TIMETYPE_SET",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "1",
   "isNullable": false,

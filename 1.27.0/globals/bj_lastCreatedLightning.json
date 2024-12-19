@@ -2,7 +2,7 @@
   "name": "bj_lastCreatedLightning",
   "description": null,
   "isConstant": false,
-  "type": "lightning",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

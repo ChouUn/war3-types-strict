@@ -2,7 +2,7 @@
   "name": "bj_lastTransmissionDuration",
   "description": null,
   "isConstant": false,
-  "type": "number",
+  "type": "real",
   "isArray": false,
   "value": "0",
   "isNullable": false,

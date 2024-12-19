@@ -11,7 +11,7 @@
     {
       "description": null,
       "name": "missionIndex",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     }
   ],

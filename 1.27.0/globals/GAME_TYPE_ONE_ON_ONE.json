@@ -2,7 +2,7 @@
   "name": "GAME_TYPE_ONE_ON_ONE",
   "description": null,
   "isConstant": true,
-  "type": "gametype",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameType(16)",
   "isNullable": false,

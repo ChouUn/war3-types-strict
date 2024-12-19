@@ -2,7 +2,7 @@
   "name": "ATTACK_TYPE_CHAOS",
   "description": null,
   "isConstant": true,
-  "type": "attacktype",
+  "type": null,
   "isArray": false,
   "value": "ConvertAttackType(5)",
   "isNullable": false,

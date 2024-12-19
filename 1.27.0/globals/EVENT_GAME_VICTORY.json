@@ -2,7 +2,7 @@
   "name": "EVENT_GAME_VICTORY",
   "description": null,
   "isConstant": true,
-  "type": "gameevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertGameEvent(0)",
   "isNullable": false,

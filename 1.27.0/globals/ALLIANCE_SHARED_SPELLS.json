@@ -2,7 +2,7 @@
   "name": "ALLIANCE_SHARED_SPELLS",
   "description": null,
   "isConstant": true,
-  "type": "alliancetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertAllianceType(4)",
   "isNullable": false,

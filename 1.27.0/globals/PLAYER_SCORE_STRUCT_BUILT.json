@@ -2,7 +2,7 @@
   "name": "PLAYER_SCORE_STRUCT_BUILT",
   "description": null,
   "isConstant": true,
-  "type": "playerscore",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerScore(2)",
   "isNullable": false,

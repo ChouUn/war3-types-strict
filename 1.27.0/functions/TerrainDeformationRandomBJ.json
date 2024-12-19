@@ -5,7 +5,7 @@
     {
       "description": null,
       "name": "duration",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
@@ -17,25 +17,25 @@
     {
       "description": null,
       "name": "radius",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "minDelta",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "maxDelta",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     },
     {
       "description": null,
       "name": "updateInterval",
-      "type": "number",
+      "type": "real",
       "isNullable": false
     }
   ],

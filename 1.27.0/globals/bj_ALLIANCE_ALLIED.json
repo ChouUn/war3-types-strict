@@ -2,7 +2,7 @@
   "name": "bj_ALLIANCE_ALLIED",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "2",
   "isNullable": false,

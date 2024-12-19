@@ -2,7 +2,7 @@
   "name": "UNIT_TYPE_UNDEAD",
   "description": null,
   "isConstant": true,
-  "type": "unittype",
+  "type": null,
   "isArray": false,
   "value": "ConvertUnitType(14)",
   "isNullable": false,

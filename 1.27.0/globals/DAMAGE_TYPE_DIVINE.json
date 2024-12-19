@@ -2,7 +2,7 @@
   "name": "DAMAGE_TYPE_DIVINE",
   "description": null,
   "isConstant": true,
-  "type": "damagetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertDamageType(13)",
   "isNullable": false,

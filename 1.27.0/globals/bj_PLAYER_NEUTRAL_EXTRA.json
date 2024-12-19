@@ -2,7 +2,7 @@
   "name": "bj_PLAYER_NEUTRAL_EXTRA",
   "description": null,
   "isConstant": true,
-  "type": "number",
+  "type": "integer",
   "isArray": false,
   "value": "GetBJPlayerNeutralExtra()",
   "isNullable": false,

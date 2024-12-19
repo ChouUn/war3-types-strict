@@ -2,7 +2,7 @@
   "name": "WEAPON_TYPE_METAL_LIGHT_SLICE",
   "description": null,
   "isConstant": true,
-  "type": "weapontype",
+  "type": null,
   "isArray": false,
   "value": "ConvertWeaponType(4)",
   "isNullable": false,

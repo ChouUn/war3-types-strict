@@ -2,7 +2,7 @@
   "name": "bj_lastCreatedTextTag",
   "description": null,
   "isConstant": false,
-  "type": "texttag",
+  "type": null,
   "isArray": false,
   "value": "null",
   "isNullable": true,

@@ -5,7 +5,7 @@
     {
       "description": null,
       "name": "rate",
-      "type": "number",
+      "type": "integer",
       "isNullable": false
     },
     {

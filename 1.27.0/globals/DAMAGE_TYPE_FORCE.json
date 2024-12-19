@@ -2,7 +2,7 @@
   "name": "DAMAGE_TYPE_FORCE",
   "description": null,
   "isConstant": true,
-  "type": "damagetype",
+  "type": null,
   "isArray": false,
   "value": "ConvertDamageType(17)",
   "isNullable": false,

@@ -2,7 +2,7 @@
   "name": "EVENT_PLAYER_ARROW_LEFT_DOWN",
   "description": null,
   "isConstant": true,
-  "type": "playerevent",
+  "type": null,
   "isArray": false,
   "value": "ConvertPlayerEvent(261)",
   "isNullable": false,
