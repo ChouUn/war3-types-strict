@@ -1,6 +1,0 @@
-{
-  "description": null,
-  "name": "boolexpr",
-  "extends": "agent",
-  "source": "common.j"
-}

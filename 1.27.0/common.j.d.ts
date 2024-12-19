@@ -1,99 +1,107 @@
 /** @noSelfInFile */
 
-// ===============
-// ==== TYPES ====
-// ===============
-declare interface ability extends agent { __ability: never; }
-declare interface agent extends handle { __agent: never; }
-declare interface aidifficulty extends handle { __aidifficulty: never; }
-declare interface alliancetype extends handle { __alliancetype: never; }
-declare interface attacktype extends handle { __attacktype: never; }
-declare interface blendmode extends handle { __blendmode: never; }
-declare interface boolexpr extends agent { __boolexpr: never; }
-declare interface buff extends ability { __buff: never; }
-declare interface button extends agent { __button: never; }
-declare interface camerafield extends handle { __camerafield: never; }
-declare interface camerasetup extends handle { __camerasetup: never; }
-declare interface conditionfunc extends boolexpr { __conditionfunc: never; }
-declare interface damagetype extends handle { __damagetype: never; }
-declare interface defeatcondition extends agent { __defeatcondition: never; }
-declare interface destructable extends widget { __destructable: never; }
-declare interface dialog extends agent { __dialog: never; }
-declare interface dialogevent extends eventid { __dialogevent: never; }
-declare interface effect extends agent { __effect: never; }
-declare interface effecttype extends handle { __effecttype: never; }
-declare interface event extends agent { __event: never; }
-declare interface eventid extends handle { __eventid: never; }
-declare interface fgamestate extends gamestate { __fgamestate: never; }
-declare interface filterfunc extends boolexpr { __filterfunc: never; }
-declare interface fogmodifier extends agent { __fogmodifier: never; }
-declare interface fogstate extends handle { __fogstate: never; }
-declare interface force extends agent { __force: never; }
-declare interface gamecache extends agent { __gamecache: never; }
-declare interface gamedifficulty extends handle { __gamedifficulty: never; }
-declare interface gameevent extends eventid { __gameevent: never; }
-declare interface gamespeed extends handle { __gamespeed: never; }
-declare interface gamestate extends handle { __gamestate: never; }
-declare interface gametype extends handle { __gametype: never; }
-declare interface group extends agent { __group: never; }
-declare interface hashtable extends agent { __hashtable: never; }
-declare interface igamestate extends gamestate { __igamestate: never; }
-declare interface image extends handle { __image: never; }
-declare interface item extends widget { __item: never; }
-declare interface itempool extends handle { __itempool: never; }
-declare interface itemtype extends handle { __itemtype: never; }
-declare interface leaderboard extends agent { __leaderboard: never; }
-declare interface lightning extends handle { __lightning: never; }
-declare interface limitop extends eventid { __limitop: never; }
-declare interface location extends agent { __location: never; }
-declare interface mapcontrol extends handle { __mapcontrol: never; }
-declare interface mapdensity extends handle { __mapdensity: never; }
-declare interface mapflag extends handle { __mapflag: never; }
-declare interface mapsetting extends handle { __mapsetting: never; }
-declare interface mapvisibility extends handle { __mapvisibility: never; }
-declare interface multiboard extends agent { __multiboard: never; }
-declare interface multiboarditem extends agent { __multiboarditem: never; }
-declare interface pathingtype extends handle { __pathingtype: never; }
-declare interface placement extends handle { __placement: never; }
-declare interface player extends agent { __player: never; }
-declare interface playercolor extends handle { __playercolor: never; }
-declare interface playerevent extends eventid { __playerevent: never; }
-declare interface playergameresult extends handle { __playergameresult: never; }
-declare interface playerscore extends handle { __playerscore: never; }
-declare interface playerslotstate extends handle { __playerslotstate: never; }
-declare interface playerstate extends handle { __playerstate: never; }
-declare interface playerunitevent extends eventid { __playerunitevent: never; }
-declare interface quest extends agent { __quest: never; }
-declare interface questitem extends agent { __questitem: never; }
-declare interface race extends handle { __race: never; }
-declare interface racepreference extends handle { __racepreference: never; }
-declare interface raritycontrol extends handle { __raritycontrol: never; }
-declare interface rect extends agent { __rect: never; }
-declare interface region extends agent { __region: never; }
-declare interface sound extends agent { __sound: never; }
-declare interface soundtype extends handle { __soundtype: never; }
-declare interface startlocprio extends handle { __startlocprio: never; }
-declare interface terraindeformation extends handle { __terraindeformation: never; }
-declare interface texmapflags extends handle { __texmapflags: never; }
-declare interface texttag extends handle { __texttag: never; }
-declare interface timer extends agent { __timer: never; }
-declare interface timerdialog extends agent { __timerdialog: never; }
-declare interface trackable extends agent { __trackable: never; }
-declare interface trigger extends agent { __trigger: never; }
-declare interface triggeraction extends handle { __triggeraction: never; }
-declare interface triggercondition extends agent { __triggercondition: never; }
-declare interface ubersplat extends handle { __ubersplat: never; }
-declare interface unit extends widget { __unit: never; }
-declare interface unitevent extends eventid { __unitevent: never; }
-declare interface unitpool extends handle { __unitpool: never; }
-declare interface unitstate extends handle { __unitstate: never; }
-declare interface unittype extends handle { __unittype: never; }
-declare interface version extends handle { __version: never; }
-declare interface volumegroup extends handle { __volumegroup: never; }
-declare interface weapontype extends handle { __weapontype: never; }
-declare interface weathereffect extends handle { __weathereffect: never; }
-declare interface widget extends agent { __widget: never; }
-declare interface widgetevent extends eventid { __widgetevent: never; }
+// ====================
+// ==== BASE TYPES ====
+// ====================
+declare type real = number & { readonly __real: never; }
+declare type integer = number & { readonly __integer: never; }
+declare type handle = number & { readonly __handle: never; }
+declare type code = () => void;
+declare type boolexpr = () => boolean;
+declare type conditionfunc = () => boolean;
+declare type filterfunc = () => boolean;
+
+// ==================
+// ==== POINTERS ====
+// ==================
+declare type ability = agent & { __ability: never; }
+declare type agent = handle & { __agent: never; }
+declare type aidifficulty = handle & { __aidifficulty: never; }
+declare type alliancetype = handle & { __alliancetype: never; }
+declare type attacktype = handle & { __attacktype: never; }
+declare type blendmode = handle & { __blendmode: never; }
+declare type buff = ability & { __buff: never; }
+declare type button = agent & { __button: never; }
+declare type camerafield = handle & { __camerafield: never; }
+declare type camerasetup = handle & { __camerasetup: never; }
+declare type damagetype = handle & { __damagetype: never; }
+declare type defeatcondition = agent & { __defeatcondition: never; }
+declare type destructable = widget & { __destructable: never; }
+declare type dialog = agent & { __dialog: never; }
+declare type dialogevent = eventid & { __dialogevent: never; }
+declare type effect = agent & { __effect: never; }
+declare type effecttype = handle & { __effecttype: never; }
+declare type event = agent & { __event: never; }
+declare type eventid = handle & { __eventid: never; }
+declare type fgamestate = gamestate & { __fgamestate: never; }
+declare type fogmodifier = agent & { __fogmodifier: never; }
+declare type fogstate = handle & { __fogstate: never; }
+declare type force = agent & { __force: never; }
+declare type gamecache = agent & { __gamecache: never; }
+declare type gamedifficulty = handle & { __gamedifficulty: never; }
+declare type gameevent = eventid & { __gameevent: never; }
+declare type gamespeed = handle & { __gamespeed: never; }
+declare type gamestate = handle & { __gamestate: never; }
+declare type gametype = handle & { __gametype: never; }
+declare type group = agent & { __group: never; }
+declare type hashtable = agent & { __hashtable: never; }
+declare type igamestate = gamestate & { __igamestate: never; }
+declare type image = handle & { __image: never; }
+declare type item = widget & { __item: never; }
+declare type itempool = handle & { __itempool: never; }
+declare type itemtype = handle & { __itemtype: never; }
+declare type leaderboard = agent & { __leaderboard: never; }
+declare type lightning = handle & { __lightning: never; }
+declare type limitop = eventid & { __limitop: never; }
+declare type location = agent & { __location: never; }
+declare type mapcontrol = handle & { __mapcontrol: never; }
+declare type mapdensity = handle & { __mapdensity: never; }
+declare type mapflag = handle & { __mapflag: never; }
+declare type mapsetting = handle & { __mapsetting: never; }
+declare type mapvisibility = handle & { __mapvisibility: never; }
+declare type multiboard = agent & { __multiboard: never; }
+declare type multiboarditem = agent & { __multiboarditem: never; }
+declare type pathingtype = handle & { __pathingtype: never; }
+declare type placement = handle & { __placement: never; }
+declare type player = agent & { __player: never; }
+declare type playercolor = handle & { __playercolor: never; }
+declare type playerevent = eventid & { __playerevent: never; }
+declare type playergameresult = handle & { __playergameresult: never; }
+declare type playerscore = handle & { __playerscore: never; }
+declare type playerslotstate = handle & { __playerslotstate: never; }
+declare type playerstate = handle & { __playerstate: never; }
+declare type playerunitevent = eventid & { __playerunitevent: never; }
+declare type quest = agent & { __quest: never; }
+declare type questitem = agent & { __questitem: never; }
+declare type race = handle & { __race: never; }
+declare type racepreference = handle & { __racepreference: never; }
+declare type raritycontrol = handle & { __raritycontrol: never; }
+declare type rect = agent & { __rect: never; }
+declare type region = agent & { __region: never; }
+declare type sound = agent & { __sound: never; }
+declare type soundtype = handle & { __soundtype: never; }
+declare type startlocprio = handle & { __startlocprio: never; }
+declare type terraindeformation = handle & { __terraindeformation: never; }
+declare type texmapflags = handle & { __texmapflags: never; }
+declare type texttag = handle & { __texttag: never; }
+declare type timer = agent & { __timer: never; }
+declare type timerdialog = agent & { __timerdialog: never; }
+declare type trackable = agent & { __trackable: never; }
+declare type trigger = agent & { __trigger: never; }
+declare type triggeraction = handle & { __triggeraction: never; }
+declare type triggercondition = agent & { __triggercondition: never; }
+declare type ubersplat = handle & { __ubersplat: never; }
+declare type unit = widget & { __unit: never; }
+declare type unitevent = eventid & { __unitevent: never; }
+declare type unitpool = handle & { __unitpool: never; }
+declare type unitstate = handle & { __unitstate: never; }
+declare type unittype = handle & { __unittype: never; }
+declare type version = handle & { __version: never; }
+declare type volumegroup = handle & { __volumegroup: never; }
+declare type weapontype = handle & { __weapontype: never; }
+declare type weathereffect = handle & { __weathereffect: never; }
+declare type widget = agent & { __widget: never; }
+declare type widgetevent = eventid & { __widgetevent: never; }
 
 // =================
 // ==== GLOBALS ====
@@ -640,7 +648,7 @@ declare function ClearTextMessages(): void;
 
 declare function CommandAI(num: player, command: integer, data: integer): void;
 
-declare function Condition(func: () => void): conditionfunc;
+declare function Condition(func: code): conditionfunc;
 
 declare function ConvertAIDifficulty(i: integer): aidifficulty | undefined;
 
@@ -914,13 +922,13 @@ declare function EndGame(doScoreScreen: boolean): void;
 
 declare function EndThematicMusic(): void;
 
-declare function EnumDestructablesInRect(r: rect, filter: boolexpr | undefined, actionFunc: () => void): void;
+declare function EnumDestructablesInRect(r: rect, filter: boolexpr | undefined, actionFunc: code): void;
 
-declare function EnumItemsInRect(r: rect, filter: boolexpr | undefined, actionFunc: () => void): void;
+declare function EnumItemsInRect(r: rect, filter: boolexpr | undefined, actionFunc: code): void;
 
 declare function ExecuteFunc(funcName: string): void;
 
-declare function Filter(func: () => void): filterfunc;
+declare function Filter(func: code): filterfunc;
 
 declare function FinishUbersplat(whichSplat: ubersplat): void;
 
@@ -980,9 +988,9 @@ declare function ForceUICancel(): void;
 
 declare function ForceUIKey(key: string): void;
 
-declare function ForForce(whichForce: force, callback: () => void): void;
+declare function ForForce(whichForce: force, callback: code): void;
 
-declare function ForGroup(whichGroup: group, callback: () => void): void;
+declare function ForGroup(whichGroup: group, callback: code): void;
 
 declare function GetAbilityEffect(abilityString: string, t: effecttype, index: integer): string | undefined;
 
@@ -2658,9 +2666,9 @@ declare function TimerGetRemaining(whichTimer: timer): number;
 
 declare function TimerGetTimeout(whichTimer: timer): number;
 
-declare function TimerStart(whichTimer: timer, timeout: real, periodic: boolean, handlerFunc: () => void): void;
+declare function TimerStart(whichTimer: timer, timeout: real, periodic: boolean, handlerFunc: code): void;
 
-declare function TriggerAddAction(whichTrigger: trigger, actionFunc: () => void): triggeraction;
+declare function TriggerAddAction(whichTrigger: trigger, actionFunc: code): triggeraction;
 
 declare function TriggerAddCondition(whichTrigger: trigger, condition: boolexpr): triggercondition | undefined;
 

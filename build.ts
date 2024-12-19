@@ -83,13 +83,29 @@ for (const version of versions) {
         stream.write("/** @noSelfInFile */\n\n");
 
         // Types
-        stream.write("// ===============\n");
-        stream.write("// ==== TYPES ====\n");
-        stream.write("// ===============\n");
+        stream.write("// ====================\n");
+        stream.write("// ==== BASE TYPES ====\n");
+        stream.write("// ====================\n");
+
+        stream.write("declare type real = number & { readonly __real: never; }\n");
+        stream.write("declare type integer = number & { readonly __integer: never; }\n");
+        stream.write("declare type handle = number & { readonly __handle: never; }\n");
+        stream.write("declare type code = () => void;\n");
+        stream.write("declare type boolexpr = () => boolean;\n");
+        stream.write("declare type conditionfunc = () => boolean;\n");
+        stream.write("declare type filterfunc = () => boolean;\n");
+
+        stream.write("\n")
+
+        // Types
+        stream.write("// ==================\n");
+        stream.write("// ==== POINTERS ====\n");
+        stream.write("// ==================\n");
 
         for (const [name, type] of types) {
             if (type.source !== source) continue;
-            stream.write(`declare interface ${type.name} extends ${type.extends} { __${type.name}: never; }\n`);
+            stream.write(`declare type ${type.name} = ${type.extends} & { __${type.name}: never; }\n`);
+            // stream.write(`declare interface ${type.name} extends ${type.extends} { __${type.name}: never; }\n`);
         }
 
         stream.write("\n")

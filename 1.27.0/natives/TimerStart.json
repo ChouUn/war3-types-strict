@@ -23,7 +23,7 @@
     {
       "description": null,
       "name": "handlerFunc",
-      "type": "() => void",
+      "type": "code",
       "isNullable": false
     }
   ],
