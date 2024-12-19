@@ -1,0 +1,27 @@
+{
+  "name": "IsPointInRegion",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "whichRegion",
+      "type": "region",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "boolean",
+  "isNullable": false,
+  "source": "common.j"
+}

@@ -1,0 +1,2616 @@
+{
+  "ConvertRace": {
+    "0": "integer"
+  },
+  "ConvertAllianceType": {
+    "0": "integer"
+  },
+  "ConvertRacePref": {
+    "0": "integer"
+  },
+  "ConvertIGameState": {
+    "0": "integer"
+  },
+  "ConvertFGameState": {
+    "0": "integer"
+  },
+  "ConvertPlayerState": {
+    "0": "integer"
+  },
+  "ConvertPlayerScore": {
+    "0": "integer"
+  },
+  "ConvertPlayerGameResult": {
+    "0": "integer"
+  },
+  "ConvertUnitState": {
+    "0": "integer"
+  },
+  "ConvertAIDifficulty": {
+    "0": "integer"
+  },
+  "ConvertGameEvent": {
+    "0": "integer"
+  },
+  "ConvertPlayerEvent": {
+    "0": "integer"
+  },
+  "ConvertPlayerUnitEvent": {
+    "0": "integer"
+  },
+  "ConvertWidgetEvent": {
+    "0": "integer"
+  },
+  "ConvertDialogEvent": {
+    "0": "integer"
+  },
+  "ConvertUnitEvent": {
+    "0": "integer"
+  },
+  "ConvertLimitOp": {
+    "0": "integer"
+  },
+  "ConvertUnitType": {
+    "0": "integer"
+  },
+  "ConvertGameSpeed": {
+    "0": "integer"
+  },
+  "ConvertPlacement": {
+    "0": "integer"
+  },
+  "ConvertStartLocPrio": {
+    "0": "integer"
+  },
+  "ConvertGameDifficulty": {
+    "0": "integer"
+  },
+  "ConvertGameType": {
+    "0": "integer"
+  },
+  "ConvertMapFlag": {
+    "0": "integer"
+  },
+  "ConvertMapVisibility": {
+    "0": "integer"
+  },
+  "ConvertMapSetting": {
+    "0": "integer"
+  },
+  "ConvertMapDensity": {
+    "0": "integer"
+  },
+  "ConvertMapControl": {
+    "0": "integer"
+  },
+  "ConvertPlayerColor": {
+    "0": "integer"
+  },
+  "ConvertPlayerSlotState": {
+    "0": "integer"
+  },
+  "ConvertVolumeGroup": {
+    "0": "integer"
+  },
+  "ConvertCameraField": {
+    "0": "integer"
+  },
+  "ConvertBlendMode": {
+    "0": "integer"
+  },
+  "ConvertRarityControl": {
+    "0": "integer"
+  },
+  "ConvertTexMapFlags": {
+    "0": "integer"
+  },
+  "ConvertFogState": {
+    "0": "integer"
+  },
+  "ConvertEffectType": {
+    "0": "integer"
+  },
+  "ConvertVersion": {
+    "0": "integer"
+  },
+  "ConvertItemType": {
+    "0": "integer"
+  },
+  "ConvertAttackType": {
+    "0": "integer"
+  },
+  "ConvertDamageType": {
+    "0": "integer"
+  },
+  "ConvertWeaponType": {
+    "0": "integer"
+  },
+  "ConvertSoundType": {
+    "0": "integer"
+  },
+  "ConvertPathingType": {
+    "0": "integer"
+  },
+  "OrderId": {},
+  "OrderId2String": {
+    "0": "integer"
+  },
+  "UnitId": {},
+  "UnitId2String": {
+    "0": "integer"
+  },
+  "AbilityId": {},
+  "AbilityId2String": {
+    "0": "integer"
+  },
+  "GetObjectName": {
+    "0": "integer"
+  },
+  "Deg2Rad": {
+    "0": "real"
+  },
+  "Rad2Deg": {
+    "0": "real"
+  },
+  "Sin": {
+    "0": "real"
+  },
+  "Cos": {
+    "0": "real"
+  },
+  "Tan": {
+    "0": "real"
+  },
+  "Asin": {
+    "0": "real"
+  },
+  "Acos": {
+    "0": "real"
+  },
+  "Atan": {
+    "0": "real"
+  },
+  "Atan2": {
+    "0": "real",
+    "1": "real"
+  },
+  "SquareRoot": {
+    "0": "real"
+  },
+  "Pow": {
+    "0": "real",
+    "1": "real"
+  },
+  "I2R": {
+    "0": "integer"
+  },
+  "R2I": {
+    "0": "real"
+  },
+  "I2S": {
+    "0": "integer"
+  },
+  "R2S": {
+    "0": "real"
+  },
+  "R2SW": {
+    "0": "real",
+    "1": "integer",
+    "2": "integer"
+  },
+  "S2I": {},
+  "S2R": {},
+  "GetHandleId": {},
+  "SubString": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "StringLength": {},
+  "StringCase": {},
+  "StringHash": {},
+  "GetLocalizedString": {},
+  "GetLocalizedHotkey": {},
+  "SetMapName": {},
+  "SetMapDescription": {},
+  "SetTeams": {
+    "0": "integer"
+  },
+  "SetPlayers": {
+    "0": "integer"
+  },
+  "DefineStartLocation": {
+    "0": "integer",
+    "1": "real",
+    "2": "real"
+  },
+  "DefineStartLocationLoc": {
+    "0": "integer"
+  },
+  "SetStartLocPrioCount": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "SetStartLocPrio": {
+    "0": "integer",
+    "1": "integer",
+    "2": "integer"
+  },
+  "GetStartLocPrioSlot": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "GetStartLocPrio": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "SetGameTypeSupported": {},
+  "SetMapFlag": {},
+  "SetGamePlacement": {},
+  "SetGameSpeed": {},
+  "SetGameDifficulty": {},
+  "SetResourceDensity": {},
+  "SetCreatureDensity": {},
+  "GetTeams": {},
+  "GetPlayers": {},
+  "IsGameTypeSupported": {},
+  "GetGameTypeSelected": {},
+  "IsMapFlagSet": {},
+  "GetGamePlacement": {},
+  "GetGameSpeed": {},
+  "GetGameDifficulty": {},
+  "GetResourceDensity": {},
+  "GetCreatureDensity": {},
+  "GetStartLocationX": {
+    "0": "integer"
+  },
+  "GetStartLocationY": {
+    "0": "integer"
+  },
+  "GetStartLocationLoc": {
+    "0": "integer"
+  },
+  "SetPlayerTeam": {
+    "1": "integer"
+  },
+  "SetPlayerStartLocation": {
+    "1": "integer"
+  },
+  "ForcePlayerStartLocation": {
+    "1": "integer"
+  },
+  "SetPlayerColor": {},
+  "SetPlayerAlliance": {},
+  "SetPlayerTaxRate": {
+    "3": "integer"
+  },
+  "SetPlayerRacePreference": {},
+  "SetPlayerRaceSelectable": {},
+  "SetPlayerController": {},
+  "SetPlayerName": {},
+  "SetPlayerOnScoreScreen": {},
+  "GetPlayerTeam": {},
+  "GetPlayerStartLocation": {},
+  "GetPlayerColor": {},
+  "GetPlayerSelectable": {},
+  "GetPlayerController": {},
+  "GetPlayerSlotState": {},
+  "GetPlayerTaxRate": {},
+  "IsPlayerRacePrefSet": {},
+  "GetPlayerName": {},
+  "CreateTimer": {},
+  "DestroyTimer": {},
+  "TimerStart": {
+    "1": "real"
+  },
+  "TimerGetElapsed": {},
+  "TimerGetRemaining": {},
+  "TimerGetTimeout": {},
+  "PauseTimer": {},
+  "ResumeTimer": {},
+  "GetExpiredTimer": {},
+  "CreateGroup": {},
+  "DestroyGroup": {},
+  "GroupAddUnit": {},
+  "GroupRemoveUnit": {},
+  "GroupClear": {},
+  "GroupEnumUnitsOfType": {},
+  "GroupEnumUnitsOfPlayer": {},
+  "GroupEnumUnitsOfTypeCounted": {
+    "3": "integer"
+  },
+  "GroupEnumUnitsInRect": {},
+  "GroupEnumUnitsInRectCounted": {
+    "3": "integer"
+  },
+  "GroupEnumUnitsInRange": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "GroupEnumUnitsInRangeOfLoc": {
+    "2": "real"
+  },
+  "GroupEnumUnitsInRangeCounted": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "5": "integer"
+  },
+  "GroupEnumUnitsInRangeOfLocCounted": {
+    "2": "real",
+    "4": "integer"
+  },
+  "GroupEnumUnitsSelected": {},
+  "GroupImmediateOrder": {},
+  "GroupImmediateOrderById": {
+    "1": "integer"
+  },
+  "GroupPointOrder": {
+    "2": "real",
+    "3": "real"
+  },
+  "GroupPointOrderLoc": {},
+  "GroupPointOrderById": {
+    "1": "integer",
+    "2": "real",
+    "3": "real"
+  },
+  "GroupPointOrderByIdLoc": {
+    "1": "integer"
+  },
+  "GroupTargetOrder": {},
+  "GroupTargetOrderById": {
+    "1": "integer"
+  },
+  "ForGroup": {},
+  "FirstOfGroup": {},
+  "CreateForce": {},
+  "DestroyForce": {},
+  "ForceAddPlayer": {},
+  "ForceRemovePlayer": {},
+  "ForceClear": {},
+  "ForceEnumPlayers": {},
+  "ForceEnumPlayersCounted": {
+    "2": "integer"
+  },
+  "ForceEnumAllies": {},
+  "ForceEnumEnemies": {},
+  "ForForce": {},
+  "Rect": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "RectFromLoc": {},
+  "RemoveRect": {},
+  "SetRect": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "SetRectFromLoc": {},
+  "MoveRectTo": {
+    "1": "real",
+    "2": "real"
+  },
+  "MoveRectToLoc": {},
+  "GetRectCenterX": {},
+  "GetRectCenterY": {},
+  "GetRectMinX": {},
+  "GetRectMinY": {},
+  "GetRectMaxX": {},
+  "GetRectMaxY": {},
+  "CreateRegion": {},
+  "RemoveRegion": {},
+  "RegionAddRect": {},
+  "RegionClearRect": {},
+  "RegionAddCell": {
+    "1": "real",
+    "2": "real"
+  },
+  "RegionAddCellAtLoc": {},
+  "RegionClearCell": {
+    "1": "real",
+    "2": "real"
+  },
+  "RegionClearCellAtLoc": {},
+  "Location": {
+    "0": "real",
+    "1": "real"
+  },
+  "RemoveLocation": {},
+  "MoveLocation": {
+    "1": "real",
+    "2": "real"
+  },
+  "GetLocationX": {},
+  "GetLocationY": {},
+  "GetLocationZ": {},
+  "IsUnitInRegion": {},
+  "IsPointInRegion": {
+    "1": "real",
+    "2": "real"
+  },
+  "IsLocationInRegion": {},
+  "GetWorldBounds": {},
+  "CreateTrigger": {},
+  "DestroyTrigger": {},
+  "ResetTrigger": {},
+  "EnableTrigger": {},
+  "DisableTrigger": {},
+  "IsTriggerEnabled": {},
+  "TriggerWaitOnSleeps": {},
+  "IsTriggerWaitOnSleeps": {},
+  "GetFilterUnit": {},
+  "GetEnumUnit": {},
+  "GetFilterDestructable": {},
+  "GetEnumDestructable": {},
+  "GetFilterItem": {},
+  "GetEnumItem": {},
+  "GetFilterPlayer": {},
+  "GetEnumPlayer": {},
+  "GetTriggeringTrigger": {},
+  "GetTriggerEventId": {},
+  "GetTriggerEvalCount": {},
+  "GetTriggerExecCount": {},
+  "ExecuteFunc": {},
+  "And": {},
+  "Or": {},
+  "Not": {},
+  "Condition": {},
+  "DestroyCondition": {},
+  "Filter": {},
+  "DestroyFilter": {},
+  "DestroyBoolExpr": {},
+  "TriggerRegisterVariableEvent": {
+    "3": "real"
+  },
+  "TriggerRegisterTimerEvent": {
+    "1": "real"
+  },
+  "TriggerRegisterTimerExpireEvent": {},
+  "TriggerRegisterGameStateEvent": {
+    "3": "real"
+  },
+  "TriggerRegisterDialogEvent": {},
+  "TriggerRegisterDialogButtonEvent": {},
+  "GetEventGameState": {},
+  "TriggerRegisterGameEvent": {},
+  "GetWinningPlayer": {},
+  "TriggerRegisterEnterRegion": {},
+  "GetTriggeringRegion": {},
+  "GetEnteringUnit": {},
+  "TriggerRegisterLeaveRegion": {},
+  "GetLeavingUnit": {},
+  "TriggerRegisterTrackableHitEvent": {},
+  "TriggerRegisterTrackableTrackEvent": {},
+  "GetTriggeringTrackable": {},
+  "GetClickedButton": {},
+  "GetClickedDialog": {},
+  "GetTournamentFinishSoonTimeRemaining": {},
+  "GetTournamentFinishNowRule": {},
+  "GetTournamentFinishNowPlayer": {},
+  "GetTournamentScore": {},
+  "GetSaveBasicFilename": {},
+  "TriggerRegisterPlayerEvent": {},
+  "GetTriggerPlayer": {},
+  "TriggerRegisterPlayerUnitEvent": {},
+  "GetLevelingUnit": {},
+  "GetLearningUnit": {},
+  "GetLearnedSkill": {},
+  "GetLearnedSkillLevel": {},
+  "GetRevivableUnit": {},
+  "GetRevivingUnit": {},
+  "GetAttacker": {},
+  "GetRescuer": {},
+  "GetDyingUnit": {},
+  "GetKillingUnit": {},
+  "GetDecayingUnit": {},
+  "GetSelectedUnit": {},
+  "GetConstructingStructure": {},
+  "GetCancelledStructure": {},
+  "GetConstructedStructure": {},
+  "GetResearchingUnit": {},
+  "GetResearched": {},
+  "GetTrainedUnitType": {},
+  "GetTrainedUnit": {},
+  "GetDetectedUnit": {},
+  "GetSummoningUnit": {},
+  "GetSummonedUnit": {},
+  "GetTransportUnit": {},
+  "GetLoadedUnit": {},
+  "GetSellingUnit": {},
+  "GetSoldUnit": {},
+  "GetBuyingUnit": {},
+  "GetSoldItem": {},
+  "GetChangingUnit": {},
+  "GetChangingUnitPrevOwner": {},
+  "GetManipulatingUnit": {},
+  "GetManipulatedItem": {},
+  "GetOrderedUnit": {},
+  "GetIssuedOrderId": {},
+  "GetOrderPointX": {},
+  "GetOrderPointY": {},
+  "GetOrderPointLoc": {},
+  "GetOrderTarget": {},
+  "GetOrderTargetDestructable": {},
+  "GetOrderTargetItem": {},
+  "GetOrderTargetUnit": {},
+  "GetSpellAbilityUnit": {},
+  "GetSpellAbilityId": {},
+  "GetSpellAbility": {},
+  "GetSpellTargetLoc": {},
+  "GetSpellTargetX": {},
+  "GetSpellTargetY": {},
+  "GetSpellTargetDestructable": {},
+  "GetSpellTargetItem": {},
+  "GetSpellTargetUnit": {},
+  "TriggerRegisterPlayerAllianceChange": {},
+  "TriggerRegisterPlayerStateEvent": {
+    "4": "real"
+  },
+  "GetEventPlayerState": {},
+  "TriggerRegisterPlayerChatEvent": {},
+  "GetEventPlayerChatString": {},
+  "GetEventPlayerChatStringMatched": {},
+  "TriggerRegisterDeathEvent": {},
+  "GetTriggerUnit": {},
+  "TriggerRegisterUnitStateEvent": {
+    "4": "real"
+  },
+  "GetEventUnitState": {},
+  "TriggerRegisterUnitEvent": {},
+  "GetEventDamage": {},
+  "GetEventDamageSource": {},
+  "GetEventDetectingPlayer": {},
+  "TriggerRegisterFilterUnitEvent": {},
+  "GetEventTargetUnit": {},
+  "TriggerRegisterUnitInRange": {
+    "2": "real"
+  },
+  "TriggerAddCondition": {},
+  "TriggerRemoveCondition": {},
+  "TriggerClearConditions": {},
+  "TriggerAddAction": {},
+  "TriggerRemoveAction": {},
+  "TriggerClearActions": {},
+  "TriggerSleepAction": {
+    "0": "real"
+  },
+  "TriggerWaitForSound": {
+    "1": "real"
+  },
+  "TriggerEvaluate": {},
+  "TriggerExecute": {},
+  "TriggerExecuteWait": {},
+  "TriggerSyncStart": {},
+  "TriggerSyncReady": {},
+  "GetWidgetLife": {},
+  "SetWidgetLife": {
+    "1": "real"
+  },
+  "GetWidgetX": {},
+  "GetWidgetY": {},
+  "GetTriggerWidget": {},
+  "CreateDestructable": {
+    "0": "integer",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "integer"
+  },
+  "CreateDestructableZ": {
+    "0": "integer",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "integer"
+  },
+  "CreateDeadDestructable": {
+    "0": "integer",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "integer"
+  },
+  "CreateDeadDestructableZ": {
+    "0": "integer",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "integer"
+  },
+  "RemoveDestructable": {},
+  "KillDestructable": {},
+  "SetDestructableInvulnerable": {},
+  "IsDestructableInvulnerable": {},
+  "EnumDestructablesInRect": {},
+  "GetDestructableTypeId": {},
+  "GetDestructableX": {},
+  "GetDestructableY": {},
+  "SetDestructableLife": {
+    "1": "real"
+  },
+  "GetDestructableLife": {},
+  "SetDestructableMaxLife": {
+    "1": "real"
+  },
+  "GetDestructableMaxLife": {},
+  "DestructableRestoreLife": {
+    "1": "real"
+  },
+  "QueueDestructableAnimation": {},
+  "SetDestructableAnimation": {},
+  "SetDestructableAnimationSpeed": {
+    "1": "real"
+  },
+  "ShowDestructable": {},
+  "GetDestructableOccluderHeight": {},
+  "SetDestructableOccluderHeight": {
+    "1": "real"
+  },
+  "GetDestructableName": {},
+  "GetTriggerDestructable": {},
+  "CreateItem": {
+    "0": "integer",
+    "1": "real",
+    "2": "real"
+  },
+  "RemoveItem": {},
+  "GetItemPlayer": {},
+  "GetItemTypeId": {},
+  "GetItemX": {},
+  "GetItemY": {},
+  "SetItemPosition": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetItemDropOnDeath": {},
+  "SetItemDroppable": {},
+  "SetItemPawnable": {},
+  "SetItemPlayer": {},
+  "SetItemInvulnerable": {},
+  "IsItemInvulnerable": {},
+  "SetItemVisible": {},
+  "IsItemVisible": {},
+  "IsItemOwned": {},
+  "IsItemPowerup": {},
+  "IsItemSellable": {},
+  "IsItemPawnable": {},
+  "IsItemIdPowerup": {
+    "0": "integer"
+  },
+  "IsItemIdSellable": {
+    "0": "integer"
+  },
+  "IsItemIdPawnable": {
+    "0": "integer"
+  },
+  "EnumItemsInRect": {},
+  "GetItemLevel": {},
+  "GetItemType": {},
+  "SetItemDropID": {
+    "1": "integer"
+  },
+  "GetItemName": {},
+  "GetItemCharges": {},
+  "SetItemCharges": {
+    "1": "integer"
+  },
+  "GetItemUserData": {},
+  "SetItemUserData": {
+    "1": "integer"
+  },
+  "CreateUnit": {
+    "1": "integer",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "CreateUnitByName": {
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "CreateUnitAtLoc": {
+    "1": "integer",
+    "3": "real"
+  },
+  "CreateUnitAtLocByName": {
+    "3": "real"
+  },
+  "CreateCorpse": {
+    "1": "integer",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "KillUnit": {},
+  "RemoveUnit": {},
+  "ShowUnit": {},
+  "SetUnitState": {
+    "2": "real"
+  },
+  "SetUnitX": {
+    "1": "real"
+  },
+  "SetUnitY": {
+    "1": "real"
+  },
+  "SetUnitPosition": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetUnitPositionLoc": {},
+  "SetUnitFacing": {
+    "1": "real"
+  },
+  "SetUnitFacingTimed": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetUnitMoveSpeed": {
+    "1": "real"
+  },
+  "SetUnitFlyHeight": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetUnitTurnSpeed": {
+    "1": "real"
+  },
+  "SetUnitPropWindow": {
+    "1": "real"
+  },
+  "SetUnitAcquireRange": {
+    "1": "real"
+  },
+  "SetUnitCreepGuard": {},
+  "GetUnitAcquireRange": {},
+  "GetUnitTurnSpeed": {},
+  "GetUnitPropWindow": {},
+  "GetUnitFlyHeight": {},
+  "GetUnitDefaultAcquireRange": {},
+  "GetUnitDefaultTurnSpeed": {},
+  "GetUnitDefaultPropWindow": {},
+  "GetUnitDefaultFlyHeight": {},
+  "SetUnitOwner": {},
+  "SetUnitColor": {},
+  "SetUnitScale": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetUnitTimeScale": {
+    "1": "real"
+  },
+  "SetUnitBlendTime": {
+    "1": "real"
+  },
+  "SetUnitVertexColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "QueueUnitAnimation": {},
+  "SetUnitAnimation": {},
+  "SetUnitAnimationByIndex": {
+    "1": "integer"
+  },
+  "SetUnitAnimationWithRarity": {},
+  "AddUnitAnimationProperties": {},
+  "SetUnitLookAt": {
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "ResetUnitLookAt": {},
+  "SetUnitRescuable": {},
+  "SetUnitRescueRange": {
+    "1": "real"
+  },
+  "SetHeroStr": {
+    "1": "integer"
+  },
+  "SetHeroAgi": {
+    "1": "integer"
+  },
+  "SetHeroInt": {
+    "1": "integer"
+  },
+  "GetHeroStr": {},
+  "GetHeroAgi": {},
+  "GetHeroInt": {},
+  "UnitStripHeroLevel": {
+    "1": "integer"
+  },
+  "GetHeroXP": {},
+  "SetHeroXP": {
+    "1": "integer"
+  },
+  "GetHeroSkillPoints": {},
+  "UnitModifySkillPoints": {
+    "1": "integer"
+  },
+  "AddHeroXP": {
+    "1": "integer"
+  },
+  "SetHeroLevel": {
+    "1": "integer"
+  },
+  "GetHeroLevel": {},
+  "GetUnitLevel": {},
+  "GetHeroProperName": {},
+  "SuspendHeroXP": {},
+  "IsSuspendedXP": {},
+  "SelectHeroSkill": {
+    "1": "integer"
+  },
+  "GetUnitAbilityLevel": {
+    "1": "integer"
+  },
+  "DecUnitAbilityLevel": {
+    "1": "integer"
+  },
+  "IncUnitAbilityLevel": {
+    "1": "integer"
+  },
+  "SetUnitAbilityLevel": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "ReviveHero": {
+    "1": "real",
+    "2": "real"
+  },
+  "ReviveHeroLoc": {},
+  "SetUnitExploded": {},
+  "SetUnitInvulnerable": {},
+  "PauseUnit": {},
+  "IsUnitPaused": {},
+  "SetUnitPathing": {},
+  "ClearSelection": {},
+  "SelectUnit": {},
+  "GetUnitPointValue": {},
+  "GetUnitPointValueByType": {
+    "0": "integer"
+  },
+  "SetUnitPointValueByType": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "UnitAddItem": {},
+  "UnitAddItemById": {
+    "1": "integer"
+  },
+  "UnitAddItemToSlotById": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "UnitRemoveItem": {},
+  "UnitRemoveItemFromSlot": {
+    "1": "integer"
+  },
+  "UnitHasItem": {},
+  "UnitItemInSlot": {
+    "1": "integer"
+  },
+  "UnitInventorySize": {},
+  "UnitDropItemPoint": {
+    "2": "real",
+    "3": "real"
+  },
+  "UnitDropItemSlot": {
+    "2": "integer"
+  },
+  "UnitDropItemTarget": {},
+  "UnitUseItem": {},
+  "UnitUseItemPoint": {
+    "2": "real",
+    "3": "real"
+  },
+  "UnitUseItemTarget": {},
+  "GetUnitX": {},
+  "GetUnitY": {},
+  "GetUnitLoc": {},
+  "GetUnitFacing": {},
+  "GetUnitMoveSpeed": {},
+  "GetUnitDefaultMoveSpeed": {},
+  "GetUnitState": {},
+  "GetOwningPlayer": {},
+  "GetUnitTypeId": {},
+  "GetUnitRace": {},
+  "GetUnitName": {},
+  "GetUnitFoodUsed": {},
+  "GetUnitFoodMade": {},
+  "GetFoodMade": {
+    "0": "integer"
+  },
+  "GetFoodUsed": {
+    "0": "integer"
+  },
+  "SetUnitUseFood": {},
+  "GetUnitRallyPoint": {},
+  "GetUnitRallyUnit": {},
+  "GetUnitRallyDestructable": {},
+  "IsUnitInGroup": {},
+  "IsUnitInForce": {},
+  "IsUnitOwnedByPlayer": {},
+  "IsUnitAlly": {},
+  "IsUnitEnemy": {},
+  "IsUnitVisible": {},
+  "IsUnitDetected": {},
+  "IsUnitInvisible": {},
+  "IsUnitFogged": {},
+  "IsUnitMasked": {},
+  "IsUnitSelected": {},
+  "IsUnitRace": {},
+  "IsUnitType": {},
+  "IsUnit": {},
+  "IsUnitInRange": {
+    "2": "real"
+  },
+  "IsUnitInRangeXY": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "IsUnitInRangeLoc": {
+    "2": "real"
+  },
+  "IsUnitHidden": {},
+  "IsUnitIllusion": {},
+  "IsUnitInTransport": {},
+  "IsUnitLoaded": {},
+  "IsHeroUnitId": {
+    "0": "integer"
+  },
+  "IsUnitIdType": {
+    "0": "integer"
+  },
+  "UnitShareVision": {},
+  "UnitSuspendDecay": {},
+  "UnitAddType": {},
+  "UnitRemoveType": {},
+  "UnitAddAbility": {
+    "1": "integer"
+  },
+  "UnitRemoveAbility": {
+    "1": "integer"
+  },
+  "UnitMakeAbilityPermanent": {
+    "2": "integer"
+  },
+  "UnitRemoveBuffs": {},
+  "UnitRemoveBuffsEx": {},
+  "UnitHasBuffsEx": {},
+  "UnitCountBuffsEx": {},
+  "UnitAddSleep": {},
+  "UnitCanSleep": {},
+  "UnitAddSleepPerm": {},
+  "UnitCanSleepPerm": {},
+  "UnitIsSleeping": {},
+  "UnitWakeUp": {},
+  "UnitApplyTimedLife": {
+    "1": "integer",
+    "2": "real"
+  },
+  "UnitIgnoreAlarm": {},
+  "UnitIgnoreAlarmToggled": {},
+  "UnitResetCooldown": {},
+  "UnitSetConstructionProgress": {
+    "1": "integer"
+  },
+  "UnitSetUpgradeProgress": {
+    "1": "integer"
+  },
+  "UnitPauseTimedLife": {},
+  "UnitSetUsesAltIcon": {},
+  "UnitDamagePoint": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "UnitDamageTarget": {
+    "2": "real"
+  },
+  "IssueImmediateOrder": {},
+  "IssueImmediateOrderById": {
+    "1": "integer"
+  },
+  "IssuePointOrder": {
+    "2": "real",
+    "3": "real"
+  },
+  "IssuePointOrderLoc": {},
+  "IssuePointOrderById": {
+    "1": "integer",
+    "2": "real",
+    "3": "real"
+  },
+  "IssuePointOrderByIdLoc": {
+    "1": "integer"
+  },
+  "IssueTargetOrder": {},
+  "IssueTargetOrderById": {
+    "1": "integer"
+  },
+  "IssueInstantPointOrder": {
+    "2": "real",
+    "3": "real"
+  },
+  "IssueInstantPointOrderById": {
+    "1": "integer",
+    "2": "real",
+    "3": "real"
+  },
+  "IssueInstantTargetOrder": {},
+  "IssueInstantTargetOrderById": {
+    "1": "integer"
+  },
+  "IssueBuildOrder": {
+    "2": "real",
+    "3": "real"
+  },
+  "IssueBuildOrderById": {
+    "1": "integer",
+    "2": "real",
+    "3": "real"
+  },
+  "IssueNeutralImmediateOrder": {},
+  "IssueNeutralImmediateOrderById": {
+    "2": "integer"
+  },
+  "IssueNeutralPointOrder": {
+    "3": "real",
+    "4": "real"
+  },
+  "IssueNeutralPointOrderById": {
+    "2": "integer",
+    "3": "real",
+    "4": "real"
+  },
+  "IssueNeutralTargetOrder": {},
+  "IssueNeutralTargetOrderById": {
+    "2": "integer"
+  },
+  "GetUnitCurrentOrder": {},
+  "SetResourceAmount": {
+    "1": "integer"
+  },
+  "AddResourceAmount": {
+    "1": "integer"
+  },
+  "GetResourceAmount": {},
+  "WaygateGetDestinationX": {},
+  "WaygateGetDestinationY": {},
+  "WaygateSetDestination": {
+    "1": "real",
+    "2": "real"
+  },
+  "WaygateActivate": {},
+  "WaygateIsActive": {},
+  "AddItemToAllStock": {
+    "0": "integer",
+    "1": "integer",
+    "2": "integer"
+  },
+  "AddItemToStock": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "AddUnitToAllStock": {
+    "0": "integer",
+    "1": "integer",
+    "2": "integer"
+  },
+  "AddUnitToStock": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "RemoveItemFromAllStock": {
+    "0": "integer"
+  },
+  "RemoveItemFromStock": {
+    "1": "integer"
+  },
+  "RemoveUnitFromAllStock": {
+    "0": "integer"
+  },
+  "RemoveUnitFromStock": {
+    "1": "integer"
+  },
+  "SetAllItemTypeSlots": {
+    "0": "integer"
+  },
+  "SetAllUnitTypeSlots": {
+    "0": "integer"
+  },
+  "SetItemTypeSlots": {
+    "1": "integer"
+  },
+  "SetUnitTypeSlots": {
+    "1": "integer"
+  },
+  "GetUnitUserData": {},
+  "SetUnitUserData": {
+    "1": "integer"
+  },
+  "Player": {
+    "0": "integer"
+  },
+  "GetLocalPlayer": {},
+  "IsPlayerAlly": {},
+  "IsPlayerEnemy": {},
+  "IsPlayerInForce": {},
+  "IsPlayerObserver": {},
+  "IsVisibleToPlayer": {
+    "0": "real",
+    "1": "real"
+  },
+  "IsLocationVisibleToPlayer": {},
+  "IsFoggedToPlayer": {
+    "0": "real",
+    "1": "real"
+  },
+  "IsLocationFoggedToPlayer": {},
+  "IsMaskedToPlayer": {
+    "0": "real",
+    "1": "real"
+  },
+  "IsLocationMaskedToPlayer": {},
+  "GetPlayerRace": {},
+  "GetPlayerId": {},
+  "GetPlayerUnitCount": {},
+  "GetPlayerTypedUnitCount": {},
+  "GetPlayerStructureCount": {},
+  "GetPlayerState": {},
+  "GetPlayerScore": {},
+  "GetPlayerAlliance": {},
+  "GetPlayerHandicap": {},
+  "GetPlayerHandicapXP": {},
+  "SetPlayerHandicap": {
+    "1": "real"
+  },
+  "SetPlayerHandicapXP": {
+    "1": "real"
+  },
+  "SetPlayerTechMaxAllowed": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "GetPlayerTechMaxAllowed": {
+    "1": "integer"
+  },
+  "AddPlayerTechResearched": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SetPlayerTechResearched": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "GetPlayerTechResearched": {
+    "1": "integer"
+  },
+  "GetPlayerTechCount": {
+    "1": "integer"
+  },
+  "SetPlayerUnitsOwner": {
+    "1": "integer"
+  },
+  "CripplePlayer": {},
+  "SetPlayerAbilityAvailable": {
+    "1": "integer"
+  },
+  "SetPlayerState": {
+    "2": "integer"
+  },
+  "RemovePlayer": {},
+  "CachePlayerHeroData": {},
+  "SetFogStateRect": {},
+  "SetFogStateRadius": {
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "SetFogStateRadiusLoc": {
+    "3": "real"
+  },
+  "FogMaskEnable": {},
+  "IsFogMaskEnabled": {},
+  "FogEnable": {},
+  "IsFogEnabled": {},
+  "CreateFogModifierRect": {},
+  "CreateFogModifierRadius": {
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "CreateFogModifierRadiusLoc": {
+    "3": "real"
+  },
+  "DestroyFogModifier": {},
+  "FogModifierStart": {},
+  "FogModifierStop": {},
+  "VersionGet": {},
+  "VersionCompatible": {},
+  "VersionSupported": {},
+  "EndGame": {},
+  "ChangeLevel": {},
+  "RestartGame": {},
+  "ReloadGame": {},
+  "SetCampaignMenuRace": {},
+  "SetCampaignMenuRaceEx": {
+    "0": "integer"
+  },
+  "ForceCampaignSelectScreen": {},
+  "LoadGame": {},
+  "SaveGame": {},
+  "RenameSaveDirectory": {},
+  "RemoveSaveDirectory": {},
+  "CopySaveGame": {},
+  "SaveGameExists": {},
+  "SyncSelections": {},
+  "SetFloatGameState": {
+    "1": "real"
+  },
+  "GetFloatGameState": {},
+  "SetIntegerGameState": {
+    "1": "integer"
+  },
+  "GetIntegerGameState": {},
+  "SetTutorialCleared": {},
+  "SetMissionAvailable": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "SetCampaignAvailable": {
+    "0": "integer"
+  },
+  "SetOpCinematicAvailable": {
+    "0": "integer"
+  },
+  "SetEdCinematicAvailable": {
+    "0": "integer"
+  },
+  "GetDefaultDifficulty": {},
+  "SetDefaultDifficulty": {},
+  "SetCustomCampaignButtonVisible": {
+    "0": "integer"
+  },
+  "GetCustomCampaignButtonVisible": {
+    "0": "integer"
+  },
+  "DoNotSaveReplay": {},
+  "DialogCreate": {},
+  "DialogDestroy": {},
+  "DialogClear": {},
+  "DialogSetMessage": {},
+  "DialogAddButton": {
+    "2": "integer"
+  },
+  "DialogAddQuitButton": {
+    "3": "integer"
+  },
+  "DialogDisplay": {},
+  "ReloadGameCachesFromDisk": {},
+  "InitGameCache": {},
+  "SaveGameCache": {},
+  "StoreInteger": {
+    "3": "integer"
+  },
+  "StoreReal": {
+    "3": "real"
+  },
+  "StoreBoolean": {},
+  "StoreUnit": {},
+  "StoreString": {},
+  "SyncStoredInteger": {},
+  "SyncStoredReal": {},
+  "SyncStoredBoolean": {},
+  "SyncStoredUnit": {},
+  "SyncStoredString": {},
+  "HaveStoredInteger": {},
+  "HaveStoredReal": {},
+  "HaveStoredBoolean": {},
+  "HaveStoredUnit": {},
+  "HaveStoredString": {},
+  "FlushGameCache": {},
+  "FlushStoredMission": {},
+  "FlushStoredInteger": {},
+  "FlushStoredReal": {},
+  "FlushStoredBoolean": {},
+  "FlushStoredUnit": {},
+  "FlushStoredString": {},
+  "GetStoredInteger": {},
+  "GetStoredReal": {},
+  "GetStoredBoolean": {},
+  "GetStoredString": {},
+  "RestoreUnit": {
+    "4": "real",
+    "5": "real",
+    "6": "real"
+  },
+  "InitHashtable": {},
+  "SaveInteger": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "SaveReal": {
+    "1": "integer",
+    "2": "integer",
+    "3": "real"
+  },
+  "SaveBoolean": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveStr": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SavePlayerHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveWidgetHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveDestructableHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveItemHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveUnitHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveAbilityHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTimerHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTriggerHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTriggerConditionHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTriggerActionHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTriggerEventHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveForceHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveGroupHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveLocationHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveRectHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveBooleanExprHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveSoundHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveEffectHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveUnitPoolHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveItemPoolHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveQuestHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveQuestItemHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveDefeatConditionHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTimerDialogHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveLeaderboardHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveMultiboardHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveMultiboardItemHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTrackableHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveDialogHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveButtonHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTextTagHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveLightningHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveImageHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveUbersplatHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveRegionHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveFogStateHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveFogModifierHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveAgentHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveHashtableHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadInteger": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadReal": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadBoolean": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadStr": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadPlayerHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadWidgetHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadDestructableHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadItemHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadUnitHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadAbilityHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadTimerHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadTriggerHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadTriggerConditionHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadTriggerActionHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadTriggerEventHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadForceHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadGroupHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadLocationHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadRectHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadBooleanExprHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadSoundHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadEffectHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadUnitPoolHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadItemPoolHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadQuestHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadQuestItemHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadDefeatConditionHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadTimerDialogHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadLeaderboardHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadMultiboardHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadMultiboardItemHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadTrackableHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadDialogHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadButtonHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadTextTagHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadLightningHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadImageHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadUbersplatHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadRegionHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadFogStateHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadFogModifierHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LoadHashtableHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "HaveSavedInteger": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "HaveSavedReal": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "HaveSavedBoolean": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "HaveSavedString": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "HaveSavedHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "RemoveSavedInteger": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "RemoveSavedReal": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "RemoveSavedBoolean": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "RemoveSavedString": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "RemoveSavedHandle": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "FlushParentHashtable": {},
+  "FlushChildHashtable": {
+    "1": "integer"
+  },
+  "GetRandomInt": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "GetRandomReal": {
+    "0": "real",
+    "1": "real"
+  },
+  "CreateUnitPool": {},
+  "DestroyUnitPool": {},
+  "UnitPoolAddUnitType": {
+    "1": "integer",
+    "2": "real"
+  },
+  "UnitPoolRemoveUnitType": {
+    "1": "integer"
+  },
+  "PlaceRandomUnit": {
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "CreateItemPool": {},
+  "DestroyItemPool": {},
+  "ItemPoolAddItemType": {
+    "1": "integer",
+    "2": "real"
+  },
+  "ItemPoolRemoveItemType": {
+    "1": "integer"
+  },
+  "PlaceRandomItem": {
+    "1": "real",
+    "2": "real"
+  },
+  "ChooseRandomCreep": {
+    "0": "integer"
+  },
+  "ChooseRandomNPBuilding": {},
+  "ChooseRandomItem": {
+    "0": "integer"
+  },
+  "ChooseRandomItemEx": {
+    "1": "integer"
+  },
+  "SetRandomSeed": {
+    "0": "integer"
+  },
+  "SetTerrainFog": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "ResetTerrainFog": {},
+  "SetUnitFog": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "SetTerrainFogEx": {
+    "0": "integer",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real"
+  },
+  "DisplayTextToPlayer": {
+    "1": "real",
+    "2": "real"
+  },
+  "DisplayTimedTextToPlayer": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "DisplayTimedTextFromPlayer": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "ClearTextMessages": {},
+  "SetDayNightModels": {},
+  "SetSkyModel": {},
+  "EnableUserControl": {},
+  "EnableUserUI": {},
+  "SuspendTimeOfDay": {},
+  "SetTimeOfDayScale": {
+    "0": "real"
+  },
+  "GetTimeOfDayScale": {},
+  "ShowInterface": {
+    "1": "real"
+  },
+  "PauseGame": {},
+  "UnitAddIndicator": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "AddIndicator": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "PingMinimap": {
+    "0": "real",
+    "1": "real",
+    "2": "real"
+  },
+  "PingMinimapEx": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "integer",
+    "4": "integer",
+    "5": "integer"
+  },
+  "EnableOcclusion": {},
+  "SetIntroShotText": {},
+  "SetIntroShotModel": {},
+  "EnableWorldFogBoundary": {},
+  "PlayModelCinematic": {},
+  "PlayCinematic": {},
+  "ForceUIKey": {},
+  "ForceUICancel": {},
+  "DisplayLoadDialog": {},
+  "SetAltMinimapIcon": {},
+  "DisableRestartMission": {},
+  "CreateTextTag": {},
+  "DestroyTextTag": {},
+  "SetTextTagText": {
+    "2": "real"
+  },
+  "SetTextTagPos": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetTextTagPosUnit": {
+    "2": "real"
+  },
+  "SetTextTagColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "SetTextTagVelocity": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetTextTagVisibility": {},
+  "SetTextTagSuspended": {},
+  "SetTextTagPermanent": {},
+  "SetTextTagAge": {
+    "1": "real"
+  },
+  "SetTextTagLifespan": {
+    "1": "real"
+  },
+  "SetTextTagFadepoint": {
+    "1": "real"
+  },
+  "SetReservedLocalHeroButtons": {
+    "0": "integer"
+  },
+  "GetAllyColorFilterState": {},
+  "SetAllyColorFilterState": {
+    "0": "integer"
+  },
+  "GetCreepCampFilterState": {},
+  "SetCreepCampFilterState": {},
+  "EnableMinimapFilterButtons": {},
+  "EnableDragSelect": {},
+  "EnablePreSelect": {},
+  "EnableSelect": {},
+  "CreateTrackable": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "CreateQuest": {},
+  "DestroyQuest": {},
+  "QuestSetTitle": {},
+  "QuestSetDescription": {},
+  "QuestSetIconPath": {},
+  "QuestSetRequired": {},
+  "QuestSetCompleted": {},
+  "QuestSetDiscovered": {},
+  "QuestSetFailed": {},
+  "QuestSetEnabled": {},
+  "IsQuestRequired": {},
+  "IsQuestCompleted": {},
+  "IsQuestDiscovered": {},
+  "IsQuestFailed": {},
+  "IsQuestEnabled": {},
+  "QuestCreateItem": {},
+  "QuestItemSetDescription": {},
+  "QuestItemSetCompleted": {},
+  "IsQuestItemCompleted": {},
+  "CreateDefeatCondition": {},
+  "DestroyDefeatCondition": {},
+  "DefeatConditionSetDescription": {},
+  "FlashQuestDialogButton": {},
+  "ForceQuestDialogUpdate": {},
+  "CreateTimerDialog": {},
+  "DestroyTimerDialog": {},
+  "TimerDialogSetTitle": {},
+  "TimerDialogSetTitleColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "TimerDialogSetTimeColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "TimerDialogSetSpeed": {
+    "1": "real"
+  },
+  "TimerDialogDisplay": {},
+  "IsTimerDialogDisplayed": {},
+  "TimerDialogSetRealTimeRemaining": {
+    "1": "real"
+  },
+  "CreateLeaderboard": {},
+  "DestroyLeaderboard": {},
+  "LeaderboardDisplay": {},
+  "IsLeaderboardDisplayed": {},
+  "LeaderboardGetItemCount": {},
+  "LeaderboardSetSizeByItemCount": {
+    "1": "integer"
+  },
+  "LeaderboardAddItem": {
+    "2": "integer"
+  },
+  "LeaderboardRemoveItem": {
+    "1": "integer"
+  },
+  "LeaderboardRemovePlayerItem": {},
+  "LeaderboardClear": {},
+  "LeaderboardSortItemsByValue": {},
+  "LeaderboardSortItemsByPlayer": {},
+  "LeaderboardSortItemsByLabel": {},
+  "LeaderboardHasPlayerItem": {},
+  "LeaderboardGetPlayerIndex": {},
+  "LeaderboardSetLabel": {},
+  "LeaderboardGetLabelText": {},
+  "PlayerSetLeaderboard": {},
+  "PlayerGetLeaderboard": {},
+  "LeaderboardSetLabelColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "LeaderboardSetValueColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "LeaderboardSetStyle": {},
+  "LeaderboardSetItemValue": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "LeaderboardSetItemLabel": {
+    "1": "integer"
+  },
+  "LeaderboardSetItemStyle": {
+    "1": "integer"
+  },
+  "LeaderboardSetItemLabelColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer",
+    "5": "integer"
+  },
+  "LeaderboardSetItemValueColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer",
+    "5": "integer"
+  },
+  "CreateMultiboard": {},
+  "DestroyMultiboard": {},
+  "MultiboardDisplay": {},
+  "IsMultiboardDisplayed": {},
+  "MultiboardMinimize": {},
+  "IsMultiboardMinimized": {},
+  "MultiboardClear": {},
+  "MultiboardSetTitleText": {},
+  "MultiboardGetTitleText": {},
+  "MultiboardSetTitleTextColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "MultiboardGetRowCount": {},
+  "MultiboardGetColumnCount": {},
+  "MultiboardSetColumnCount": {
+    "1": "integer"
+  },
+  "MultiboardSetRowCount": {
+    "1": "integer"
+  },
+  "MultiboardSetItemsStyle": {},
+  "MultiboardSetItemsValue": {},
+  "MultiboardSetItemsValueColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "MultiboardSetItemsWidth": {
+    "1": "real"
+  },
+  "MultiboardSetItemsIcon": {},
+  "MultiboardGetItem": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "MultiboardReleaseItem": {},
+  "MultiboardSetItemStyle": {},
+  "MultiboardSetItemValue": {},
+  "MultiboardSetItemValueColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "MultiboardSetItemWidth": {
+    "1": "real"
+  },
+  "MultiboardSetItemIcon": {},
+  "MultiboardSuppressDisplay": {},
+  "SetCameraPosition": {
+    "0": "real",
+    "1": "real"
+  },
+  "SetCameraQuickPosition": {
+    "0": "real",
+    "1": "real"
+  },
+  "SetCameraBounds": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real"
+  },
+  "StopCamera": {},
+  "ResetToGameCamera": {
+    "0": "real"
+  },
+  "PanCameraTo": {
+    "0": "real",
+    "1": "real"
+  },
+  "PanCameraToTimed": {
+    "0": "real",
+    "1": "real",
+    "2": "real"
+  },
+  "PanCameraToWithZ": {
+    "0": "real",
+    "1": "real",
+    "2": "real"
+  },
+  "PanCameraToTimedWithZ": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetCinematicCamera": {},
+  "SetCameraRotateMode": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetCameraField": {
+    "1": "real",
+    "2": "real"
+  },
+  "AdjustCameraField": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetCameraTargetController": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetCameraOrientController": {
+    "1": "real",
+    "2": "real"
+  },
+  "CreateCameraSetup": {},
+  "CameraSetupSetField": {
+    "2": "real",
+    "3": "real"
+  },
+  "CameraSetupGetField": {},
+  "CameraSetupSetDestPosition": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "CameraSetupGetDestPositionLoc": {},
+  "CameraSetupGetDestPositionX": {},
+  "CameraSetupGetDestPositionY": {},
+  "CameraSetupApply": {},
+  "CameraSetupApplyWithZ": {
+    "1": "real"
+  },
+  "CameraSetupApplyForceDuration": {
+    "2": "real"
+  },
+  "CameraSetupApplyForceDurationWithZ": {
+    "1": "real",
+    "2": "real"
+  },
+  "CameraSetTargetNoise": {
+    "0": "real",
+    "1": "real"
+  },
+  "CameraSetSourceNoise": {
+    "0": "real",
+    "1": "real"
+  },
+  "CameraSetTargetNoiseEx": {
+    "0": "real",
+    "1": "real"
+  },
+  "CameraSetSourceNoiseEx": {
+    "0": "real",
+    "1": "real"
+  },
+  "CameraSetSmoothingFactor": {
+    "0": "real"
+  },
+  "SetCineFilterTexture": {},
+  "SetCineFilterBlendMode": {},
+  "SetCineFilterTexMapFlags": {},
+  "SetCineFilterStartUV": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetCineFilterEndUV": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetCineFilterStartColor": {
+    "0": "integer",
+    "1": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "SetCineFilterEndColor": {
+    "0": "integer",
+    "1": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "SetCineFilterDuration": {
+    "0": "real"
+  },
+  "DisplayCineFilter": {},
+  "IsCineFilterDisplayed": {},
+  "SetCinematicScene": {
+    "0": "integer",
+    "4": "real",
+    "5": "real"
+  },
+  "EndCinematicScene": {},
+  "ForceCinematicSubtitles": {},
+  "GetCameraMargin": {
+    "0": "integer"
+  },
+  "GetCameraBoundMinX": {},
+  "GetCameraBoundMinY": {},
+  "GetCameraBoundMaxX": {},
+  "GetCameraBoundMaxY": {},
+  "GetCameraField": {},
+  "GetCameraTargetPositionX": {},
+  "GetCameraTargetPositionY": {},
+  "GetCameraTargetPositionZ": {},
+  "GetCameraTargetPositionLoc": {},
+  "GetCameraEyePositionX": {},
+  "GetCameraEyePositionY": {},
+  "GetCameraEyePositionZ": {},
+  "GetCameraEyePositionLoc": {},
+  "NewSoundEnvironment": {},
+  "CreateSound": {
+    "4": "integer",
+    "5": "integer"
+  },
+  "CreateSoundFilenameWithLabel": {
+    "4": "integer",
+    "5": "integer"
+  },
+  "CreateSoundFromLabel": {
+    "4": "integer",
+    "5": "integer"
+  },
+  "CreateMIDISound": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SetSoundParamsFromLabel": {},
+  "SetSoundDistanceCutoff": {
+    "1": "real"
+  },
+  "SetSoundChannel": {
+    "1": "integer"
+  },
+  "SetSoundVolume": {
+    "1": "integer"
+  },
+  "SetSoundPitch": {
+    "1": "real"
+  },
+  "SetSoundPlayPosition": {
+    "1": "integer"
+  },
+  "SetSoundDistances": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetSoundConeAngles": {
+    "1": "real",
+    "2": "real",
+    "3": "integer"
+  },
+  "SetSoundConeOrientation": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetSoundPosition": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetSoundVelocity": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "AttachSoundToUnit": {},
+  "StartSound": {},
+  "StopSound": {},
+  "KillSoundWhenDone": {},
+  "SetMapMusic": {
+    "2": "integer"
+  },
+  "ClearMapMusic": {},
+  "PlayMusic": {},
+  "PlayMusicEx": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "StopMusic": {},
+  "ResumeMusic": {},
+  "PlayThematicMusic": {},
+  "PlayThematicMusicEx": {
+    "1": "integer"
+  },
+  "EndThematicMusic": {},
+  "SetMusicVolume": {
+    "0": "integer"
+  },
+  "SetMusicPlayPosition": {
+    "0": "integer"
+  },
+  "SetThematicMusicPlayPosition": {
+    "0": "integer"
+  },
+  "SetSoundDuration": {
+    "1": "integer"
+  },
+  "GetSoundDuration": {},
+  "GetSoundFileDuration": {},
+  "VolumeGroupSetVolume": {
+    "1": "real"
+  },
+  "VolumeGroupReset": {},
+  "GetSoundIsPlaying": {},
+  "GetSoundIsLoading": {},
+  "RegisterStackedSound": {
+    "2": "real",
+    "3": "real"
+  },
+  "UnregisterStackedSound": {
+    "2": "real",
+    "3": "real"
+  },
+  "AddWeatherEffect": {
+    "1": "integer"
+  },
+  "RemoveWeatherEffect": {},
+  "EnableWeatherEffect": {},
+  "TerrainDeformCrater": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "integer"
+  },
+  "TerrainDeformRipple": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "integer",
+    "5": "integer",
+    "6": "real",
+    "7": "real",
+    "8": "real"
+  },
+  "TerrainDeformWave": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real",
+    "8": "integer",
+    "9": "integer"
+  },
+  "TerrainDeformRandom": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "integer",
+    "6": "integer"
+  },
+  "TerrainDeformStop": {
+    "1": "integer"
+  },
+  "TerrainDeformStopAll": {},
+  "AddSpecialEffect": {
+    "1": "real",
+    "2": "real"
+  },
+  "AddSpecialEffectLoc": {},
+  "AddSpecialEffectTarget": {},
+  "DestroyEffect": {},
+  "AddSpellEffect": {
+    "2": "real",
+    "3": "real"
+  },
+  "AddSpellEffectLoc": {},
+  "AddSpellEffectById": {
+    "0": "integer",
+    "2": "real",
+    "3": "real"
+  },
+  "AddSpellEffectByIdLoc": {
+    "0": "integer"
+  },
+  "AddSpellEffectTarget": {},
+  "AddSpellEffectTargetById": {
+    "0": "integer"
+  },
+  "AddLightning": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "AddLightningEx": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real"
+  },
+  "DestroyLightning": {},
+  "MoveLightning": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "MoveLightningEx": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real"
+  },
+  "GetLightningColorA": {},
+  "GetLightningColorR": {},
+  "GetLightningColorG": {},
+  "GetLightningColorB": {},
+  "SetLightningColor": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "GetAbilityEffect": {
+    "2": "integer"
+  },
+  "GetAbilityEffectById": {
+    "0": "integer",
+    "2": "integer"
+  },
+  "GetAbilitySound": {},
+  "GetAbilitySoundById": {
+    "0": "integer"
+  },
+  "GetTerrainCliffLevel": {
+    "0": "real",
+    "1": "real"
+  },
+  "SetWaterBaseColor": {
+    "0": "integer",
+    "1": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "SetWaterDeforms": {},
+  "GetTerrainType": {
+    "0": "real",
+    "1": "real"
+  },
+  "GetTerrainVariance": {
+    "0": "real",
+    "1": "real"
+  },
+  "SetTerrainType": {
+    "0": "real",
+    "1": "real",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer",
+    "5": "integer"
+  },
+  "IsTerrainPathable": {
+    "0": "real",
+    "1": "real"
+  },
+  "SetTerrainPathable": {
+    "0": "real",
+    "1": "real"
+  },
+  "CreateImage": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real",
+    "8": "real",
+    "9": "real",
+    "10": "integer"
+  },
+  "DestroyImage": {},
+  "ShowImage": {},
+  "SetImageConstantHeight": {
+    "2": "real"
+  },
+  "SetImagePosition": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetImageColor": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "SetImageRender": {},
+  "SetImageRenderAlways": {},
+  "SetImageAboveWater": {},
+  "SetImageType": {
+    "1": "integer"
+  },
+  "CreateUbersplat": {
+    "0": "real",
+    "1": "real",
+    "3": "integer",
+    "4": "integer",
+    "5": "integer",
+    "6": "integer"
+  },
+  "DestroyUbersplat": {},
+  "ResetUbersplat": {},
+  "FinishUbersplat": {},
+  "ShowUbersplat": {},
+  "SetUbersplatRender": {},
+  "SetUbersplatRenderAlways": {},
+  "SetBlight": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetBlightRect": {},
+  "SetBlightPoint": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetBlightLoc": {
+    "2": "real"
+  },
+  "CreateBlightedGoldmine": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "IsPointBlighted": {
+    "0": "real",
+    "1": "real"
+  },
+  "SetDoodadAnimation": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "integer"
+  },
+  "SetDoodadAnimationRect": {
+    "1": "integer"
+  },
+  "StartMeleeAI": {},
+  "StartCampaignAI": {},
+  "CommandAI": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "PauseCompAI": {},
+  "GetAIDifficulty": {},
+  "RemoveGuardPosition": {},
+  "RecycleGuardPosition": {},
+  "RemoveAllGuardPositions": {},
+  "Cheat": {},
+  "IsNoVictoryCheat": {},
+  "IsNoDefeatCheat": {},
+  "Preload": {},
+  "PreloadEnd": {
+    "0": "real"
+  },
+  "PreloadStart": {},
+  "PreloadRefresh": {},
+  "PreloadEndEx": {},
+  "PreloadGenClear": {},
+  "PreloadGenStart": {},
+  "PreloadGenEnd": {},
+  "Preloader": {}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "TriggerSleepAction",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "timeout",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "GetTerrainType",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "number",
+  "isNullable": false,
+  "source": "common.j"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "SetTerrainType",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "terrainType",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "variation",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "area",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "shape",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "CreateUbersplat",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "name",
+      "type": "string",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "red",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "green",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "blue",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "alpha",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "forcePaused",
+      "type": "boolean",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "noBirthTime",
+      "type": "boolean",
+      "isNullable": false
+    }
+  ],
+  "returns": "ubersplat",
+  "isNullable": true,
+  "source": "common.j"
+}

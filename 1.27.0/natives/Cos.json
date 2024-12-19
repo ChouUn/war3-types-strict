@@ -1,0 +1,15 @@
+{
+  "name": "Cos",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "radians",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "number",
+  "isNullable": false,
+  "source": "common.j"
+}

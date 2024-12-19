@@ -1,0 +1,69 @@
+{
+  "name": "TerrainDeformWave",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "dirX",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "dirY",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "distance",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "speed",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "radius",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "depth",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "trailTime",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "count",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "terraindeformation",
+  "isNullable": true,
+  "source": "common.j"
+}

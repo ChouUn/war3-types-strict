@@ -1,0 +1,27 @@
+{
+  "name": "UnitPoolAddUnitType",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "whichPool",
+      "type": "unitpool",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "unitId",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "weight",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}

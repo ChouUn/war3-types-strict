@@ -1,0 +1,21 @@
+{
+  "name": "CameraSetSourceNoise",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "mag",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "velocity",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}

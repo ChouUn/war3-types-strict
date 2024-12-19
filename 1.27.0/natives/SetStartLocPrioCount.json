@@ -1,0 +1,21 @@
+{
+  "name": "SetStartLocPrioCount",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "whichStartLoc",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "prioSlotCount",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}

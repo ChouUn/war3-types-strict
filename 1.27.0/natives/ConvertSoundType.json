@@ -1,0 +1,15 @@
+{
+  "name": "ConvertSoundType",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "i",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "soundtype",
+  "isNullable": true,
+  "source": "common.j"
+}

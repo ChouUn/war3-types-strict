@@ -1,0 +1,75 @@
+{
+  "name": "CreateImage",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "file",
+      "type": "string",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "sizeX",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "sizeY",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "sizeZ",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "posX",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "posY",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "posZ",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "originX",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "originY",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "originZ",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "imageType",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "image",
+  "isNullable": true,
+  "source": "common.j"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "CreateBlightedGoldmine",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "id",
+      "type": "player",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "face",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "unit",
+  "isNullable": true,
+  "source": "common.j"
+}

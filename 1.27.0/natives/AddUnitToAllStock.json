@@ -1,0 +1,27 @@
+{
+  "name": "AddUnitToAllStock",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "unitId",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "currentStock",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "stockMax",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}

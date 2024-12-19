@@ -1,0 +1,15 @@
+{
+  "name": "ConvertPlayerSlotState",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "i",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "playerslotstate",
+  "isNullable": true,
+  "source": "common.j"
+}

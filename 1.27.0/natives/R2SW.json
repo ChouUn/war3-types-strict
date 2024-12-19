@@ -1,0 +1,27 @@
+{
+  "name": "R2SW",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "r",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "width",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "precision",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "string",
+  "isNullable": true,
+  "source": "common.j"
+}

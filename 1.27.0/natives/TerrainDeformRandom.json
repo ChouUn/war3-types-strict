@@ -1,0 +1,51 @@
+{
+  "name": "TerrainDeformRandom",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "radius",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "minDelta",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "maxDelta",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "duration",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "updateInterval",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "terraindeformation",
+  "isNullable": true,
+  "source": "common.j"
+}

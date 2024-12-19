@@ -1,0 +1,33 @@
+{
+  "name": "SaveRegionHandle",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "table",
+      "type": "hashtable",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "parentKey",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "childKey",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "whichRegion",
+      "type": "region",
+      "isNullable": false
+    }
+  ],
+  "returns": "boolean",
+  "isNullable": false,
+  "source": "common.j"
+}

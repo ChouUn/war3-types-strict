@@ -1,0 +1,21 @@
+{
+  "name": "GetRandomReal",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "lowBound",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "highBound",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "number",
+  "isNullable": false,
+  "source": "common.j"
+}

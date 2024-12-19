@@ -1,0 +1,27 @@
+{
+  "name": "PlayMusicEx",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "musicName",
+      "type": "string",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "frommsecs",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "fadeinmsecs",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}

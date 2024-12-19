@@ -1,0 +1,27 @@
+{
+  "name": "CreateItem",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "itemid",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "item",
+  "isNullable": true,
+  "source": "common.j"
+}

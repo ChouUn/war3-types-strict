@@ -1,0 +1,27 @@
+{
+  "name": "MultiboardGetItem",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "lb",
+      "type": "multiboard",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "row",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "column",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "multiboarditem",
+  "isNullable": true,
+  "source": "common.j"
+}

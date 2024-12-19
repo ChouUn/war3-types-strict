@@ -1,0 +1,75 @@
+{
+  "name": "UnitDamagePoint",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "whichUnit",
+      "type": "unit",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "delay",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "radius",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "amount",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "attack",
+      "type": "boolean",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "ranged",
+      "type": "boolean",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "attackType",
+      "type": "attacktype",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "damageType",
+      "type": "damagetype",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "weaponType",
+      "type": "weapontype",
+      "isNullable": false
+    }
+  ],
+  "returns": "boolean",
+  "isNullable": false,
+  "source": "common.j"
+}

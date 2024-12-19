@@ -1,0 +1,27 @@
+{
+  "name": "AdjustCameraField",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "whichField",
+      "type": "camerafield",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "offset",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "duration",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}

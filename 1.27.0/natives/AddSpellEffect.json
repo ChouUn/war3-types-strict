@@ -1,0 +1,33 @@
+{
+  "name": "AddSpellEffect",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "abilityString",
+      "type": "string",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "t",
+      "type": "effecttype",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "effect",
+  "isNullable": true,
+  "source": "common.j"
+}

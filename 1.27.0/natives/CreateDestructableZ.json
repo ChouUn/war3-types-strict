@@ -1,0 +1,51 @@
+{
+  "name": "CreateDestructableZ",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "objectid",
+      "type": "integer",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "x",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "y",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "z",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "face",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "scale",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "variation",
+      "type": "integer",
+      "isNullable": false
+    }
+  ],
+  "returns": "destructable",
+  "isNullable": true,
+  "source": "common.j"
+}

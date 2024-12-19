@@ -1,0 +1,1994 @@
+{
+  "BJDebugMsg": {},
+  "RMinBJ": {
+    "0": "real",
+    "1": "real"
+  },
+  "RMaxBJ": {
+    "0": "real",
+    "1": "real"
+  },
+  "RAbsBJ": {
+    "0": "real"
+  },
+  "RSignBJ": {
+    "0": "real"
+  },
+  "IMinBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "IMaxBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "IAbsBJ": {
+    "0": "integer"
+  },
+  "ISignBJ": {
+    "0": "integer"
+  },
+  "SinBJ": {
+    "0": "real"
+  },
+  "CosBJ": {
+    "0": "real"
+  },
+  "TanBJ": {
+    "0": "real"
+  },
+  "AsinBJ": {
+    "0": "real"
+  },
+  "AcosBJ": {
+    "0": "real"
+  },
+  "AtanBJ": {
+    "0": "real"
+  },
+  "Atan2BJ": {
+    "0": "real",
+    "1": "real"
+  },
+  "AngleBetweenPoints": {},
+  "DistanceBetweenPoints": {},
+  "PolarProjectionBJ": {
+    "1": "real",
+    "2": "real"
+  },
+  "GetRandomDirectionDeg": {},
+  "GetRandomPercentageBJ": {},
+  "GetRandomLocInRect": {},
+  "ModuloInteger": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "ModuloReal": {
+    "0": "real",
+    "1": "real"
+  },
+  "OffsetLocation": {
+    "1": "real",
+    "2": "real"
+  },
+  "OffsetRectBJ": {
+    "1": "real",
+    "2": "real"
+  },
+  "RectFromCenterSizeBJ": {
+    "1": "real",
+    "2": "real"
+  },
+  "RectContainsCoords": {
+    "1": "real",
+    "2": "real"
+  },
+  "RectContainsLoc": {},
+  "RectContainsUnit": {},
+  "RectContainsItem": {},
+  "ConditionalTriggerExecute": {},
+  "TriggerExecuteBJ": {},
+  "PostTriggerExecuteBJ": {},
+  "QueuedTriggerCheck": {},
+  "QueuedTriggerGetIndex": {},
+  "QueuedTriggerRemoveByIndex": {
+    "0": "integer"
+  },
+  "QueuedTriggerAttemptExec": {},
+  "QueuedTriggerAddBJ": {},
+  "QueuedTriggerRemoveBJ": {},
+  "QueuedTriggerDoneBJ": {},
+  "QueuedTriggerClearBJ": {},
+  "QueuedTriggerClearInactiveBJ": {},
+  "QueuedTriggerCountBJ": {},
+  "IsTriggerQueueEmptyBJ": {},
+  "IsTriggerQueuedBJ": {},
+  "GetForLoopIndexA": {},
+  "SetForLoopIndexA": {
+    "0": "integer"
+  },
+  "GetForLoopIndexB": {},
+  "SetForLoopIndexB": {
+    "0": "integer"
+  },
+  "PolledWait": {
+    "0": "real"
+  },
+  "IntegerTertiaryOp": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "DoNothing": {},
+  "CommentString": {},
+  "StringIdentity": {},
+  "GetBooleanAnd": {},
+  "GetBooleanOr": {},
+  "PercentToInt": {
+    "0": "real",
+    "1": "integer"
+  },
+  "PercentTo255": {
+    "0": "real"
+  },
+  "GetTimeOfDay": {},
+  "SetTimeOfDay": {
+    "0": "real"
+  },
+  "SetTimeOfDayScalePercentBJ": {
+    "0": "real"
+  },
+  "GetTimeOfDayScalePercentBJ": {},
+  "PlaySound": {},
+  "CompareLocationsBJ": {},
+  "CompareRectsBJ": {},
+  "GetRectFromCircleBJ": {
+    "1": "real"
+  },
+  "GetCurrentCameraSetup": {},
+  "CameraSetupApplyForPlayer": {
+    "3": "real"
+  },
+  "CameraSetupGetFieldSwap": {},
+  "SetCameraFieldForPlayer": {
+    "2": "real",
+    "3": "real"
+  },
+  "SetCameraTargetControllerNoZForPlayer": {
+    "2": "real",
+    "3": "real"
+  },
+  "SetCameraPositionForPlayer": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetCameraPositionLocForPlayer": {},
+  "RotateCameraAroundLocBJ": {
+    "0": "real",
+    "3": "real"
+  },
+  "PanCameraToForPlayer": {
+    "1": "real",
+    "2": "real"
+  },
+  "PanCameraToLocForPlayer": {},
+  "PanCameraToTimedForPlayer": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "PanCameraToTimedLocForPlayer": {
+    "2": "real"
+  },
+  "PanCameraToTimedLocWithZForPlayer": {
+    "2": "real",
+    "3": "real"
+  },
+  "SmartCameraPanBJ": {
+    "2": "real"
+  },
+  "SetCinematicCameraForPlayer": {},
+  "ResetToGameCameraForPlayer": {
+    "1": "real"
+  },
+  "CameraSetSourceNoiseForPlayer": {
+    "1": "real",
+    "2": "real"
+  },
+  "CameraSetTargetNoiseForPlayer": {
+    "1": "real",
+    "2": "real"
+  },
+  "CameraSetEQNoiseForPlayer": {
+    "1": "real"
+  },
+  "CameraClearNoiseForPlayer": {},
+  "GetCurrentCameraBoundsMapRectBJ": {},
+  "GetCameraBoundsMapRect": {},
+  "GetPlayableMapRect": {},
+  "GetEntireMapRect": {},
+  "SetCameraBoundsToRect": {},
+  "SetCameraBoundsToRectForPlayerBJ": {},
+  "AdjustCameraBoundsBJ": {
+    "0": "integer",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "AdjustCameraBoundsForPlayerBJ": {
+    "0": "integer",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "SetCameraQuickPositionForPlayer": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetCameraQuickPositionLocForPlayer": {},
+  "SetCameraQuickPositionLoc": {},
+  "StopCameraForPlayerBJ": {},
+  "SetCameraOrientControllerForPlayerBJ": {
+    "2": "real",
+    "3": "real"
+  },
+  "CameraSetSmoothingFactorBJ": {
+    "0": "real"
+  },
+  "CameraResetSmoothingFactorBJ": {},
+  "DisplayTextToForce": {},
+  "DisplayTimedTextToForce": {
+    "1": "real"
+  },
+  "ClearTextMessagesBJ": {},
+  "SubStringBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "GetHandleIdBJ": {},
+  "StringHashBJ": {},
+  "TriggerRegisterTimerEventPeriodic": {
+    "1": "real"
+  },
+  "TriggerRegisterTimerEventSingle": {
+    "1": "real"
+  },
+  "TriggerRegisterTimerExpireEventBJ": {},
+  "TriggerRegisterPlayerUnitEventSimple": {},
+  "TriggerRegisterAnyUnitEventBJ": {},
+  "TriggerRegisterPlayerSelectionEventBJ": {},
+  "TriggerRegisterPlayerKeyEventBJ": {
+    "2": "integer",
+    "3": "integer"
+  },
+  "TriggerRegisterPlayerEventVictory": {},
+  "TriggerRegisterPlayerEventDefeat": {},
+  "TriggerRegisterPlayerEventLeave": {},
+  "TriggerRegisterPlayerEventAllianceChanged": {},
+  "TriggerRegisterPlayerEventEndCinematic": {},
+  "TriggerRegisterGameStateEventTimeOfDay": {
+    "2": "real"
+  },
+  "TriggerRegisterEnterRegionSimple": {},
+  "TriggerRegisterLeaveRegionSimple": {},
+  "TriggerRegisterEnterRectSimple": {},
+  "TriggerRegisterLeaveRectSimple": {},
+  "TriggerRegisterDistanceBetweenUnits": {
+    "3": "real"
+  },
+  "TriggerRegisterUnitInRangeSimple": {
+    "1": "real"
+  },
+  "TriggerRegisterUnitLifeEvent": {
+    "3": "real"
+  },
+  "TriggerRegisterUnitManaEvent": {
+    "3": "real"
+  },
+  "TriggerRegisterDialogEventBJ": {},
+  "TriggerRegisterShowSkillEventBJ": {},
+  "TriggerRegisterBuildSubmenuEventBJ": {},
+  "TriggerRegisterGameLoadedEventBJ": {},
+  "TriggerRegisterGameSavedEventBJ": {},
+  "RegisterDestDeathInRegionEnum": {},
+  "TriggerRegisterDestDeathInRegionEvent": {},
+  "AddWeatherEffectSaveLast": {
+    "1": "integer"
+  },
+  "GetLastCreatedWeatherEffect": {},
+  "RemoveWeatherEffectBJ": {},
+  "TerrainDeformationCraterBJ": {
+    "0": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "TerrainDeformationRippleBJ": {
+    "0": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real"
+  },
+  "TerrainDeformationWaveBJ": {
+    "0": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "TerrainDeformationRandomBJ": {
+    "0": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "TerrainDeformationStopBJ": {
+    "1": "real"
+  },
+  "GetLastCreatedTerrainDeformation": {},
+  "AddLightningLoc": {},
+  "DestroyLightningBJ": {},
+  "MoveLightningLoc": {},
+  "GetLightningColorABJ": {},
+  "GetLightningColorRBJ": {},
+  "GetLightningColorGBJ": {},
+  "GetLightningColorBBJ": {},
+  "SetLightningColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "GetLastCreatedLightningBJ": {},
+  "GetAbilityEffectBJ": {
+    "0": "integer",
+    "2": "integer"
+  },
+  "GetAbilitySoundBJ": {
+    "0": "integer"
+  },
+  "GetTerrainCliffLevelBJ": {},
+  "GetTerrainTypeBJ": {},
+  "GetTerrainVarianceBJ": {},
+  "SetTerrainTypeBJ": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "IsTerrainPathableBJ": {},
+  "SetTerrainPathableBJ": {},
+  "SetWaterBaseColorBJ": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "CreateFogModifierRectSimple": {},
+  "CreateFogModifierRadiusLocSimple": {
+    "3": "real"
+  },
+  "CreateFogModifierRectBJ": {},
+  "CreateFogModifierRadiusLocBJ": {
+    "4": "real"
+  },
+  "GetLastCreatedFogModifier": {},
+  "FogEnableOn": {},
+  "FogEnableOff": {},
+  "FogMaskEnableOn": {},
+  "FogMaskEnableOff": {},
+  "UseTimeOfDayBJ": {},
+  "SetTerrainFogExBJ": {
+    "0": "integer",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real"
+  },
+  "ResetTerrainFogBJ": {},
+  "SetDoodadAnimationBJ": {
+    "1": "integer",
+    "2": "real"
+  },
+  "SetDoodadAnimationRectBJ": {
+    "1": "integer"
+  },
+  "AddUnitAnimationPropertiesBJ": {},
+  "CreateImageBJ": {
+    "1": "real",
+    "3": "real",
+    "4": "integer"
+  },
+  "ShowImageBJ": {},
+  "SetImagePositionBJ": {
+    "2": "real"
+  },
+  "SetImageColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "GetLastCreatedImage": {},
+  "CreateUbersplatBJ": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "ShowUbersplatBJ": {},
+  "GetLastCreatedUbersplat": {},
+  "PlaySoundBJ": {},
+  "StopSoundBJ": {},
+  "SetSoundVolumeBJ": {
+    "1": "real"
+  },
+  "SetSoundOffsetBJ": {
+    "0": "real"
+  },
+  "SetSoundDistanceCutoffBJ": {
+    "1": "real"
+  },
+  "SetSoundPitchBJ": {
+    "1": "real"
+  },
+  "SetSoundPositionLocBJ": {
+    "2": "real"
+  },
+  "AttachSoundToUnitBJ": {},
+  "SetSoundConeAnglesBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "KillSoundWhenDoneBJ": {},
+  "PlaySoundAtPointBJ": {
+    "1": "real",
+    "3": "real"
+  },
+  "PlaySoundOnUnitBJ": {
+    "1": "real"
+  },
+  "PlaySoundFromOffsetBJ": {
+    "1": "real",
+    "2": "real"
+  },
+  "PlayMusicBJ": {},
+  "PlayMusicExBJ": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetMusicOffsetBJ": {
+    "0": "real"
+  },
+  "PlayThematicMusicBJ": {},
+  "PlayThematicMusicExBJ": {
+    "1": "real"
+  },
+  "SetThematicMusicOffsetBJ": {
+    "0": "real"
+  },
+  "EndThematicMusicBJ": {},
+  "StopMusicBJ": {},
+  "ResumeMusicBJ": {},
+  "SetMusicVolumeBJ": {
+    "0": "real"
+  },
+  "GetSoundDurationBJ": {},
+  "GetSoundFileDurationBJ": {},
+  "GetLastPlayedSound": {},
+  "GetLastPlayedMusic": {},
+  "VolumeGroupSetVolumeBJ": {
+    "1": "real"
+  },
+  "SetCineModeVolumeGroupsImmediateBJ": {},
+  "SetCineModeVolumeGroupsBJ": {},
+  "SetSpeechVolumeGroupsImmediateBJ": {},
+  "SetSpeechVolumeGroupsBJ": {},
+  "VolumeGroupResetImmediateBJ": {},
+  "VolumeGroupResetBJ": {},
+  "GetSoundIsPlayingBJ": {},
+  "WaitForSoundBJ": {
+    "1": "real"
+  },
+  "SetMapMusicIndexedBJ": {
+    "1": "integer"
+  },
+  "SetMapMusicRandomBJ": {},
+  "ClearMapMusicBJ": {},
+  "SetStackedSoundBJ": {},
+  "StartSoundForPlayerBJ": {},
+  "VolumeGroupSetVolumeForPlayerBJ": {
+    "2": "real"
+  },
+  "EnableDawnDusk": {},
+  "IsDawnDuskEnabled": {},
+  "SetAmbientDaySound": {},
+  "SetAmbientNightSound": {},
+  "AddSpecialEffectLocBJ": {},
+  "AddSpecialEffectTargetUnitBJ": {},
+  "AddSpecialEffectTargetDestructableBJ": {},
+  "AddSpecialEffectTargetItemBJ": {},
+  "DestroyEffectBJ": {},
+  "GetLastCreatedEffectBJ": {},
+  "GetItemLoc": {},
+  "GetItemLifeBJ": {},
+  "SetItemLifeBJ": {
+    "1": "real"
+  },
+  "AddHeroXPSwapped": {
+    "0": "integer"
+  },
+  "SetHeroLevelBJ": {
+    "1": "integer"
+  },
+  "DecUnitAbilityLevelSwapped": {
+    "0": "integer"
+  },
+  "IncUnitAbilityLevelSwapped": {
+    "0": "integer"
+  },
+  "SetUnitAbilityLevelSwapped": {
+    "0": "integer",
+    "2": "integer"
+  },
+  "GetUnitAbilityLevelSwapped": {
+    "0": "integer"
+  },
+  "UnitHasBuffBJ": {
+    "1": "integer"
+  },
+  "UnitRemoveBuffBJ": {
+    "0": "integer"
+  },
+  "UnitAddItemSwapped": {},
+  "UnitAddItemByIdSwapped": {
+    "0": "integer"
+  },
+  "UnitRemoveItemSwapped": {},
+  "UnitRemoveItemFromSlotSwapped": {
+    "0": "integer"
+  },
+  "CreateItemLoc": {
+    "0": "integer"
+  },
+  "GetLastCreatedItem": {},
+  "GetLastRemovedItem": {},
+  "SetItemPositionLoc": {},
+  "GetLearnedSkillBJ": {},
+  "SuspendHeroXPBJ": {},
+  "SetPlayerHandicapXPBJ": {
+    "1": "real"
+  },
+  "GetPlayerHandicapXPBJ": {},
+  "SetPlayerHandicapBJ": {
+    "1": "real"
+  },
+  "GetPlayerHandicapBJ": {},
+  "GetHeroStatBJ": {
+    "0": "integer"
+  },
+  "SetHeroStat": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "ModifyHeroStat": {
+    "0": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "ModifyHeroSkillPoints": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "UnitDropItemPointBJ": {
+    "2": "real",
+    "3": "real"
+  },
+  "UnitDropItemPointLoc": {},
+  "UnitDropItemSlotBJ": {
+    "2": "integer"
+  },
+  "UnitDropItemTargetBJ": {},
+  "UnitUseItemDestructable": {},
+  "UnitUseItemPointLoc": {},
+  "UnitItemInSlotBJ": {
+    "1": "integer"
+  },
+  "GetInventoryIndexOfItemTypeBJ": {
+    "1": "integer"
+  },
+  "GetItemOfTypeFromUnitBJ": {
+    "1": "integer"
+  },
+  "UnitHasItemOfTypeBJ": {
+    "1": "integer"
+  },
+  "UnitInventoryCount": {},
+  "UnitInventorySizeBJ": {},
+  "SetItemInvulnerableBJ": {},
+  "SetItemDropOnDeathBJ": {},
+  "SetItemDroppableBJ": {},
+  "SetItemPlayerBJ": {},
+  "SetItemVisibleBJ": {},
+  "IsItemHiddenBJ": {},
+  "ChooseRandomItemBJ": {
+    "0": "integer"
+  },
+  "ChooseRandomItemExBJ": {
+    "0": "integer"
+  },
+  "ChooseRandomNPBuildingBJ": {},
+  "ChooseRandomCreepBJ": {
+    "0": "integer"
+  },
+  "EnumItemsInRectBJ": {},
+  "RandomItemInRectBJEnum": {},
+  "RandomItemInRectBJ": {},
+  "RandomItemInRectSimpleBJ": {},
+  "CheckItemStatus": {
+    "1": "integer"
+  },
+  "CheckItemcodeStatus": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "UnitId2OrderIdBJ": {
+    "0": "integer"
+  },
+  "String2UnitIdBJ": {},
+  "UnitId2StringBJ": {
+    "0": "integer"
+  },
+  "String2OrderIdBJ": {},
+  "OrderId2StringBJ": {
+    "0": "integer"
+  },
+  "GetIssuedOrderIdBJ": {},
+  "GetKillingUnitBJ": {},
+  "CreateUnitAtLocSaveLast": {
+    "1": "integer",
+    "3": "real"
+  },
+  "GetLastCreatedUnit": {},
+  "CreateNUnitsAtLoc": {
+    "0": "integer",
+    "1": "integer",
+    "4": "real"
+  },
+  "CreateNUnitsAtLocFacingLocBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "GetLastCreatedGroupEnum": {},
+  "GetLastCreatedGroup": {},
+  "CreateCorpseLocBJ": {
+    "0": "integer"
+  },
+  "UnitSuspendDecayBJ": {},
+  "DelayedSuspendDecayStopAnimEnum": {},
+  "DelayedSuspendDecayBoneEnum": {},
+  "DelayedSuspendDecayFleshEnum": {},
+  "DelayedSuspendDecay": {},
+  "DelayedSuspendDecayCreate": {},
+  "CreatePermanentCorpseLocBJ": {
+    "0": "integer",
+    "1": "integer",
+    "4": "real"
+  },
+  "GetUnitStateSwap": {},
+  "GetUnitStatePercent": {},
+  "GetUnitLifePercent": {},
+  "GetUnitManaPercent": {},
+  "SelectUnitSingle": {},
+  "SelectGroupBJEnum": {},
+  "SelectGroupBJ": {},
+  "SelectUnitAdd": {},
+  "SelectUnitRemove": {},
+  "ClearSelectionForPlayer": {},
+  "SelectUnitForPlayerSingle": {},
+  "SelectGroupForPlayerBJ": {},
+  "SelectUnitAddForPlayer": {},
+  "SelectUnitRemoveForPlayer": {},
+  "SetUnitLifeBJ": {
+    "1": "real"
+  },
+  "SetUnitManaBJ": {
+    "1": "real"
+  },
+  "SetUnitLifePercentBJ": {
+    "1": "real"
+  },
+  "SetUnitManaPercentBJ": {
+    "1": "real"
+  },
+  "IsUnitDeadBJ": {},
+  "IsUnitAliveBJ": {},
+  "IsUnitGroupDeadBJEnum": {},
+  "IsUnitGroupDeadBJ": {},
+  "IsUnitGroupEmptyBJEnum": {},
+  "IsUnitGroupEmptyBJ": {},
+  "IsUnitGroupInRectBJEnum": {},
+  "IsUnitGroupInRectBJ": {},
+  "IsUnitHiddenBJ": {},
+  "ShowUnitHide": {},
+  "ShowUnitShow": {},
+  "IssueHauntOrderAtLocBJFilter": {},
+  "IssueHauntOrderAtLocBJ": {},
+  "IssueBuildOrderByIdLocBJ": {
+    "1": "integer"
+  },
+  "IssueTrainOrderByIdBJ": {
+    "1": "integer"
+  },
+  "GroupTrainOrderByIdBJ": {
+    "1": "integer"
+  },
+  "IssueUpgradeOrderByIdBJ": {
+    "1": "integer"
+  },
+  "GetAttackedUnitBJ": {},
+  "SetUnitFlyHeightBJ": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetUnitTurnSpeedBJ": {
+    "1": "real"
+  },
+  "SetUnitPropWindowBJ": {
+    "1": "real"
+  },
+  "GetUnitPropWindowBJ": {},
+  "GetUnitDefaultPropWindowBJ": {},
+  "SetUnitBlendTimeBJ": {
+    "1": "real"
+  },
+  "SetUnitAcquireRangeBJ": {
+    "1": "real"
+  },
+  "UnitSetCanSleepBJ": {},
+  "UnitCanSleepBJ": {},
+  "UnitWakeUpBJ": {},
+  "UnitIsSleepingBJ": {},
+  "WakePlayerUnitsEnum": {},
+  "WakePlayerUnits": {},
+  "EnableCreepSleepBJ": {},
+  "UnitGenerateAlarms": {},
+  "DoesUnitGenerateAlarms": {},
+  "PauseAllUnitsBJEnum": {},
+  "PauseAllUnitsBJ": {},
+  "PauseUnitBJ": {},
+  "IsUnitPausedBJ": {},
+  "UnitPauseTimedLifeBJ": {},
+  "UnitApplyTimedLifeBJ": {
+    "0": "real",
+    "1": "integer"
+  },
+  "UnitShareVisionBJ": {},
+  "UnitRemoveBuffsBJ": {
+    "0": "integer"
+  },
+  "UnitRemoveBuffsExBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "UnitCountBuffsExBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "UnitRemoveAbilityBJ": {
+    "0": "integer"
+  },
+  "UnitAddAbilityBJ": {
+    "0": "integer"
+  },
+  "UnitRemoveTypeBJ": {},
+  "UnitAddTypeBJ": {},
+  "UnitMakeAbilityPermanentBJ": {
+    "1": "integer"
+  },
+  "SetUnitExplodedBJ": {},
+  "ExplodeUnitBJ": {},
+  "GetTransportUnitBJ": {},
+  "GetLoadedUnitBJ": {},
+  "IsUnitInTransportBJ": {},
+  "IsUnitLoadedBJ": {},
+  "IsUnitIllusionBJ": {},
+  "ReplaceUnitBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "GetLastReplacedUnitBJ": {},
+  "SetUnitPositionLocFacingBJ": {
+    "2": "real"
+  },
+  "SetUnitPositionLocFacingLocBJ": {},
+  "AddItemToStockBJ": {
+    "0": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "AddUnitToStockBJ": {
+    "0": "integer",
+    "2": "integer",
+    "3": "integer"
+  },
+  "RemoveItemFromStockBJ": {
+    "0": "integer"
+  },
+  "RemoveUnitFromStockBJ": {
+    "0": "integer"
+  },
+  "SetUnitUseFoodBJ": {},
+  "UnitDamagePointLoc": {
+    "1": "real",
+    "2": "real",
+    "4": "real"
+  },
+  "UnitDamageTargetBJ": {
+    "2": "real"
+  },
+  "CreateDestructableLoc": {
+    "0": "integer",
+    "2": "real",
+    "3": "real",
+    "4": "integer"
+  },
+  "CreateDeadDestructableLocBJ": {
+    "0": "integer",
+    "2": "real",
+    "3": "real",
+    "4": "integer"
+  },
+  "GetLastCreatedDestructable": {},
+  "ShowDestructableBJ": {},
+  "SetDestructableInvulnerableBJ": {},
+  "IsDestructableInvulnerableBJ": {},
+  "GetDestructableLoc": {},
+  "EnumDestructablesInRectAll": {},
+  "EnumDestructablesInCircleBJFilter": {},
+  "IsDestructableDeadBJ": {},
+  "IsDestructableAliveBJ": {},
+  "RandomDestructableInRectBJEnum": {},
+  "RandomDestructableInRectBJ": {},
+  "RandomDestructableInRectSimpleBJ": {},
+  "EnumDestructablesInCircleBJ": {
+    "0": "real"
+  },
+  "SetDestructableLifePercentBJ": {
+    "1": "real"
+  },
+  "SetDestructableMaxLifeBJ": {
+    "1": "real"
+  },
+  "ModifyGateBJ": {
+    "0": "integer"
+  },
+  "GetElevatorHeight": {},
+  "ChangeElevatorHeight": {
+    "1": "integer"
+  },
+  "NudgeUnitsInRectEnum": {},
+  "NudgeItemsInRectEnum": {},
+  "NudgeObjectsInRect": {},
+  "NearbyElevatorExistsEnum": {},
+  "NearbyElevatorExists": {
+    "0": "real",
+    "1": "real"
+  },
+  "FindElevatorWallBlockerEnum": {},
+  "ChangeElevatorWallBlocker": {
+    "0": "real",
+    "1": "real",
+    "2": "real"
+  },
+  "ChangeElevatorWalls": {
+    "1": "integer"
+  },
+  "WaygateActivateBJ": {},
+  "WaygateIsActiveBJ": {},
+  "WaygateSetDestinationLocBJ": {},
+  "WaygateGetDestinationLocBJ": {},
+  "UnitSetUsesAltIconBJ": {},
+  "ForceUIKeyBJ": {},
+  "ForceUICancelBJ": {},
+  "ForGroupBJ": {},
+  "GroupAddUnitSimple": {},
+  "GroupRemoveUnitSimple": {},
+  "GroupAddGroupEnum": {},
+  "GroupAddGroup": {},
+  "GroupRemoveGroupEnum": {},
+  "GroupRemoveGroup": {},
+  "ForceAddPlayerSimple": {},
+  "ForceRemovePlayerSimple": {},
+  "GroupPickRandomUnitEnum": {},
+  "GroupPickRandomUnit": {},
+  "ForcePickRandomPlayerEnum": {},
+  "ForcePickRandomPlayer": {},
+  "EnumUnitsSelected": {},
+  "GetUnitsInRectMatching": {},
+  "GetUnitsInRectAll": {},
+  "GetUnitsInRectOfPlayerFilter": {},
+  "GetUnitsInRectOfPlayer": {},
+  "GetUnitsInRangeOfLocMatching": {
+    "0": "real"
+  },
+  "GetUnitsInRangeOfLocAll": {
+    "0": "real"
+  },
+  "GetUnitsOfTypeIdAllFilter": {},
+  "GetUnitsOfTypeIdAll": {
+    "0": "integer"
+  },
+  "GetUnitsOfPlayerMatching": {},
+  "GetUnitsOfPlayerAll": {},
+  "GetUnitsOfPlayerAndTypeIdFilter": {},
+  "GetUnitsOfPlayerAndTypeId": {
+    "1": "integer"
+  },
+  "GetUnitsSelectedAll": {},
+  "GetForceOfPlayer": {},
+  "GetPlayersAll": {},
+  "GetPlayersByMapControl": {},
+  "GetPlayersAllies": {},
+  "GetPlayersEnemies": {},
+  "GetPlayersMatching": {},
+  "CountUnitsInGroupEnum": {},
+  "CountUnitsInGroup": {},
+  "CountPlayersInForceEnum": {},
+  "CountPlayersInForceBJ": {},
+  "GetRandomSubGroupEnum": {},
+  "GetRandomSubGroup": {
+    "0": "integer"
+  },
+  "LivingPlayerUnitsOfTypeIdFilter": {},
+  "CountLivingPlayerUnitsOfTypeId": {
+    "0": "integer"
+  },
+  "ResetUnitAnimation": {},
+  "SetUnitTimeScalePercent": {
+    "1": "real"
+  },
+  "SetUnitScalePercent": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "SetUnitVertexColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "UnitAddIndicatorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "DestructableAddIndicatorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "ItemAddIndicatorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "SetUnitFacingToFaceLocTimed": {
+    "2": "real"
+  },
+  "SetUnitFacingToFaceUnitTimed": {
+    "2": "real"
+  },
+  "QueueUnitAnimationBJ": {},
+  "SetDestructableAnimationBJ": {},
+  "QueueDestructableAnimationBJ": {},
+  "SetDestAnimationSpeedPercent": {
+    "1": "real"
+  },
+  "DialogDisplayBJ": {},
+  "DialogSetMessageBJ": {},
+  "DialogAddButtonBJ": {},
+  "DialogAddButtonWithHotkeyBJ": {
+    "2": "integer"
+  },
+  "DialogClearBJ": {},
+  "GetLastCreatedButtonBJ": {},
+  "GetClickedButtonBJ": {},
+  "GetClickedDialogBJ": {},
+  "SetPlayerAllianceBJ": {},
+  "SetPlayerAllianceStateAllyBJ": {},
+  "SetPlayerAllianceStateVisionBJ": {},
+  "SetPlayerAllianceStateControlBJ": {},
+  "SetPlayerAllianceStateFullControlBJ": {},
+  "SetPlayerAllianceStateBJ": {
+    "2": "integer"
+  },
+  "SetForceAllianceStateBJ": {
+    "2": "integer"
+  },
+  "PlayersAreCoAllied": {},
+  "ShareEverythingWithTeamAI": {},
+  "ShareEverythingWithTeam": {},
+  "ConfigureNeutralVictim": {},
+  "MakeUnitsPassiveForPlayerEnum": {},
+  "MakeUnitsPassiveForPlayer": {},
+  "MakeUnitsPassiveForTeam": {},
+  "AllowVictoryDefeat": {},
+  "EndGameBJ": {},
+  "MeleeVictoryDialogBJ": {},
+  "MeleeDefeatDialogBJ": {},
+  "GameOverDialogBJ": {},
+  "RemovePlayerPreserveUnitsBJ": {},
+  "CustomVictoryOkBJ": {},
+  "CustomVictoryQuitBJ": {},
+  "CustomVictoryDialogBJ": {},
+  "CustomVictorySkipBJ": {},
+  "CustomVictoryBJ": {},
+  "CustomDefeatRestartBJ": {},
+  "CustomDefeatReduceDifficultyBJ": {},
+  "CustomDefeatLoadBJ": {},
+  "CustomDefeatQuitBJ": {},
+  "CustomDefeatDialogBJ": {},
+  "CustomDefeatBJ": {},
+  "SetNextLevelBJ": {},
+  "SetPlayerOnScoreScreenBJ": {},
+  "CreateQuestBJ": {
+    "0": "integer"
+  },
+  "DestroyQuestBJ": {},
+  "QuestSetEnabledBJ": {},
+  "QuestSetTitleBJ": {},
+  "QuestSetDescriptionBJ": {},
+  "QuestSetCompletedBJ": {},
+  "QuestSetFailedBJ": {},
+  "QuestSetDiscoveredBJ": {},
+  "GetLastCreatedQuestBJ": {},
+  "CreateQuestItemBJ": {},
+  "QuestItemSetDescriptionBJ": {},
+  "QuestItemSetCompletedBJ": {},
+  "GetLastCreatedQuestItemBJ": {},
+  "CreateDefeatConditionBJ": {},
+  "DestroyDefeatConditionBJ": {},
+  "DefeatConditionSetDescriptionBJ": {},
+  "GetLastCreatedDefeatConditionBJ": {},
+  "FlashQuestDialogButtonBJ": {},
+  "QuestMessageBJ": {
+    "1": "integer"
+  },
+  "StartTimerBJ": {
+    "2": "real"
+  },
+  "CreateTimerBJ": {
+    "1": "real"
+  },
+  "DestroyTimerBJ": {},
+  "PauseTimerBJ": {},
+  "GetLastCreatedTimerBJ": {},
+  "CreateTimerDialogBJ": {},
+  "DestroyTimerDialogBJ": {},
+  "TimerDialogSetTitleBJ": {},
+  "TimerDialogSetTitleColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "TimerDialogSetTimeColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "TimerDialogSetSpeedBJ": {
+    "1": "real"
+  },
+  "TimerDialogDisplayForPlayerBJ": {},
+  "TimerDialogDisplayBJ": {},
+  "GetLastCreatedTimerDialogBJ": {},
+  "LeaderboardResizeBJ": {},
+  "LeaderboardSetPlayerItemValueBJ": {
+    "2": "integer"
+  },
+  "LeaderboardSetPlayerItemLabelBJ": {},
+  "LeaderboardSetPlayerItemStyleBJ": {},
+  "LeaderboardSetPlayerItemLabelColorBJ": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "LeaderboardSetPlayerItemValueColorBJ": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real"
+  },
+  "LeaderboardSetLabelColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "LeaderboardSetValueColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "LeaderboardSetLabelBJ": {},
+  "LeaderboardSetStyleBJ": {},
+  "LeaderboardGetItemCountBJ": {},
+  "LeaderboardHasPlayerItemBJ": {},
+  "ForceSetLeaderboardBJ": {},
+  "CreateLeaderboardBJ": {},
+  "DestroyLeaderboardBJ": {},
+  "LeaderboardDisplayBJ": {},
+  "LeaderboardAddItemBJ": {
+    "3": "integer"
+  },
+  "LeaderboardRemovePlayerItemBJ": {},
+  "LeaderboardSortItemsBJ": {
+    "1": "integer"
+  },
+  "LeaderboardSortItemsByPlayerBJ": {},
+  "LeaderboardSortItemsByLabelBJ": {},
+  "LeaderboardGetPlayerIndexBJ": {},
+  "LeaderboardGetIndexedPlayerBJ": {
+    "0": "integer"
+  },
+  "PlayerGetLeaderboardBJ": {},
+  "GetLastCreatedLeaderboard": {},
+  "CreateMultiboardBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "DestroyMultiboardBJ": {},
+  "GetLastCreatedMultiboard": {},
+  "MultiboardDisplayBJ": {},
+  "MultiboardMinimizeBJ": {},
+  "MultiboardSetTitleTextColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "MultiboardAllowDisplayBJ": {},
+  "MultiboardSetItemStyleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "MultiboardSetItemValueBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "MultiboardSetItemColorBJ": {
+    "1": "integer",
+    "2": "integer",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real"
+  },
+  "MultiboardSetItemWidthBJ": {
+    "1": "integer",
+    "2": "integer",
+    "3": "real"
+  },
+  "MultiboardSetItemIconBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "TextTagSize2Height": {
+    "0": "real"
+  },
+  "TextTagSpeed2Velocity": {
+    "0": "real"
+  },
+  "SetTextTagColorBJ": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "SetTextTagVelocityBJ": {
+    "1": "real",
+    "2": "real"
+  },
+  "SetTextTagTextBJ": {
+    "2": "real"
+  },
+  "SetTextTagPosBJ": {
+    "2": "real"
+  },
+  "SetTextTagPosUnitBJ": {
+    "2": "real"
+  },
+  "SetTextTagSuspendedBJ": {},
+  "SetTextTagPermanentBJ": {},
+  "SetTextTagAgeBJ": {
+    "1": "real"
+  },
+  "SetTextTagLifespanBJ": {
+    "1": "real"
+  },
+  "SetTextTagFadepointBJ": {
+    "1": "real"
+  },
+  "CreateTextTagLocBJ": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real"
+  },
+  "CreateTextTagUnitBJ": {
+    "2": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real"
+  },
+  "DestroyTextTagBJ": {},
+  "ShowTextTagForceBJ": {},
+  "GetLastCreatedTextTag": {},
+  "PauseGameOn": {},
+  "PauseGameOff": {},
+  "SetUserControlForceOn": {},
+  "SetUserControlForceOff": {},
+  "ShowInterfaceForceOn": {
+    "1": "real"
+  },
+  "ShowInterfaceForceOff": {
+    "1": "real"
+  },
+  "PingMinimapForForce": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "PingMinimapLocForForce": {
+    "2": "real"
+  },
+  "PingMinimapForPlayer": {
+    "1": "real",
+    "2": "real",
+    "3": "real"
+  },
+  "PingMinimapLocForPlayer": {
+    "2": "real"
+  },
+  "PingMinimapForForceEx": {
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "integer",
+    "5": "real",
+    "6": "real",
+    "7": "real"
+  },
+  "PingMinimapLocForForceEx": {
+    "2": "real",
+    "3": "integer",
+    "4": "real",
+    "5": "real",
+    "6": "real"
+  },
+  "EnableWorldFogBoundaryBJ": {},
+  "EnableOcclusionBJ": {},
+  "CancelCineSceneBJ": {},
+  "TryInitCinematicBehaviorBJ": {},
+  "SetCinematicSceneBJ": {
+    "1": "integer",
+    "5": "real",
+    "6": "real"
+  },
+  "GetTransmissionDuration": {
+    "1": "integer",
+    "2": "real"
+  },
+  "WaitTransmissionDuration": {
+    "1": "integer",
+    "2": "real"
+  },
+  "DoTransmissionBasicsXYBJ": {
+    "0": "integer",
+    "2": "real",
+    "3": "real",
+    "7": "real"
+  },
+  "TransmissionFromUnitWithNameBJ": {
+    "5": "integer",
+    "6": "real"
+  },
+  "TransmissionFromUnitTypeWithNameBJ": {
+    "2": "integer",
+    "7": "integer",
+    "8": "real"
+  },
+  "GetLastTransmissionDurationBJ": {},
+  "ForceCinematicSubtitlesBJ": {},
+  "CinematicModeExBJ": {
+    "2": "real"
+  },
+  "CinematicModeBJ": {},
+  "DisplayCineFilterBJ": {},
+  "CinematicFadeCommonBJ": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "5": "real",
+    "6": "real"
+  },
+  "FinishCinematicFadeBJ": {},
+  "FinishCinematicFadeAfterBJ": {
+    "0": "real"
+  },
+  "ContinueCinematicFadeBJ": {},
+  "ContinueCinematicFadeAfterBJ": {
+    "0": "real",
+    "1": "real",
+    "2": "real",
+    "3": "real",
+    "4": "real"
+  },
+  "AbortCinematicFadeBJ": {},
+  "CinematicFadeBJ": {
+    "0": "integer",
+    "1": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real"
+  },
+  "CinematicFilterGenericBJ": {
+    "0": "real",
+    "3": "real",
+    "4": "real",
+    "5": "real",
+    "6": "real",
+    "7": "real",
+    "8": "real",
+    "9": "real",
+    "10": "real"
+  },
+  "RescueUnitBJ": {},
+  "TriggerActionUnitRescuedBJ": {},
+  "TryInitRescuableTriggersBJ": {},
+  "SetRescueUnitColorChangeBJ": {},
+  "SetRescueBuildingColorChangeBJ": {},
+  "MakeUnitRescuableToForceBJEnum": {},
+  "MakeUnitRescuableToForceBJ": {},
+  "InitRescuableBehaviorBJ": {},
+  "SetPlayerTechResearchedSwap": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "SetPlayerTechMaxAllowedSwap": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "SetPlayerMaxHeroesAllowed": {
+    "0": "integer"
+  },
+  "GetPlayerTechCountSimple": {
+    "0": "integer"
+  },
+  "GetPlayerTechMaxAllowedSwap": {
+    "0": "integer"
+  },
+  "SetPlayerAbilityAvailableBJ": {
+    "1": "integer"
+  },
+  "SetCampaignMenuRaceBJ": {
+    "0": "integer"
+  },
+  "SetMissionAvailableBJ": {
+    "1": "integer"
+  },
+  "SetCampaignAvailableBJ": {
+    "1": "integer"
+  },
+  "SetCinematicAvailableBJ": {
+    "1": "integer"
+  },
+  "InitGameCacheBJ": {},
+  "SaveGameCacheBJ": {},
+  "GetLastCreatedGameCacheBJ": {},
+  "InitHashtableBJ": {},
+  "GetLastCreatedHashtableBJ": {},
+  "StoreRealBJ": {
+    "0": "real"
+  },
+  "StoreIntegerBJ": {
+    "0": "integer"
+  },
+  "StoreBooleanBJ": {},
+  "StoreStringBJ": {},
+  "StoreUnitBJ": {},
+  "SaveRealBJ": {
+    "0": "real",
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveIntegerBJ": {
+    "0": "integer",
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveBooleanBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveStringBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SavePlayerHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveWidgetHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveDestructableHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveItemHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveUnitHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveAbilityHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTimerHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTriggerHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTriggerConditionHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTriggerActionHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTriggerEventHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveForceHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveGroupHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveLocationHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveRectHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveBooleanExprHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveSoundHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveEffectHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveUnitPoolHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveItemPoolHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveQuestHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveQuestItemHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveDefeatConditionHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTimerDialogHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveLeaderboardHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveMultiboardHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveMultiboardItemHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTrackableHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveDialogHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveButtonHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveTextTagHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveLightningHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveImageHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveUbersplatHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveRegionHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveFogStateHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveFogModifierHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveAgentHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "SaveHashtableHandleBJ": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "GetStoredRealBJ": {},
+  "GetStoredIntegerBJ": {},
+  "GetStoredBooleanBJ": {},
+  "GetStoredStringBJ": {},
+  "LoadRealBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadIntegerBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadBooleanBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadStringBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadPlayerHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadWidgetHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadDestructableHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadItemHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadUnitHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadAbilityHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadTimerHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadTriggerHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadTriggerConditionHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadTriggerActionHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadTriggerEventHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadForceHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadGroupHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadLocationHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadRectHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadBooleanExprHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadSoundHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadEffectHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadUnitPoolHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadItemPoolHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadQuestHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadQuestItemHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadDefeatConditionHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadTimerDialogHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadLeaderboardHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadMultiboardHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadMultiboardItemHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadTrackableHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadDialogHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadButtonHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadTextTagHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadLightningHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadImageHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadUbersplatHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadRegionHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadFogStateHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadFogModifierHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "LoadHashtableHandleBJ": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "RestoreUnitLocFacingAngleBJ": {
+    "5": "real"
+  },
+  "RestoreUnitLocFacingPointBJ": {},
+  "GetLastRestoredUnitBJ": {},
+  "FlushGameCacheBJ": {},
+  "FlushStoredMissionBJ": {},
+  "FlushParentHashtableBJ": {},
+  "FlushChildHashtableBJ": {
+    "0": "integer"
+  },
+  "HaveStoredValue": {
+    "1": "integer"
+  },
+  "HaveSavedValue": {
+    "0": "integer",
+    "1": "integer",
+    "2": "integer"
+  },
+  "ShowCustomCampaignButton": {
+    "1": "integer"
+  },
+  "IsCustomCampaignButtonVisibile": {
+    "0": "integer"
+  },
+  "LoadGameBJ": {},
+  "SaveAndChangeLevelBJ": {},
+  "SaveAndLoadGameBJ": {},
+  "RenameSaveDirectoryBJ": {},
+  "RemoveSaveDirectoryBJ": {},
+  "CopySaveGameBJ": {},
+  "GetPlayerStartLocationX": {},
+  "GetPlayerStartLocationY": {},
+  "GetPlayerStartLocationLoc": {},
+  "GetRectCenter": {},
+  "IsPlayerSlotState": {},
+  "GetFadeFromSeconds": {
+    "0": "real"
+  },
+  "GetFadeFromSecondsAsReal": {
+    "0": "real"
+  },
+  "AdjustPlayerStateSimpleBJ": {
+    "2": "integer"
+  },
+  "AdjustPlayerStateBJ": {
+    "0": "integer"
+  },
+  "SetPlayerStateBJ": {
+    "2": "integer"
+  },
+  "SetPlayerFlagBJ": {},
+  "SetPlayerTaxRateBJ": {
+    "0": "integer"
+  },
+  "GetPlayerTaxRateBJ": {},
+  "IsPlayerFlagSetBJ": {},
+  "AddResourceAmountBJ": {
+    "0": "integer"
+  },
+  "GetConvertedPlayerId": {},
+  "ConvertedPlayer": {
+    "0": "integer"
+  },
+  "GetRectWidthBJ": {},
+  "GetRectHeightBJ": {},
+  "BlightGoldMineForPlayerBJ": {},
+  "BlightGoldMineForPlayer": {},
+  "GetLastHauntedGoldMine": {},
+  "IsPointBlightedBJ": {},
+  "SetPlayerColorBJEnum": {},
+  "SetPlayerColorBJ": {},
+  "SetPlayerUnitAvailableBJ": {
+    "0": "integer"
+  },
+  "LockGameSpeedBJ": {},
+  "UnlockGameSpeedBJ": {},
+  "IssueTargetOrderBJ": {},
+  "IssuePointOrderLocBJ": {},
+  "IssueTargetDestructableOrder": {},
+  "IssueTargetItemOrder": {},
+  "IssueImmediateOrderBJ": {},
+  "GroupTargetOrderBJ": {},
+  "GroupPointOrderLocBJ": {},
+  "GroupImmediateOrderBJ": {},
+  "GroupTargetDestructableOrder": {},
+  "GroupTargetItemOrder": {},
+  "GetDyingDestructable": {},
+  "SetUnitRallyPoint": {},
+  "SetUnitRallyUnit": {},
+  "SetUnitRallyDestructable": {},
+  "SaveDyingWidget": {},
+  "SetBlightRectBJ": {},
+  "SetBlightRadiusLocBJ": {
+    "3": "real"
+  },
+  "GetAbilityName": {
+    "0": "integer"
+  },
+  "MeleeStartingVisibility": {},
+  "MeleeStartingResources": {},
+  "ReducePlayerTechMaxAllowed": {
+    "1": "integer",
+    "2": "integer"
+  },
+  "MeleeStartingHeroLimit": {},
+  "MeleeTrainedUnitIsHeroBJFilter": {},
+  "MeleeGrantItemsToHero": {},
+  "MeleeGrantItemsToTrainedHero": {},
+  "MeleeGrantItemsToHiredHero": {},
+  "MeleeGrantHeroItems": {},
+  "MeleeClearExcessUnit": {},
+  "MeleeClearNearbyUnits": {
+    "0": "real",
+    "1": "real",
+    "2": "real"
+  },
+  "MeleeClearExcessUnits": {},
+  "MeleeEnumFindNearestMine": {},
+  "MeleeFindNearestMine": {
+    "1": "real"
+  },
+  "MeleeRandomHeroLoc": {
+    "1": "integer",
+    "2": "integer",
+    "3": "integer",
+    "4": "integer"
+  },
+  "MeleeGetProjectedLoc": {
+    "2": "real",
+    "3": "real"
+  },
+  "MeleeGetNearestValueWithin": {
+    "0": "real",
+    "1": "real",
+    "2": "real"
+  },
+  "MeleeGetLocWithinRect": {},
+  "MeleeStartingUnitsHuman": {},
+  "MeleeStartingUnitsOrc": {},
+  "MeleeStartingUnitsUndead": {},
+  "MeleeStartingUnitsNightElf": {},
+  "MeleeStartingUnitsUnknownRace": {},
+  "MeleeStartingUnits": {},
+  "MeleeStartingUnitsForPlayer": {},
+  "PickMeleeAI": {},
+  "MeleeStartingAI": {},
+  "LockGuardPosition": {},
+  "MeleePlayerIsOpponent": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "MeleeGetAllyStructureCount": {},
+  "MeleeGetAllyCount": {},
+  "MeleeGetAllyKeyStructureCount": {},
+  "MeleeDoDrawEnum": {},
+  "MeleeDoVictoryEnum": {},
+  "MeleeDoDefeat": {},
+  "MeleeDoDefeatEnum": {},
+  "MeleeDoLeave": {},
+  "MeleeRemoveObservers": {},
+  "MeleeCheckForVictors": {},
+  "MeleeCheckForLosersAndVictors": {},
+  "MeleeGetCrippledWarningMessage": {},
+  "MeleeGetCrippledTimerMessage": {},
+  "MeleeGetCrippledRevealedMessage": {},
+  "MeleeExposePlayer": {},
+  "MeleeExposeAllPlayers": {},
+  "MeleeCrippledPlayerTimeout": {},
+  "MeleePlayerIsCrippled": {},
+  "MeleeCheckForCrippledPlayers": {},
+  "MeleeCheckLostUnit": {},
+  "MeleeCheckAddedUnit": {},
+  "MeleeTriggerActionConstructCancel": {},
+  "MeleeTriggerActionUnitDeath": {},
+  "MeleeTriggerActionUnitConstructionStart": {},
+  "MeleeTriggerActionPlayerDefeated": {},
+  "MeleeTriggerActionPlayerLeft": {},
+  "MeleeTriggerActionAllianceChange": {},
+  "MeleeTriggerTournamentFinishSoon": {},
+  "MeleeWasUserPlayer": {},
+  "MeleeTournamentFinishNowRuleA": {
+    "0": "integer"
+  },
+  "MeleeTriggerTournamentFinishNow": {},
+  "MeleeInitVictoryDefeat": {},
+  "CheckInitPlayerSlotAvailability": {},
+  "SetPlayerSlotAvailable": {},
+  "TeamInitPlayerSlots": {
+    "0": "integer"
+  },
+  "MeleeInitPlayerSlots": {},
+  "FFAInitPlayerSlots": {},
+  "OneOnOneInitPlayerSlots": {},
+  "InitGenericPlayerSlots": {},
+  "SetDNCSoundsDawn": {},
+  "SetDNCSoundsDusk": {},
+  "SetDNCSoundsDay": {},
+  "SetDNCSoundsNight": {},
+  "InitDNCSounds": {},
+  "InitBlizzardGlobals": {},
+  "InitQueuedTriggers": {},
+  "InitMapRects": {},
+  "InitSummonableCaps": {},
+  "UpdateStockAvailability": {},
+  "UpdateEachStockBuildingEnum": {},
+  "UpdateEachStockBuilding": {
+    "1": "integer"
+  },
+  "PerformStockUpdates": {},
+  "StartStockUpdates": {},
+  "RemovePurchasedItem": {},
+  "InitNeutralBuildings": {},
+  "MarkGameStarted": {},
+  "DetectGameStarted": {},
+  "InitBlizzard": {},
+  "RandomDistReset": {},
+  "RandomDistAddItem": {
+    "0": "integer",
+    "1": "integer"
+  },
+  "RandomDistChoose": {},
+  "UnitDropItem": {
+    "1": "integer"
+  },
+  "WidgetDropItem": {
+    "1": "integer"
+  }
+}

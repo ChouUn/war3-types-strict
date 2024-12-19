@@ -1,0 +1,27 @@
+{
+  "name": "SetCameraOrientController",
+  "description": null,
+  "takes": [
+    {
+      "description": null,
+      "name": "whichUnit",
+      "type": "unit",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "xoffset",
+      "type": "real",
+      "isNullable": false
+    },
+    {
+      "description": null,
+      "name": "yoffset",
+      "type": "real",
+      "isNullable": false
+    }
+  ],
+  "returns": "void",
+  "isNullable": false,
+  "source": "common.j"
+}
