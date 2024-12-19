@@ -57,6 +57,14 @@ for (let i = 2; i < process.argv.length; i++) {
     versions.add("./" + process.argv[i]);
 }
 
+function optionType(value: { type: string, isNullable: boolean }) {
+    return value.isNullable ? `Option<${value.type}>` : value.type;
+}
+
+function optionReturns(value: { returns: string, isNullable: boolean }) {
+    return value.isNullable ? `Option<${value.returns}>` : value.returns;
+}
+
 for (const version of versions) {
     // Read the version directories passed in, in order, overwriting any previous keys if relevant.
     if (fs.existsSync(path.join(version, "types")))
@@ -70,23 +78,25 @@ for (const version of versions) {
 
     const stream = fs.createWriteStream(version + ".d.ts");
     stream.write(`/// <reference path="./compat.d.ts" />\n`);
+    stream.write(`/// <reference path="${version}/base.d.ts" />\n`);
     stream.write(`/// <reference path="${version}/common.j.d.ts" />\n`);
     stream.write(`/// <reference path="${version}/common.ai.d.ts" />\n`);
     stream.write(`/// <reference path="${version}/blizzard.j.d.ts" />\n`);
     stream.write(`/// <reference path="./polyfill.d.ts" />\n`);
     stream.end();
 
-    const sources = ["common.j", "common.ai", "blizzard.j"];
-    for (const source of sources) {
-        const stream = fs.createWriteStream(path.join(version, source + ".d.ts"));
+    {
+        const stream = fs.createWriteStream(path.join(version, "base.d.ts"));
 
         stream.write("/** @noSelfInFile */\n\n");
 
-        // Types
         stream.write("// ====================\n");
         stream.write("// ==== BASE TYPES ====\n");
         stream.write("// ====================\n");
 
+        stream.write("\n")
+
+        stream.write("type Option<T> = T | undefined;\n\n");
         stream.write("declare type real = number & { readonly __real: never; }\n");
         stream.write("declare type integer = number & { readonly __integer: never; }\n");
         stream.write("declare type handle = number & { readonly __handle: never; }\n");
@@ -95,7 +105,16 @@ for (const version of versions) {
         stream.write("declare type conditionfunc = () => boolean;\n");
         stream.write("declare type filterfunc = () => boolean;\n");
 
-        stream.write("\n")
+        stream.end();
+    }
+
+    const sources = ["common.j", "common.ai", "blizzard.j"];
+    for (const source of sources) {
+        const stream = fs.createWriteStream(path.join(version, source + ".d.ts"));
+
+        stream.write("/** @noSelfInFile */\n\n");
+
+        stream.write(`/// <reference path="./base.d.ts" />\n\n`);
 
         // Types
         stream.write("// ==================\n");
@@ -120,10 +139,10 @@ for (const version of versions) {
             stream.write(`declare ${global.isConstant ? "const" : "var"} ${global.name}`);
 
             if (global.isArray) {
-                stream.write(`: Record<number, ${global.type}${global.isNullable ? " | undefined" : ""}>;`);
+                stream.write(`: Record<number, ${optionType(global)}>;`);
             }
             else {
-                stream.write(`: ${global.type}${global.isNullable ? " | undefined" : ""};`);
+                stream.write(`: ${optionType(global)};`);
             }
 
             stream.write("\n");
@@ -153,7 +172,7 @@ for (const version of versions) {
                             if (isDefaultable[i]) {
                                 return `${param.name}${param.isNullable ? "?" : ""}: ${param.type}`;
                             } else {
-                                return `${param.name}: ${param.type} | undefined`;
+                                return `${param.name}: Option<${param.type}>`;
                             }
                         }
                         return `${param.name}: ${param.type}`;
@@ -161,7 +180,7 @@ for (const version of versions) {
                 )
             }
 
-            stream.write(`): ${native.returns}${native.isNullable ? " | undefined" : ""};\n`);
+            stream.write(`): ${optionReturns(native)};\n`);
 
             stream.write("\n");
         }
@@ -188,7 +207,7 @@ for (const version of versions) {
                             if (isDefaultable[i]) {
                                 return `${param.name}${param.isNullable ? "?" : ""}: ${param.type}`;
                             } else {
-                                return `${param.name}: ${param.type} | undefined`;
+                                return `${param.name}: Option<${param.type}>`;
                             }
                         }
                         return `${param.name}: ${param.type}`;
@@ -196,7 +215,7 @@ for (const version of versions) {
                 )
             }
 
-            stream.write(`): ${func.returns}${func.isNullable ? " | undefined" : ""};\n`);
+            stream.write(`): ${optionReturns(func)};\n`);
         }
 
         stream.end();
